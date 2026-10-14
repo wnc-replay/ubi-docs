@@ -1,0 +1,35 @@
+# Installed dependencies and generated documentation
+node_modules/
+/docs/.vitepress/dist/
+/docs/.vitepress/cache/
+*.tsbuildinfo
+
+# Local API results, review HTML exports, and server logs
+/output/
+*.log
+
+# Local environment settings and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor, OS, and temporary files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# Keep docs/public/identifiers/ tracked: these are downloadable docs assets.
+# Keep package-lock.json tracked for reproducible installs and CI builds.

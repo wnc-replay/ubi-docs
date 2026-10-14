@@ -1,0 +1,1097 @@
+---
+outline: false
+---
+
+# Application and space catalogue
+
+This catalogue lists **1,071 application IDs** and **1,002 unique space IDs**.
+
+Multiple applications can share a space. Space IDs are listed where available.
+
+For common endpoint-specific identifiers, see the [identifiers guide](./identifiers).
+
+## Downloads
+
+- [App IDs only](/identifiers/appids.txt)
+- [Space IDs only](/identifiers/spaceids.txt)
+- [Names, app IDs, and space IDs (JSON)](/identifiers/app-spaces.json)
+
+## Retrieval method
+
+Obtain a session through `POST /v3/profiles/sessions`, then request `GET /v1/applications/{appId}` for each application. The target app ID belongs in the URL; the authentication app ID stays fixed in the headers. See [application lookup endpoints](../endpoints/applications).
+
+Space IDs include values from `spaceId`, `spaceIds`, and `stagingSpaceId` fields. Primary and staging spaces are listed together without separate labels.
+
+## Applications
+
+- **Unnamed application** — app ID: `1f299cd1-9535-4585-ac48-deaf98c9b6e3`; space IDs: `5f622fc7-1ca1-4102-8f5d-dcff594afc69`.
+- **Unnamed application** — app ID: `4e7bf030-c935-44e9-b686-df1a1187ce32`; space IDs: `1f80852a-4af1-4f03-8300-27958e4cb51f`.
+- **4 Elements II (PC)** — app ID: `ab7ab1b3-bdcd-444d-a869-a9a99317e7cf`; space IDs: `e35793b1-9abc-4404-861b-2a94fe189262`.
+- **Account Management WebAuth 1UP (WebMarketing)** — app ID: `74e71609-1ddf-47da-9073-71ac3aa8c90c`; space IDs: `c37c6ed4-547e-4fcc-8f4c-1e43f33b2c51`.
+- **Acier iOS** — app ID: `c85f1c29-7330-46ac-8807-a20e18c2306d`; space IDs: `910f6351-c57a-499c-8416-c555dbddf1ce`.
+- **AFK Paint Workshop PC** — app ID: `88f2ef32-ebb5-41b8-a29c-0d7cc527217e`; space IDs: `3d287460-f7ce-4343-9ab0-f47e6f6fd96b`.
+- **AFK PC** — app ID: `df9242ee-55c1-4bea-b211-9dd42bbe112c`; space IDs: `477da009-3441-4a2f-9dd5-2a9f99acd495`.
+- **AGOS: A Game of Space PC** — app ID: `279d7f08-3bf5-4892-aafd-ef09e9e5a49e`; space IDs: `76851599-c614-42af-b0c7-a31baf7f4bd3`.
+- **AirMech 360** — app ID: `4627c8e0-18f3-4c8b-b16f-1c20ab7b0467`; space IDs: `7f7117f8-dcbb-432e-9d06-6c7184aca59d`.
+- **AirMech Arena PS4™** — app ID: `cff43181-182c-4ec5-9d54-0b8b0f034269`; space IDs: `7de686a6-97b5-4d07-b42e-d54f42b4efde`.
+- **AirMech Arena Website** — app ID: `c0dc7db9-e748-4469-b95f-8ae01744c6ce`; space IDs: `b9570919-22b6-4ace-87cd-ce93cf33a709`.
+- **AirMech Arena Xbox One** — app ID: `c2b5a82c-a03e-4662-83f5-04a0d1da6a30`; space IDs: `b454dd7b-55ec-4abd-aec4-1852b073487f`.
+- **AMD-Zeta-Bundle Marketing Website** — app ID: `1cf20d7b-9a1a-41ad-8dba-074a19b40b8c`; space IDs: `6fe7c4a2-e233-4954-8cce-32866806a002`.
+- **Andromeda RedCarpet Tool** — app ID: `623f8de2-ed0c-4a21-b58b-ab44f039737e`.
+- **Anno 117: Pax Romana - Demo (PC)** — app ID: `3da86205-f5f0-456f-8c66-ee77fa1f0567`; space IDs: `154725b2-db9d-43a4-93a7-b714a8a3496b`.
+- **Anno 1404 History Edition PC** — app ID: `be88c2bf-759c-4c23-a100-77096571ec44`; space IDs: `53817db5-700b-4ba6-b424-c006686f37b7`.
+- **Anno 1404 Marketing Website** — app ID: `0ca3248e-b01b-4ba8-9fa6-ff62e9a704c8`; space IDs: `8d13d751-95ab-4574-9b01-973451f3555a`.
+- **Anno 1503 History Edition PC** — app ID: `20a15eef-ba77-446b-bf75-7874cc14d85f`; space IDs: `e3509cd4-cd89-49c3-abbb-6f89ed06c627`.
+- **Anno 1602 History Edition PC** — app ID: `462b9c41-84c6-4d81-a0b2-84744501a7f5`; space IDs: `51ab2ebb-ab55-479f-8ba1-ae3f31b662eb`.
+- **Anno 1701 History Edition PC** — app ID: `0c4d0022-c1f2-4d21-b2ee-bc7d92bed4b5`; space IDs: `aadfa81c-6834-4f00-bc29-216138fd9ea8`.
+- **Anno 1800 Beta PC** — app ID: `109af991-af76-4c58-ad64-2325a8e29c80`; space IDs: `004ec22f-e0ed-4f87-ae25-cc67b7b385c5`.
+- **Anno 1800 Free Trial PC** — app ID: `07a409c4-68e6-4270-99ad-ee10bba2e8d0`; space IDs: `ca7ce9d3-3b2c-419a-934a-ae0848bd0c51`.
+- **Anno 1800 GFN NvidiaStreaming** — app ID: `29192dcb-2aef-4196-9384-df40278ff4dc`; space IDs: `496675a8-5c26-43c3-91f7-fb7b45eb01e3`.
+- **Anno 1800 PC** — app ID: `67e7c6d5-eb95-4626-8aa8-51c370b73fa3`; space IDs: `bd7681a3-3585-4972-9b07-694a1de8622e`.
+- **Anno 1800 PC Live Test** — app ID: `d68d545a-defd-4a04-8566-880539285cb1`; space IDs: `56c8d02d-5f59-40ca-84ad-73d1193c5192`.
+- **Anno 1800 PS5** — app ID: `6ee2b52e-1408-41b3-b832-355e00d657c0`; space IDs: `b1beaba1-f35e-4582-b1be-528605e67537`.
+- **Anno 1800 Website** — app ID: `15747eb3-e910-4626-88f1-8b53dbd3ef54`; space IDs: `acf181f2-03df-46f5-8cb0-c0a176782e94`.
+- **Anno 1800 Xbox Series X/S** — app ID: `8d3ef8e9-db75-4b0f-94e9-865abf20ec50`; space IDs: `2b46489d-11b4-4a1a-87aa-d73f9161dd7c`.
+- **Anno 2070 - GenomeId Hack** — app ID: `11b1850c-788e-4b0d-b555-6db534f88e8d`; space IDs: `de132bb9-2b0b-4bd2-b918-7bc26a92d413`.
+- **Anno 2070 PC** — app ID: `50defd3b-fe40-4875-8db4-ec7cad37a848`; space IDs: `de132bb9-2b0b-4bd2-b918-7bc26a92d413`.
+- **Anno 2070 Web Marketing Site (WebMarketing)** — app ID: `8e3f4544-d505-4f99-af7d-cf48b335401a`; space IDs: `16b13878-098f-4247-b538-17bf356a4683`.
+- **Anno 2205 Asteroid Miner Android** — app ID: `5c00a006-d832-40dd-8e6c-592220c62c20`; space IDs: `910c3952-4598-4889-a0e9-8e7a4e9d4bdb`.
+- **Anno 2205 Asteroid Miner iOS** — app ID: `08393e03-3956-4e0b-95ef-8b3af6083eb8`; space IDs: `0c5cdeae-7928-45d3-9f24-aa512fee8238`.
+- **Anno 2205 Marketing Website** — app ID: `897ff830-7ced-47c2-adce-494316bfda90`; space IDs: `53ecb459-3adf-4475-85be-d3b038981982`.
+- **Anno 2205 PC** — app ID: `64fa0bc0-3cdb-472b-8d60-39b22061fb8d`; space IDs: `f9b3023e-0687-4348-8a30-ecc998b8b114`.
+- **Anno 8 PC (PC)** — app ID: `8b113a2e-f799-404d-818a-e3f376b38a70`; space IDs: `b9b17c75-7c4f-42cf-b2cb-d754153e232f`.
+- **Anno 8 PS5 (PS5)** — app ID: `0658f1d6-7b41-4b0f-89d2-8618624005fa`; space IDs: `ea18a27a-4bb5-40c6-9045-21fb68bc74de`.
+- **Anno 8 Scarlett (XboxScarlett)** — app ID: `fb87c38f-9ce7-44f4-ab24-2dfba5181bab`; space IDs: `8d19847b-8d1e-41e9-b71a-d6d5d9e72b4d`.
+- **Anno 8 Web Marketing Site (WebMarketing)** — app ID: `579b9ab4-47cf-4d2e-9869-10f002073ed3`; space IDs: `0f470780-3994-4642-801c-293f602c877b`.
+- **Assassin&#39;s Black Flag IV Xbox Series X/S** — app ID: `e867aaaa-85dd-453a-8e87-7222fe0d524a`; space IDs: `9850bd10-0cbe-403a-ba21-38847864d117`.
+- **Assassin&#39;s Creed 15th Anniversary Chinese Website** — app ID: `25ff454f-5a9d-4461-a7e1-bfcfb3f2e637`; space IDs: `50d65117-8b11-4aa2-a36a-a451f688208e`.
+- **Assassin&#39;s Creed 15th Anniversary Marketing Website** — app ID: `47647251-919f-4d63-9a8e-772f68c205bc`; space IDs: `02f3c2dc-dd23-40d6-b400-86627ea81094`.
+- **Assassin&#39;s Creed 2 Marketing Website** — app ID: `d820aef9-214e-4a57-8dd2-ae0e7189c939`; space IDs: `b4ad9d69-e8a2-4cc1-b2f5-abf8853e9f07`.
+- **Assassin&#39;s Creed Ancient Egypt Discovery Tour PC** — app ID: `fa18ffa1-ed45-454e-a27c-b34045ffc715`; space IDs: `b0d49994-ec9a-4809-908a-b5970791b0f7`.
+- **Assassin&#39;s Creed Ancient Greece Discovery Tour PC** — app ID: `26d7be5a-9865-4259-a4b0-a2977fe8e22a`; space IDs: `215c8900-909e-4dc4-8fa8-025785125435`.
+- **Assassin&#39;s Creed Assassin&#39;s Creed Mirage PC** — app ID: `a7e8eb10-a9ad-426d-81fa-860d6802dd3b`; space IDs: `75af4488-0fb5-49d6-bd7d-4c88a5592afa`.
+- **Assassin&#39;s Creed Black Flag IV Marketing Website** — app ID: `1c85f798-54a9-4407-9ffd-62aeac6aeb17`; space IDs: `08e37554-182b-48aa-a5c0-610ef0ec9d5f`.
+- **Assassin&#39;s Creed Black Flag: Freedom Cry PC** — app ID: `a744f19e-c0f7-42be-bba9-04a282fb6b63`; space IDs: `b0e08935-c57b-47cc-a092-59abdb48197d`.
+- **Assassin&#39;s Creed Black Flag: Freedom Cry PS3** — app ID: `800af27f-bbb0-46e0-b777-7519edd953c5`; space IDs: `0d0c6541-02b2-4910-a9ac-57fc1d974937`.
+- **Assassin&#39;s Creed Black Flag: Freedom Cry PS4** — app ID: `bbbce62a-b11b-46b6-b6a5-92731f49e085`; space IDs: `bce4f35c-7515-4c03-8e36-476367a2f415`.
+- **Assassin&#39;s Creed Brotherhood MAC** — app ID: `95c47b46-067e-41e8-aaeb-d7cfa4148526`; space IDs: `45884eab-b845-4638-8605-cdac1ffc0dfe`.
+- **Assassin&#39;s Creed Brotherhood PC** — app ID: `e421a897-4eb7-45a7-a4dc-6aaf4d7bd8a9`; space IDs: `50f97655-c930-40fd-82c7-fb33fd024fec`.
+- **Assassin&#39;s Creed Brotherhood PS3** — app ID: `a2296d44-5ea3-430e-bdc5-9771cea01531`; space IDs: `4c341890-a871-428b-84f3-0b41a719d5a1`.
+- **Assassin&#39;s Creed Brotherhood Xbox 360** — app ID: `6e2c60d5-594f-438b-af2d-72a8184198fe`; space IDs: `df9850e6-ce6b-44f7-91a2-c6054b3a41e4`.
+- **Assassin&#39;s Creed Chronicles: China Marketing Website** — app ID: `23084c98-a1f7-4df1-b0ef-61fb2ae0fd92`; space IDs: `e2c260d4-cf79-49e3-9cfd-ee2b53bc2666`.
+- **Assassin&#39;s Creed Community Platform Website** — app ID: `59de7f15-4b46-4532-9114-b888693c83d2`; space IDs: `16799ea8-a065-41ed-a56a-6b88286dbfea`.
+- **Assassin&#39;s Creed Covenant Android** — app ID: `489ecb06-04fb-4b04-9639-de13c29195bb`; space IDs: `c891a7ce-c3c0-4042-add9-a6c4654dbaca`.
+- **Assassin&#39;s Creed Covenant iOS** — app ID: `cd72b807-5c27-4485-a916-ab4cea0087da`; space IDs: `8063fd6f-6329-4635-804b-cb208b87eaba`.
+- **Assassin&#39;s Creed Dynasty AmazonStreaming** — app ID: `d864e69d-f045-424e-b415-d6b6c73798bd`; space IDs: `0695d112-ad48-45f8-9e95-d9160bf7087e`.
+- **Assassin&#39;s Creed Dynasty Game Website** — app ID: `04d6cca4-d8b9-43f6-b46e-2e3de149f8d1`; space IDs: `7ccd4db5-8b8f-47ad-a1b0-32dec3ce0239`.
+- **Assassin&#39;s Creed Dynasty GoogleStream** — app ID: `9d088c8a-6cf7-4374-8d44-eeb9e6a1eb73`; space IDs: `b6302597-3a5f-48e0-b55d-a34b65073b32`.
+- **Assassin&#39;s Creed Dynasty Website** — app ID: `559df0eb-27ee-494b-8d69-f0e803a1f6cb`; space IDs: `eb755adb-68e8-49cf-acd6-63a2ccf8ee64`.
+- **Assassin’s Creed Franchise Web Marketing Site (WebMarketing)** — app ID: `3992c562-3e83-4f94-8a89-b1342990630f`; space IDs: `0cbaa878-b179-4939-8f0e-278333e3fdb6`.
+- **Assassin&#39;s Creed II** — app ID: `9244ae85-6ffb-4f97-8355-f220d01ee20a`; space IDs: `97ef669a-c028-4c25-b5ff-7335aa5d806c`.
+- **Assassin&#39;s Creed II PS3** — app ID: `1d3d80c9-2983-41c9-92bd-6695fa9fc857`; space IDs: `490ed64d-d3ac-48a0-bdd4-868ce7adc129`.
+- **Assassin&#39;s Creed II Xbox 360** — app ID: `302089ea-28bd-4c3f-89d8-60046ff9323d`; space IDs: `dbdf95bf-2982-4443-957f-12212f4926f5`.
+- **Assassin&#39;s Creed III Liberation Remaster GoogleStream** — app ID: `85e5b6be-36b4-4af6-9336-d7ec67a27ef4`; space IDs: `12f05d1f-6ce3-45f7-a746-7d00f091734d`.
+- **Assassin&#39;s Creed Initiates Android** — app ID: `3b961ec2-beb3-4ba1-b19d-60d4701e6dc2`; space IDs: `c16d475b-13e3-42c7-9449-348da7746573`.
+- **Assassin&#39;s Creed Initiates iOS** — app ID: `f6f0b051-5b7a-4692-ac29-bc20942991c3`; space IDs: `67e2b388-fd5b-43c0-ad4d-0c533004e0a5`.
+- **Assassin&#39;s Creed Initiates Promotions Web** — app ID: `06b57ceb-fff9-4c0d-8e0f-20c7d1a40ca2`; space IDs: `2df64e0d-b028-452e-9fdd-baf4fae9e807`.
+- **Assassin&#39;s Creed Initiates Website** — app ID: `736d97a7-0bbb-4a80-9166-6b5eaeec284e`; space IDs: `41bbeb0f-d974-4a7f-a6f6-70b0d659a87b`.
+- **Assassin&#39;s Creed IV Black Flag Game Website** — app ID: `73bd8a77-d185-4dda-aba5-3aa1a2554c4f`; space IDs: `a67026f1-0d32-4131-811a-9783cd18186e`.
+- **Assassin&#39;s Creed IV Black Flag PC** — app ID: `a991b6c1-ae42-41e6-9718-f6919fe596be`; space IDs: `5f1c6209-5161-4a9f-8f8b-29297c8dd070`.
+- **Assassin&#39;s Creed IV Black Flag PS3** — app ID: `e7710632-76b8-490a-b15a-f99bfa1236fd`; space IDs: `3dbf2146-9869-4f1b-974f-d3123ee571ec`.
+- **Assassin&#39;s Creed IV Black Flag PS4** — app ID: `e073924a-42ed-4ba2-b04f-c3ea107f8110`; space IDs: `e3fe7741-b73c-4af9-a06a-c1563063aac4`.
+- **Assassin&#39;s Creed IV Black Flag Remaster Launcher** — app ID: `6728ca92-30d3-4b13-9374-cc09a601819d`; space IDs: `1811db2c-6220-4a7f-b672-d28bd4f37b4b`.
+- **Assassin&#39;s Creed IV Black Flag Solo GoogleStream** — app ID: `689e0dca-64e7-4787-9ccd-49596cf33fa7`; space IDs: `8b8113a6-8029-4769-b104-9df3885378b5`.
+- **Assassin&#39;s Creed IV Black Flag WiiU** — app ID: `811706d5-dae2-47dd-a20f-a11e3937e216`; space IDs: `a4ed032f-e911-486c-96bc-7cee2859be62`.
+- **Assassin&#39;s Creed IV Black Flag Xbox 360** — app ID: `b8325abe-24de-434b-84b3-0587c5ead8cc`; space IDs: `a94d4fa7-befc-4fb9-988e-29b8fcfdf3bc`.
+- **Assassin&#39;s Creed IV Black Flag Xbox One** — app ID: `888ae068-955d-4d79-9a41-62f263d91c50`; space IDs: `c75f9ee4-82f5-4ba4-beeb-29e418383086`.
+- **Assassin&#39;s Creed Mirage C2P Demo** — app ID: `17096a75-0701-4144-aa7e-d876a8657195`.
+- **Assassin&#39;s Creed Mirage Demo PC** — app ID: `c724b8c9-eec6-4bc5-8729-f9659ad90e23`; space IDs: `d191d808-a407-4765-887b-c3b0519b038f`.
+- **Assassin&#39;s Creed Mirage Demo PS4** — app ID: `2b43e0c2-9043-4841-9d07-3069c48be0e9`; space IDs: `9de75186-3207-434d-a044-e775fba9ee07`.
+- **Assassin&#39;s Creed Mirage Demo PS5** — app ID: `982e4629-176a-42d4-8758-a8dd44b96ce7`; space IDs: `55c7eacb-137b-42ed-811e-ec0de3a911e2`.
+- **Assassin&#39;s Creed Mirage Demo Xbox One** — app ID: `d70412b3-bfd5-4323-ac29-950880d7053b`; space IDs: `230e3eb2-b307-45f3-85d5-6ac31439af35`.
+- **Assassin&#39;s Creed Mirage Demo Xbox Series X/S** — app ID: `4e7e789d-e1fc-4607-8132-242b477e02cb`; space IDs: `63f134e8-0ce3-4fb9-bd43-fde6b453421e`.
+- **Assassin&#39;s Creed Mirage Google Stream** — app ID: `49b6e406-b83e-462b-8d17-cc44d60bfb90`.
+- **Assassin&#39;s Creed Mirage NintendoSwitch** — app ID: `29711d67-87c4-417a-84da-1aee417e07c0`; space IDs: `49c43c46-426d-44e4-a090-5abea2626abb`.
+- **Assassin&#39;s Creed Mirage NintendoSwitch Demo** — app ID: `66aef34d-3a44-497f-ac06-c6f2f6045d72`; space IDs: `1ba4d44a-8244-4d05-83ed-c46690edad9e`.
+- **Assassin&#39;s Creed Mirage PS4** — app ID: `010bd281-3dfa-4c13-93c3-4e0844628432`; space IDs: `d89da278-48a4-4463-8d6a-d41e422853dc`.
+- **Assassin&#39;s Creed Mirage Twitch Extension Tool** — app ID: `a17909cd-1149-4690-86ca-f00f2f84688a`; space IDs: `8b2fa5e7-5a22-4d74-b303-a82b95982cfe`.
+- **Assassin&#39;s Creed Mirage Xbox One** — app ID: `9f47cc06-98ec-4422-9f26-f3c677bc0342`; space IDs: `b9430e05-5ec4-481b-9715-eeb12e0ae3b5`.
+- **Assassin&#39;s Creed NexusVr Quest2 (ANDROID)** — app ID: `4dc51b2e-62d4-471b-81ae-3bbd47a9e4b0`; space IDs: `35757d5b-9c03-4785-aaf6-bbd3a99a716d`.
+- **Assassin&#39;s Creed Odyssey Website** — app ID: `81bfc72b-7138-48f6-924b-d2377dd96db5`; space IDs: `377f4e65-13c9-499d-8769-555a7dd6febb`.
+- **Assassin&#39;s Creed Origins GoogleStream** — app ID: `9212b9db-344a-4b64-8005-ac2f599c9993`; space IDs: `8a31d0df-af3e-4b2a-9591-03717a8d7b26`.
+- **Assassin&#39;s Creed Origins Marketing Website** — app ID: `b9a93df2-3a90-4c7e-ac4b-ccc8ad2e46a8`; space IDs: `1ea76cd4-169c-4814-a3c4-9240c5b8b367`.
+- **Assassin&#39;s Creed Photomode** — app ID: `d9212c4a-55b6-4cab-90f3-2b438d634792`; space IDs: `93e7b11a-d1aa-448c-ba46-f9d3069458f3`.
+- **Assassin&#39;s Creed Rebellion Marketing Website** — app ID: `13b148f6-1b37-44bc-8b9a-52ea0c927698`; space IDs: `1b0a384f-fab8-48b0-b357-f2289010cb33`.
+- **Assassin’s Creed Red GFN RETAIL (NvidiaStreaming)** — app ID: `aa332eed-b81c-4609-91ed-1eff2b1c28bc`; space IDs: `8b575785-a41e-44e8-9cb5-438915c72eb3`.
+- **Assassin’s Creed Red Luna RETAIL (AmazonStreaming)** — app ID: `13c9e0d9-7d80-4074-91b6-8bfddafd6d70`; space IDs: `8fdaef27-5d56-4ffc-b635-0900b8d077bd`.
+- **Assassin’s Creed Red Marketing Website (WebMarketing)** — app ID: `a3c11ea5-b076-47f5-9f6b-803dbbbe5cf0`; space IDs: `cb1d25dc-1d37-494c-84b6-e849fe50f48e`.
+- **Assassin’s Creed Red PC RETAIL (PC)** — app ID: `32f4b40b-b657-420d-a046-a0a18331c7f9`; space IDs: `7965f255-2cc3-482c-b595-bb0dfe32f1cd`.
+- **Assassin’s Creed Red PS5 RETAIL (PS5)** — app ID: `f921766a-5535-4adb-b539-7a0abc7c65fb`; space IDs: `792b8a15-8298-4d59-8fee-82e5bf0b68f4`.
+- **Assassin’s Creed Red Scarlett RETAIL (XboxScarlett)** — app ID: `afa8d9ba-6437-4f8c-bb16-0514a2fafaf3`; space IDs: `41268982-f3a4-47ae-88b1-f46bb8f50c6c`.
+- **Assassin&#39;s Creed Revelations PC** — app ID: `f22848f5-e5c2-4bd0-86ce-e254174b060a`; space IDs: `6f7367d5-031e-4a09-b12b-0c74817ef636`.
+- **Assassin&#39;s Creed Revelations PS3** — app ID: `8f18a1a0-4694-40ed-be18-db9aa8c3a8de`; space IDs: `93d30d80-cd8c-4c11-9e93-4b64b3cd0e80`.
+- **Assassin&#39;s Creed Revelations Xbox 360** — app ID: `1e8c6a58-e6cc-4d3d-b948-d64671cdb689`; space IDs: `26947ca5-ac2a-4782-a60a-362d4e624b9e`.
+- **Assassin’s Creed Rift GeForce Now RETAIL (NvidiaStreaming)** — app ID: `b60bb2be-35b3-4a55-a3d2-d94ce176339f`; space IDs: `8cc511c6-69c0-43c1-9a3f-21e8c0225a94`.
+- **Assassin’s Creed Rift IOS RETAIL (IOS)** — app ID: `2c920710-1828-4e9d-9c40-7084263ea091`; space IDs: `1b22c2bc-dcc7-41c6-ba96-d210e1515dc7`.
+- **Assassin’s Creed Rift Luna Retail (AmazonStreaming)** — app ID: `5cff87cc-f833-4287-b5d4-2b4241f6b37a`; space IDs: `6fe21acb-8e04-408b-b93a-4d72b0dc44b2`.
+- **Assassin&#39;s Creed Rift Marketing Website** — app ID: `fe0ee5f9-e54c-4bc7-8234-d995f88c6ae4`; space IDs: `87e8aa8c-93ee-48a5-8fbf-99292213ed8e`.
+- **Assassin’s Creed Rift PC** — app ID: `c841d344-8e38-4ffc-850d-f57935b31059`; space IDs: `f836c6fe-6a19-40b4-9e46-3a686a888c6d`.
+- **Assassin’s Creed Rift PS4 RETAIL (ORBIS)** — app ID: `60c5ee25-d0a4-4747-bf8b-c5ff3b87f763`; space IDs: `eed27949-a4f8-4648-955b-f9c8d04785d7`.
+- **Assassin’s Creed Rift PS5 RETAIL (PS5)** — app ID: `e5a058ef-8994-47b6-8861-0eb52a6767b1`; space IDs: `f1b5ad7f-a362-42c1-b4f6-980812bff641`.
+- **Assassin’s Creed Rift Scarlett RETAIL (XboxScarlett)** — app ID: `9f1c84da-815d-41c5-a711-e3f70fa39bf8`; space IDs: `f7f4dd0c-d913-4bc8-a1dd-01fd91290d11`.
+- **Assassin’s Creed Rift XONE RETAIL (DURANGO)** — app ID: `49f1a191-b6ab-4325-94ee-047f33053144`; space IDs: `87ca82a2-dd4b-4c25-b90d-778c81f1cda2`.
+- **Assassin&#39;s Creed Rogue HD GoogleStream** — app ID: `8464a16e-7972-47bb-b8a7-bfccca1bef1c`; space IDs: `9ee826c3-9236-4c10-aed2-1ba5b6980314`.
+- **Assassin&#39;s Creed Syndicate GoogleStream** — app ID: `81ab77e0-3437-46e0-886e-6746bb09631b`; space IDs: `17b6b58e-cd85-4ef8-9290-934814a71625`.
+- **Assassin&#39;s Creed Syndicate Marketing Website** — app ID: `e4ceeec7-668d-44ba-a739-ca0e499b5b6b`; space IDs: `eaf97ad4-d111-4324-8052-9c5bbe9523f2`.
+- **Assassin&#39;s Creed Unity Beta PS4 (ORBIS)** — app ID: `b2dccc67-9fb9-4476-8a4d-c3e7b6f1ba40`; space IDs: `e1e03921-9945-4bbb-8aa7-a7e04b7c4817`.
+- **Assassin&#39;s Creed Unity Beta Xbox One** — app ID: `aba793ab-b706-4d7b-b9a4-3edf9cb5e0c8`; space IDs: `8399f3a5-c9e7-440f-bb14-dcec7f3c6f38`.
+- **Assassin&#39;s Creed Unity GoogleStream** — app ID: `6b1ec7ae-83c2-480e-b1c3-c98606371b82`; space IDs: `ef74aa3e-130a-4b6b-96bd-4f2f0573f9c3`.
+- **Assassin&#39;s Creed Unity iOS** — app ID: `5f4f14d0-f3ec-4b51-a934-8c5721ac4dd9`; space IDs: `1198a431-3c96-4352-83a6-37bda4a07ba9`.
+- **Assassin&#39;s Creed Unity Shopper Website** — app ID: `8333b2a3-47fc-44c6-b730-cefbaba696cd`; space IDs: `e6746ede-f2f5-47d7-96e7-74622a6aaf45`.
+- **Assassin&#39;s Creed Valhalla AmazonStreaming** — app ID: `9a385af4-46e8-446f-9199-59475214cc74`; space IDs: `bd6ac52a-cd58-4b44-819b-c338faded36d`.
+- **Assassin&#39;s Creed Valhalla GoogleStream** — app ID: `45ccf56d-8f88-46ff-a35e-a2c3ff92aaac`; space IDs: `da00af79-992a-4f14-b4fe-ffe09fac27e7`.
+- **Assassin&#39;s Creed Valhalla Marketing Website** — app ID: `0de48442-60b9-4b48-8a7d-c8221d6acf67`; space IDs: `e4866fa9-de69-4fee-a0d4-89b912e7d062`.
+- **Assassin&#39;s Creed Valhalla PC** — app ID: `9da14e51-9433-421b-a396-2ac916649564`; space IDs: `bc19a9e7-8b91-4051-9e87-2251d19932f3`.
+- **Assassin&#39;s Creed Valhalla PS4** — app ID: `2dee0217-d33f-4ffc-99b5-d2947990277d`; space IDs: `8b624114-bd58-4a04-b0e1-10a7496ecfab`.
+- **Assassin&#39;s Creed Valhalla PS5** — app ID: `b16c3382-0d5e-4cdc-8f71-a3599fc54264`; space IDs: `3c552244-e9ec-4a3e-be13-6f43e1277ad7`.
+- **Assassin&#39;s Creed Valhalla Xbox One** — app ID: `17bdcbb7-dcba-4f89-b3b3-a277e8d1c35e`; space IDs: `97a6d81c-18ab-47bd-b93b-cd97a0a52145`.
+- **Assassin&#39;s Creed Valhalla Xbox Series X/S** — app ID: `02d94411-c6e5-4f4b-b25a-a0b49f3707db`; space IDs: `a25a9e15-b339-45d2-823b-3a9484315548`.
+- **Assassin&#39;s Creed Viking Age Discovery Tour AmazonStreaming** — app ID: `be1be85f-2ef9-422b-ac88-e4c2cd9f631f`; space IDs: `7b023d52-6ad7-4271-8d17-355cfe477e1d`.
+- **Assassin&#39;s Creed Viking Age Discovery Tour GoogleStream** — app ID: `4a25c47d-bc61-42c5-989c-574e1dc51acf`; space IDs: `d9693ba8-1ecb-4524-9b8a-bcd1fb013c93`.
+- **Assassin&#39;s Creed Viking Age Discovery Tour PC** — app ID: `b847e120-521a-4066-ad5d-3817be8f5e8c`; space IDs: `6ce6fc64-ba48-4d77-a915-3f2d3e38b0a1`.
+- **Assassin&#39;s Creed Viking Age Discovery Tour PS4** — app ID: `59f3de0a-eb1d-4ea6-8910-c2cfd1969ffd`; space IDs: `aefdb3b9-aaa0-4d5a-baf6-3addd601ee8f`.
+- **Assassin&#39;s Creed Viking Age Discovery Tour PS5** — app ID: `8ece885f-cdb6-4a57-8d6e-75c2407c2013`; space IDs: `be97ad16-ff30-4a41-b781-f0a9d0aca211`.
+- **Assassin&#39;s Creed Viking Age Discovery Tour Xbox Series X/S** — app ID: `3a46eb01-1c01-4975-ba3a-d9a37fa6e38d`; space IDs: `4a9d72a0-28fc-423f-b615-0c4411143387`.
+- **Assassin&#39;s Creed: Ezio Collection Xbox One** — app ID: `7ae40324-3386-41bb-b4aa-372268c511d3`; space IDs: `8993ddd7-13da-4952-89fd-ae227c520bda`.
+- **Assassin&#39;s Creed&#174; Chronicles: China PC** — app ID: `27c49943-5d32-4b44-8819-1d5f0426c051`; space IDs: `92c79ab6-a69a-411d-ba2b-625ab104235d`.
+- **Assassin&#39;s Creed&#174; Chronicles: China PS4™** — app ID: `c18c833f-98c2-4ad8-8a61-3a8c80785e9b`; space IDs: `5a970127-3f7a-4299-9cf9-900e9c333c8e`.
+- **Assassin&#39;s Creed&#174; Chronicles: China Xbox One** — app ID: `d89637c0-96b4-4124-80d6-8fc29f8cc4f8`; space IDs: `3f928898-4bda-49a9-9a4f-7de981e95511`.
+- **Assassin&#39;s Creed&#174; Chronicles: India PC** — app ID: `2e020a01-1b19-4147-9fd9-788f2fe0d1d2`; space IDs: `f8d43496-6e15-4ee1-a57f-b23cab9f9acf`.
+- **Assassin&#39;s Creed&#174; Chronicles: India PS4™** — app ID: `87cc7a32-08e2-4ab9-94dd-1232228ba96d`; space IDs: `24f03436-4376-4f78-a5c3-c28a6d0b5c89`.
+- **Assassin&#39;s Creed&#174; Chronicles: India Xbox One** — app ID: `798c4f94-ae5a-434e-b3c3-8ddec71738fa`; space IDs: `6c21cbd4-42f8-434c-a1ad-5c2cd99ca369`.
+- **Assassin&#39;s Creed&#174; Chronicles: Russia PC** — app ID: `e8087fc0-7734-4e81-ae52-9e5c22ffae86`; space IDs: `47043a38-3f88-4464-ab5e-5b3c1b1c1924`.
+- **Assassin&#39;s Creed&#174; Chronicles: Russia PS4™** — app ID: `1f590a3e-3d7e-4cc3-b76c-d34ff39307b1`; space IDs: `336ecee0-a686-4d8c-9508-855117f6acea`.
+- **Assassin&#39;s Creed&#174; Chronicles: Russia Xbox One** — app ID: `6da76df1-f50a-4a9d-89c1-999898f4609e`; space IDs: `c8d832d3-9000-4260-a438-a4aeb42fe510`.
+- **Assassin&#39;s Creed&#174; III (Wii U) (WiiU)** — app ID: `f566422d-c2df-48cd-a671-09549dc3f44f`; space IDs: `ccb247cd-ee0b-4742-bce8-1a46f25ddc45`.
+- **Assassin&#39;s Creed&#174; III PC** — app ID: `d71bf270-d6b1-4ae1-9546-338ce292e125`; space IDs: `4a1562a4-c4d2-4bc5-a85e-f3db588b0072`.
+- **Assassin&#39;s Creed&#174; III PS3** — app ID: `e2db22f2-e5a3-4f3a-89e8-ac9c9f15f4b2`; space IDs: `689a42b7-89a9-4bee-a184-be96d4302885`.
+- **Assassin’s Creed&#174; III Remastered NintendoSwitch™** — app ID: `792b5525-b9ac-4dfb-bf68-bc812f0bc7f9`; space IDs: `d7203a71-cad6-437c-8269-67764a4ae3ff`.
+- **Assassin’s Creed&#174; III Remastered PC** — app ID: `e8d2050f-8907-4138-9bbd-2cc7b706d3f8`; space IDs: `cef8b16c-9250-45e8-8867-09f8b6f13489`.
+- **Assassin’s Creed&#174; III Remastered PS4™** — app ID: `a0f9b5ce-83f9-475b-950a-46108516c16f`; space IDs: `bad3b80d-36d6-4a65-85e1-8618be9a41c9`.
+- **Assassin’s Creed&#174; III Remastered Xbox One** — app ID: `d6eaa436-3ecc-47fb-b384-d84a1f066ee6`; space IDs: `dc37523e-e62c-4698-8705-5f1b29ab896d`.
+- **Assassin&#39;s Creed&#174; III Xbox 360** — app ID: `5728d14a-0fc0-413a-84d0-a7f68f41376a`; space IDs: `b7c7c695-fbb2-4271-a074-0f4d07d53deb`.
+- **Assassin&#39;s Creed&#174; IV Black Flag PC** — app ID: `b8aa2f37-9356-4bc7-87fe-953ce76fd506`; space IDs: `c8b3f1c6-a246-4ffe-a837-a49d6bb0ce52`.
+- **Assassin&#39;s Creed&#174; IV Black Flag PS3** — app ID: `7034e6a9-6141-4e7b-9b34-26c3eba752d8`; space IDs: `c3f9859b-2ca3-4ef3-9aac-fdbe32c2706f`.
+- **Assassin&#39;s Creed&#174; IV Black Flag PS4™** — app ID: `580db364-b218-4b27-90ff-408a1b9a43cf`; space IDs: `9d245ee1-6e6a-4e06-9b33-7a5fc85b57bb`.
+- **Assassin&#39;s Creed&#174; IV Black Flag Wii U** — app ID: `c46e668b-227b-4b70-8187-faacaebc2ad2`; space IDs: `ebf37f82-e23b-44ea-9b5b-97668d6f23d6`.
+- **Assassin&#39;s Creed&#174; IV Black Flag Xbox 360** — app ID: `af91ec6b-9a93-4326-a74a-068373672a4e`; space IDs: `378f08e9-e682-4236-9fb8-9bc7c93a25fd`.
+- **Assassin&#39;s Creed&#174; IV Black Flag Xbox One** — app ID: `e73d0cc7-e623-43df-b22b-5a07b177382a`; space IDs: `65798873-5495-4fe6-be7e-5370e52311bd`.
+- **Assassin&#39;s Creed&#174; Liberation HD PS3** — app ID: `fc6a18e6-5b00-4229-8703-931a7495f459`; space IDs: `49fb01af-5f00-4038-b538-5d82e15a8e79`.
+- **Assassin&#39;s Creed&#174; Liberation PC** — app ID: `e7a8cc92-d26f-4390-a9a8-1214a1938fe4`; space IDs: `23f11cd4-ebe8-41c4-8367-20f6502d2ad6`.
+- **Assassin&#39;s Creed&#174; Odyssey NintendoSwitch™ NintendoSwitchStreaming** — app ID: `42c72679-36af-4eb2-82a7-e63757989b97`; space IDs: `29f6339a-0fb5-4cfc-bc04-80dfc00403ff`.
+- **Assassin&#39;s Creed&#174; Odyssey PC** — app ID: `b5a56749-f302-46f7-8b17-ace3b0c3410f`; space IDs: `7d3950e6-41ce-43e3-976b-f893b246c31e`.
+- **Assassin&#39;s Creed&#174; Odyssey PS4™** — app ID: `9f7b3684-1b30-49a7-88b2-34cc17563673`; space IDs: `1dc617ae-da15-46c5-830f-86abbe383fef`.
+- **Assassin&#39;s Creed&#174; Odyssey Xbox One** — app ID: `e86b2a41-2b72-44b9-b707-c0ef35cd6464`; space IDs: `aaa9f426-4c3f-4804-8775-1995266f7c8c`.
+- **Assassin&#39;s Creed&#174; Origins AmazonStreaming** — app ID: `0fc40c18-8c9e-4098-b2e9-686861b18887`; space IDs: `e7a9b682-40a7-4554-8076-132745f179b5`.
+- **Assassin&#39;s Creed&#174; Origins PC** — app ID: `ba09e96a-9f80-42c1-ab6c-4abbc91e9d38`; space IDs: `bfd34091-6af6-4029-873b-ba7e036464fa`.
+- **Assassin&#39;s Creed&#174; Origins PS4™** — app ID: `82a3b5a6-32b7-4260-9f6d-02a193e1a9ad`; space IDs: `38dc761a-756f-49b8-b8d3-699bdfcf38d1`.
+- **Assassin&#39;s Creed&#174; Origins Xbox One** — app ID: `27088914-6394-4f1e-8898-160b7206fa84`; space IDs: `07684e02-4621-4490-b26d-8efecca58f90`.
+- **Assassin&#39;s Creed&#174; Rogue PC** — app ID: `1f8ba984-b3e4-49e5-a9a2-f9456c098f52`; space IDs: `3499bde3-6f0e-4ddc-84fb-736f93078be2`.
+- **Assassin&#39;s Creed&#174; Rogue PS3** — app ID: `f10d1302-e87a-4482-b493-95c8ef28478a`; space IDs: `aba70508-63d6-419a-afa6-e57c79f341fd`.
+- **Assassin&#39;s Creed&#174; Rogue PS4™** — app ID: `c57e6521-932f-451d-b3b8-9f09b823f41d`; space IDs: `ca1635c9-123e-4c0e-b741-874aea7db8af`.
+- **Assassin&#39;s Creed&#174; Rogue Xbox 360** — app ID: `4fa62fc8-814e-4da1-86d1-166100efd0f3`; space IDs: `de1be2bc-0f0f-4697-9063-75cb9a47f551`.
+- **Assassin&#39;s Creed&#174; Rogue Xbox One** — app ID: `4ac632f3-984a-4343-8c5b-d1a7d5de76e1`; space IDs: `de16ccca-9383-496e-820b-a45a6d6aae8e`.
+- **Assassin&#39;s Creed&#174; Syndicate PC** — app ID: `8ae62d8c-0a53-438e-bbea-a4f8f1f9feeb`; space IDs: `9676c860-e256-4d60-b39a-26d114b125c3`.
+- **Assassin&#39;s Creed&#174; Syndicate PS4™** — app ID: `786feca1-9c55-4704-b87b-0f3d714876c2`; space IDs: `d5539b8f-e4fe-4867-a1e0-29e3c7b6a006`.
+- **Assassin&#39;s Creed&#174; Syndicate Xbox One** — app ID: `c7f6bc1a-5464-4469-abf5-7bbb3126b5e2`; space IDs: `99519efe-a475-47c7-bd70-1b4f13bde0bd`.
+- **Assassin&#39;s Creed&#174; The Ezio Collection PS4™** — app ID: `0f5d89b0-a1ca-42b4-bc0b-43a575a2faca`; space IDs: `abf188e8-21b9-4557-a222-4375c724f6ed`.
+- **Assassin&#39;s Creed&#174; The Ezio Collection™** — app ID: `e042c476-467a-4f2c-a042-b442b0e92341`; space IDs: `963a871f-adee-434d-8227-36b63f5e8b22`.
+- **Assassin’s Creed&#174; The Rebel Collection NintendoSwitch™** — app ID: `86a66339-c6d3-42ba-8dee-7ad2788391e1`; space IDs: `eeb9886c-8b9d-4177-8a58-36c0fb3d6398`.
+- **Assassin&#39;s Creed&#174; Unity Android** — app ID: `65321dc3-36cf-4b7b-9116-feffa0db2cfe`; space IDs: `e1e083c7-e6ec-42aa-8b34-91d2fbbda4a1`.
+- **Assassin&#39;s Creed&#174; Unity AppStore** — app ID: `137eba6c-1567-4b26-9562-b44547268d95`; space IDs: `6affb89c-53ba-4a47-a2e3-1e9b5c3778cb`.
+- **Assassin&#39;s Creed&#174; Unity iOS** — app ID: `66a56258-7873-4a02-9bf5-9c586f91897d`; space IDs: `e4072ebd-17b8-4455-aad9-b118c91695d3`.
+- **Assassin&#39;s Creed&#174; Unity PC** — app ID: `697a073a-83f3-46af-9da7-0d0b0a8a2366`; space IDs: `6678eff0-1293-4f87-8c8c-06a4ca646068`.
+- **Assassin&#39;s Creed&#174; Unity PS4™** — app ID: `d0d6d78a-52de-4504-97f3-c2fb0095bc35`; space IDs: `50bdf3f6-1b37-465f-b872-314b6578e8d7`.
+- **Assassin&#39;s Creed&#174; Unity Xbox One** — app ID: `3026f0a5-0e68-46cd-af80-0fd35c77d24a`; space IDs: `75c9e1f9-084e-48df-bb2b-332c79d47041`.
+- **Azarus Marketing Website** — app ID: `c384082c-e6f1-4c83-b4c0-b496b5af67aa`; space IDs: `df6fd51a-0452-4f5c-9e59-9cec7d2718e6`.
+- **BattleCore Arena Marketing Website** — app ID: `4a7cacbd-d005-48f9-b962-612bb8fbbdd0`; space IDs: `d88f73c8-f0ad-4975-8e44-9ee7062c0af7`.
+- **BattleCore Arena PC (PC)** — app ID: `18314e11-5c57-41e6-a1c7-37aeccf4611a`; space IDs: `0b3e8012-6a84-4dd9-872a-4d0a134621db`.
+- **Battleship PS4™** — app ID: `11b59829-dbda-411d-a4ce-675f663efbba`; space IDs: `bb813e39-d427-4728-a05c-f42bed33024c`.
+- **Battleship Xbox One** — app ID: `be081530-9fa1-4869-a18e-ef20675ab0fc`; space IDs: `a60ed19c-8d3d-4bef-af7f-d62071d74d4e`.
+- **Beyond Good and Evil Community Platform Website** — app ID: `8e925e2e-5e0d-4aff-91be-5359550ae0fe`; space IDs: `7a4e795d-be97-432e-be6d-0eeb791c056e`.
+- **Beyond Good and Evil HD PC RETAIL (PC)** — app ID: `d59cb6c4-68c3-460a-a174-2f4748bae707`; space IDs: `4bb44b97-831e-42e2-b0ad-875b59b36ee4`.
+- **Beyond Good and Evil HD PS5 RETAIL (PS5)** — app ID: `d27c6f2e-696a-44b3-a3fb-e607dc25ae10`; space IDs: `da2a8301-d017-48cf-9fc3-10286d0764f7`.
+- **Beyond Good and Evil HD Scarlett RETAIL (XboxScarlett)** — app ID: `aeb1ce96-2328-448c-96b0-feed76f5a5b2`; space IDs: `3f314131-51ab-45d7-9429-5cd56624cd78`.
+- **Beyond Good and Evil HD Switch RETAIL (NX)** — app ID: `6c0391a1-95ae-457f-9eae-cfc64de6ba2d`; space IDs: `51c1353d-eaeb-4a4e-a5b0-5f3e11c5c7ec`.
+- **Birds of Prey PC** — app ID: `4f3c4f92-cda0-4497-ae70-89b9a858caae`; space IDs: `361ec29a-b7e9-408a-a1cf-8257494068eb`.
+- **Birds of Prey PS4** — app ID: `132166b0-45b5-40f4-b892-baac577d7f02`; space IDs: `2e76122d-cb76-4711-9f28-2487f661a94e`.
+- **Black Flag Infinite PC** — app ID: `2dfa4bfd-b2c3-4993-8838-276d89bab144`; space IDs: `5f1a2aa5-f576-41b2-8550-b6a36ea94235`.
+- **Black Flag Infinite PS5** — app ID: `5f5b7ede-1ef5-4a8c-9c09-dba12e2847b7`; space IDs: `a0b38faa-0355-47cd-9789-14605fb7bd17`.
+- **Blue Amazon RETAIL (AmazonStreaming)** — app ID: `19752ea1-e688-4bb5-9b6e-b290a16ec1f3`; space IDs: `a0dcf9e4-a110-4da2-985b-03247c9aac3f`.
+- **Blue Marketing Website** — app ID: `fe00213d-0d8d-4bf9-9bea-c0e793665582`; space IDs: `00fd1624-2197-4bc3-a946-d64f85b5bcfc`.
+- **Blue NvidiaStreaming RETAIL (NvidiaStreaming)** — app ID: `01fc0ef9-4653-49d1-9386-a85871db4e90`; space IDs: `635f3e38-a610-443b-9360-67cd79b6d36c`.
+- **Blue PC (PC)** — app ID: `fe3cdbe6-9a54-47db-9e2f-6395fd922640`; space IDs: `a88c596c-2214-4e09-bd3d-949d15168614`.
+- **Blue PS5 RETAIL (PS5)** — app ID: `a4b41ec5-444b-480d-bbf3-040fa951c98f`; space IDs: `b82f6a09-2003-497a-92e4-a583462eccd3`.
+- **Blue Scarlett RETAIL (XboxScarlett)** — app ID: `c49fca2a-6c00-4511-bf11-4553dca3d0d7`; space IDs: `633f8b20-3167-4f2b-a5b1-52869c854371`.
+- **BOGGLE Classic PS4™** — app ID: `53b7ed86-3244-4173-96e8-a766c516e847`; space IDs: `e2ec13fe-e84d-4d29-b91a-ddf10998591a`.
+- **BOGGLE Classic Xbox One** — app ID: `c7947c39-65ad-40c0-9215-72ef27857a5c`; space IDs: `98a3886b-d765-4ba8-93bc-f8a4d42d5627`.
+- **Brawlhalla - Marketing Website** — app ID: `9ac395c3-bd3e-44f6-8206-802a04fa032c`; space IDs: `e429bd92-f7ab-4ec8-b099-682756ddb045`.
+- **Brawlhalla Android** — app ID: `10ab6482-832e-43e4-b6a6-f270b201ee48`; space IDs: `10cfcbc5-b7b0-49a8-98ee-bcd7ec2f4b98`.
+- **Brawlhalla Cross Progression WebAuth and linking - Android WebGame** — app ID: `7581d67a-aef3-45ea-b312-9bb8b7b3ecba`; space IDs: `bd9a2c14-e800-4b87-8f6d-a9fc7e0f853a`.
+- **Brawlhalla Cross Progression WebAuth and linking - HD platforms WebGame** — app ID: `852faf2e-9748-4176-9fb4-30aeeeeaa177`; space IDs: `630c34cc-f692-4a0a-86d9-279c329a8fd4`.
+- **Brawlhalla Cross Progression WebAuth and linking - IOS (WebGame)** — app ID: `4745d1ca-d6d6-44ae-b196-1b91e9bab26b`; space IDs: `3f4a8c36-721f-4a4a-b6ed-af7d060cbdf5`.
+- **Brawlhalla NintendoSwitch** — app ID: `2ed93c72-ef1a-44ae-8a7d-2e86e341992b`; space IDs: `a8241e05-71be-4933-8ae1-f33fb69ed70a`.
+- **Brawlhalla PC** — app ID: `9302eb42-e3f3-403d-a801-b3a97a83f0ad`; space IDs: `52e74574-1eb1-48a9-b903-e32848fddd0d`.
+- **Brawlhalla PS4** — app ID: `69981912-ce07-4d8c-87eb-be5cb0694123`; space IDs: `3a172579-0fc5-4fe2-8e30-57deb083f3d7`.
+- **Brawlhalla Ubisoft Connect Server** — app ID: `32790729-4a84-4dc4-95ef-fd24b7e4e771`; space IDs: `53251316-4779-4b23-bbd9-179059187465`.
+- **Brawlhalla Xbox One** — app ID: `32d717b9-38ae-48ba-9410-a411e5d5e181`; space IDs: `2845c135-d54d-4e6c-a394-dd1cbab822d5`.
+- **Buka Russia Web Marketing Site (WebMarketing)** — app ID: `dbc303ca-6404-4af5-94f8-7718466cd8f2`; space IDs: `b276c2ac-cb1c-494e-b51e-3f0ac23e7fa4`.
+- **BUMP Steam RETAIL (PC)** — app ID: `b6781af9-8f81-4d86-ae2a-df5b138fe5f1`; space IDs: `cf8c1d0d-2f4a-4276-af32-e8dbe15469c3`.
+- **Call of Juarez: The Cartel** — app ID: `8c5769ea-5c4c-4965-be66-3eaed13baea3`; space IDs: `8fd07695-12e7-4b61-9b9e-86fde3c0b344`.
+- **Call of Juarez: The Cartel** — app ID: `97350aed-239a-4373-9e2e-794592b95368`; space IDs: `688751fe-1610-436c-ae7b-e7bef32890cf`.
+- **Capra** — app ID: `9e3466c8-56c7-4e4b-aacc-6c408ec18611`; space IDs: `a46f063e-dc66-4735-88a4-ef40ff5745f2`.
+- **Captain Laserhawk™ - The G.A.M.E. (PC)** — app ID: `7c98d744-5e6c-45d5-8d11-da9f40313e0d`; space IDs: `4b86608c-f25a-4f1d-92d5-7915346ea992`.
+- **Champions of Anteria PC** — app ID: `33703ffd-bf41-4d60-9ed0-4505d1f1632e`; space IDs: `4b20d5ee-461e-4d27-8c56-e258577c5ed3`.
+- **Champions Tactics (PC)** — app ID: `0a865f38-e1f7-4ed7-b909-77c7ff705d26`; space IDs: `195baf22-a6d3-4c40-82a8-b702de67658a`.
+- **Champions Tactics Web Marketing Site  (WebMarketing)** — app ID: `f912ab09-6aa6-4346-ab45-e88842b3a54a`; space IDs: `9b167741-c9a2-4e58-8e10-86ae9ee2aaf0`.
+- **Child Of Light 360** — app ID: `f161a229-10cc-4a62-834b-f19839783b9d`; space IDs: `6c970eb5-96ff-462f-81e6-354b3effdc7a`.
+- **Child Of Light GoogleStream** — app ID: `34c2d42e-c533-40d3-bf58-63a5b43c6259`.
+- **Child Of Light NintendoSwitch** — app ID: `bb485dc1-b77d-49ef-9c7a-e5413112f7eb`; space IDs: `b3042fe0-40ee-4406-a583-f6c74d2f5788`.
+- **Child Of Light PC** — app ID: `4c2582ee-ec9e-420c-9ba2-ba401f2eacce`; space IDs: `600a36b8-ed3e-40c6-8a5f-c2b890eda50a`.
+- **Child Of Light PS3** — app ID: `ddf1ee22-1daa-4829-8a8c-d97fcf911f19`; space IDs: `a322e1eb-b5cd-44d9-89a8-ada2e31ca58e`.
+- **Child Of Light PS4** — app ID: `aa95f9e0-54b7-4424-b513-2ac53cff4f87`; space IDs: `bd4190d6-6f22-4a8c-8815-c53e31e2655e`.
+- **Child Of Light Website** — app ID: `ace835b4-8a76-4d07-a3c0-e52f0f749da0`; space IDs: `fcfd4a25-50eb-46e6-9d94-b67e13a73d48`.
+- **Child Of Light WiiU** — app ID: `47f87183-2228-4797-aa0f-9822fc30fab1`; space IDs: `68aa4689-2184-4f3b-bfc0-a16510690c40`.
+- **Child Of Light Xbox One** — app ID: `c689ecd4-ecc7-462c-a59a-561d75fbca95`; space IDs: `d62bafd8-221f-4df3-bc11-d64b87733f72`.
+- **City Of Love: Paris Android (ANDROID)** — app ID: `a0bdf3ea-f288-454e-9aec-17a9f75a6b18`; space IDs: `08acc02d-f44d-469b-b58e-d14642ae22c9`.
+- **Counter-Strike: Global Offensive PC** — app ID: `67d95b0e-9205-4040-90ae-95c5176ac7b4`; space IDs: `16b9b4b2-fc9c-457a-b2dc-c99766a1fde3`.
+- **Deleted Application Android** — app ID: `be40af12-269d-4f62-b4a7-dbb80fae3f01`; space IDs: `fd22f8ae-7002-4eb9-a62d-a6c39c9192a4`.
+- **Deleted Application iOS** — app ID: `8b784348-51c3-4c03-8c9e-3edbefc49f91`; space IDs: `592eeb47-88e4-419e-82ba-5d66fe548534`.
+- **Demo-ist Marketing Website** — app ID: `bca3bdac-6947-4c3c-9490-a8d1f7f921e1`; space IDs: `f2cc2ff0-2758-4b7f-b680-e95a076e87d7`.
+- **Disco RETAIL (Tool)** — app ID: `750af724-2f50-46ed-97bd-bfcf0ccbf0a3`; space IDs: `f0e9a17c-2fbd-4302-a6b9-489b67e129f0`.
+- **Disney+ Offer (WebMarketing)** — app ID: `822ea661-4452-40b4-8b4b-6cfe63a9702e`; space IDs: `e8601d54-459c-4ed5-8c77-030d437b7d35`.
+- **DragonFire Android** — app ID: `b5f1619b-8612-4966-a083-2fac253e2090`; space IDs: `1a49a190-9703-4460-91fc-f17c4314ecc3`.
+- **DragonFire iOS** — app ID: `f64d70a5-e962-445e-998c-9f4df6fb1156`; space IDs: `99e34ec4-be44-4a31-a0a2-64982ae01744`.
+- **DragonFire PC (PC)** — app ID: `a0f1371e-9fa4-46ed-846c-26bd563291f2`; space IDs: `217d73e6-22cf-4d3d-8aef-78da8ce71c5e`.
+- **Driver: San Francisco MAC** — app ID: `e49d436f-af5a-4c6c-a32c-c48ee9e30441`; space IDs: `7e115738-b7e6-4d2f-ab0b-7d0e69cbb56f`.
+- **Driver: San Francisco PC** — app ID: `60223b25-aaef-450f-b44c-6436e5f3374d`; space IDs: `d177ec97-aaed-4cf7-9215-e4e18d91a0ce`.
+- **Driver: San Francisco PS3** — app ID: `2678944e-f0d7-42e6-a8ed-1606e43d8f7a`; space IDs: `efe17fd8-a91d-412e-86cb-7b52625d8488`.
+- **Driver: San Francisco Xbox 360** — app ID: `25dfb04b-586f-405d-a305-453d25348cf3`; space IDs: `3a906223-8493-4b60-84e6-104f2273b32a`.
+- **E3 Ubisoft Lounge 2016 Marketing Website** — app ID: `89aaca78-48aa-4c05-8635-f0c05e37f9e6`; space IDs: `0f861472-e793-41c5-85d5-0768498c6d59`.
+- **Enaza Marketing Website** — app ID: `40906f1e-9aac-4f70-8a9f-45e1f59a571f`; space IDs: `5128d3e5-5ac7-4414-8d2b-6c988713741c`.
+- **End War Online Website** — app ID: `94a7eae0-dc99-40ff-b1ab-c5c4d9312e2e`; space IDs: `381fba47-1e69-4bba-9168-a069dc266a12`.
+- **Epic Games Marketing Website** — app ID: `7b530ae1-86e2-4753-921a-267d4b0e498d`; space IDs: `31170b06-f08e-4d0d-be47-71a359b3ac1d`.
+- **Equinox Marketing Website** — app ID: `3eec05a6-d0c8-4acc-99e6-081abb39b181`; space IDs: `56d31bdc-d9cb-4743-a9dc-0be99777b16c`.
+- **ESL Username Retrieval Server** — app ID: `106182ce-b00a-4d54-82a3-abad68ff0908`; space IDs: `0ba0c89e-ea1a-4907-b8e4-c97d728a56ed`.
+- **Esports E-panel Marketing Website** — app ID: `46ad7e7e-9bac-4eb6-962f-10067c8daa53`; space IDs: `0b9d5acb-dbcf-4b72-b9ef-fc66b3877e08`.
+- **Events - Club Website** — app ID: `756392b6-f6d2-4443-9e98-7ea4343af44e`; space IDs: `ace3a5f6-8593-49a4-b1bf-3457537d40ec`.
+- **Events - Shop EMEA Website** — app ID: `2af4af32-4c41-4869-9651-ce36db9341e0`; space IDs: `7beb4d3c-c033-40c7-9e12-72a1ff6d35bf`.
+- **Events - Shop NCSA Website** — app ID: `f40e149c-0e9e-4234-95cd-51ade7f3d923`; space IDs: `c553fc7a-b10e-4ac8-a318-85a0d6ca440e`.
+- **Fallout 4 PC** — app ID: `4c9ad1a6-ed36-4d66-94d8-5c0c08ae24a6`; space IDs: `b2ea2085-5e43-4464-860e-0cb6cd05db62`.
+- **Fallout Classic Collection Bundle PC** — app ID: `ac3149b9-9138-43d1-9144-d994c1234607`; space IDs: `2b0ec12c-3fbd-4534-a65c-1e316399833b`.
+- **Fallout Tactics PC** — app ID: `b8c54098-9e0f-461f-8f68-0c36648824d4`; space IDs: `0c3fd6ed-beca-4fbe-9181-dcb25ac9973c`.
+- **Fallout: New Vegas PC** — app ID: `85049318-1354-469a-a341-24d6eac12312`; space IDs: `9c76d32b-78f3-4dad-9715-b79f9bd37aa0`.
+- **Family Feud&#174; NintendoSwitch™** — app ID: `1d6e3017-c136-427d-a165-1442ef2127a6`; space IDs: `6f65b588-f2a9-4583-9f36-7a841afdaa34`.
+- **Family Feud&#174; PS4™** — app ID: `366c97a2-56ca-4422-b3fe-476cb2679129`; space IDs: `4dd3f26c-41fd-4fc7-b628-bb806e2e5582`.
+- **Family Feud&#174; Xbox One** — app ID: `e35a5b74-9d70-4eac-b4f1-aada660fff86`; space IDs: `b30c408f-eb43-4074-9c4d-31a538bd026e`.
+- **Far Cry 3 Blood Dragon GoogleStream** — app ID: `cf9ef83a-d1af-48df-b748-3e68f9c10de2`; space IDs: `af7098e4-4b5c-4287-96cb-7f850fcf1613`.
+- **Far Cry 3 Marketing Website** — app ID: `08e71d9c-40f0-4321-b74b-7d93d5593542`; space IDs: `c011c16c-c23a-4629-a54f-6d363d3fc591`.
+- **Far Cry 4 Chronicles Website** — app ID: `4d28c95a-8c24-4280-ba40-76e675a53e82`; space IDs: `f01df388-a8c7-4193-857a-1f87c8af0ee5`.
+- **Far Cry 4 PS4** — app ID: `f70a2192-20da-4259-8acc-dd934076994b`; space IDs: `9affd24b-2264-459b-b424-4f5a17fc3d21`.
+- **Far Cry 4 Xbox One** — app ID: `1fb21d47-95e5-4f39-87d7-b7a6ce74b06d`; space IDs: `7d50fe9e-b5cc-4876-90bd-07fdf9d3996b`.
+- **Far Cry 5 Beta PC** — app ID: `ba491c1c-b45e-4fe0-82ab-708913051eda`; space IDs: `32fa56bf-e6e8-4ae7-995a-8ea3eb823e5d`.
+- **Far Cry 5 GoogleStream** — app ID: `1e8c9d36-4ccc-4608-81db-c47c4d9d2094`.
+- **Far Cry 5 Website** — app ID: `38a8d847-fcbe-41b3-bbb3-7639405b1da9`; space IDs: `db7f3c4c-41e2-4e38-a64e-32b48cb6e1f6`.
+- **Far Cry 5 Website** — app ID: `5ce9d66f-5351-4e02-9821-d19cca671647`; space IDs: `1c3bdb62-3af5-450d-b69a-18ccbea21ef6`.
+- **Far Cry 6 AmazonStreaming** — app ID: `33161738-91a2-4d06-b1eb-995a4e2f84a5`; space IDs: `5e6d1f21-75b2-4f26-9600-920072dddc80`.
+- **Far Cry 6 Demo** — app ID: `3559a76e-f7ca-4fad-bd03-8b5dd4a0131a`; space IDs: `8b342317-125d-4ddb-a223-12a34159aba7`.
+- **Far Cry 6 GeforceNow** — app ID: `d94116c6-e5fd-4bed-b764-784367baf648`; space IDs: `b366d5c7-153e-4e7f-a19c-11883934d1ca`.
+- **Far Cry 6 GoogleStream** — app ID: `26a4bb76-5bb9-49e7-a7ce-c1bf9c770d85`.
+- **Far Cry 6 PC** — app ID: `d72bad75-18af-4dca-b5b7-069036d3bbd6`; space IDs: `9e9f2b78-60bb-41c4-82a2-fa5edbb280f1`.
+- **Far Cry 6 PS5** — app ID: `04659fba-f6d4-4cb3-8fb2-66cbed94b991`; space IDs: `7927a256-f88e-423d-b397-e257e60dd4de`.
+- **Far Cry 6 Website** — app ID: `3b0ccc07-a877-499b-b4db-9188f64c294d`; space IDs: `3417c0bd-85f8-4647-b494-e717b99225e5`.
+- **Far Cry 6 Xbox One** — app ID: `4aedcedb-9e2d-4d9b-9094-231865a86f4c`; space IDs: `8482d990-714f-4237-81d1-be38a1e338e9`.
+- **Far Cry New Dawn GoogleStream** — app ID: `b1cef7cf-696e-4f1d-9a6c-95315cbae2f4`.
+- **Far Cry New Dawn Website** — app ID: `d39f8c88-ee59-4303-80a9-fa83d7ac977f`; space IDs: `f2362c8d-f5e7-4cff-91dd-2e730caf6925`.
+- **Far Cry Omega Portal Web (WEB)** — app ID: `ba5fcd13-46de-4671-8000-948186ce4589`; space IDs: `f6b7c864-6c6c-4532-b07e-3f36c23954de`.
+- **Far Cry Poker Android** — app ID: `de1783d8-5978-4052-85f8-d031fb95c7da`; space IDs: `39660279-b59a-4728-a422-120b95e7749b`.
+- **Far Cry Poker iOS** — app ID: `aa0fdc63-687d-4fc3-978c-4ec6058e8124`; space IDs: `dd577630-1e43-4002-aef0-8c46c7620f32`.
+- **Far Cry Primal GoogleStream** — app ID: `e1ab1109-2d18-41b6-847e-34b4cc89700a`.
+- **Far Cry Primal Marketing Website** — app ID: `7f2c0ceb-ac54-4463-ad76-90071da04bd7`; space IDs: `a0930c18-1553-43e0-9cc1-ce267962fbea`.
+- **Far Cry Zeta XONE BETA (DURANGO)** — app ID: `31f358d7-63cb-4f2e-a689-eae14758c57a`; space IDs: `0a0f5f2c-c215-4ecb-a9b9-3bca6e6354a0`.
+- **Far Cry&#174; 3 Blood Dragon** — app ID: `4e70f3d3-5d5f-4bd1-8b98-e408b1bbfa0f`; space IDs: `4bd0476b-acec-446d-b526-23a0209101ca`.
+- **Far Cry&#174; 3 Blood Dragon Classic Edition PS4™** — app ID: `6191e694-a2ee-432b-a8ef-426114ff6af1`; space IDs: `cca99b89-d265-4397-9077-b00ea3bdfe68`.
+- **Far Cry&#174; 3 Classic Edition PS4™** — app ID: `5cff99b2-d8ee-4bbd-bb27-3e43b5c73d67`; space IDs: `3aa76f18-0f0f-4986-8fa9-bd8e8a532cb3`.
+- **Far Cry&#174; 3 Classic Edition Xbox One** — app ID: `d21942ff-61d0-402f-821a-f76ca8742912`; space IDs: `68be1d7b-04b9-478f-8137-715a87072aca`.
+- **Far Cry&#174; 3 PC** — app ID: `15a42aaf-f5cc-47df-bbb3-f59768ac6eed`; space IDs: `50228b8c-bbaa-4c32-83c6-2831a1ac317c`.
+- **Far Cry&#174; 3 PS3** — app ID: `08f30b61-1668-4b80-b57a-303ecffe8137`; space IDs: `5241b42d-d3d8-4033-93a1-4155e7baec7a`.
+- **Far Cry&#174; 3 Xbox 360** — app ID: `1b5dbb5f-0285-40ab-81b8-3936e04622fe`; space IDs: `45dfefb8-0a17-4d4b-9ae5-382a01d3ecc7`.
+- **Far Cry&#174; 3: Blood Dragon Classic Edition Xbox One** — app ID: `dd8ed29e-ef6f-47af-be67-fc2d4e415350`; space IDs: `5e5b3dfb-423e-41f6-a330-2d25b759aa04`.
+- **Far Cry&#174; 4 Arena Master Android** — app ID: `805319f5-950b-4490-9b3f-4e420df5084a`.
+- **Far Cry&#174; 4 Arena Master iOS** — app ID: `9e2731e9-8538-40e3-b1cd-6231cd081da8`.
+- **Far Cry&#174; 4 PC** — app ID: `2d10b938-06a4-4f79-89b5-a57706032a5f`; space IDs: `aab6ceb2-2ea5-4d27-9719-cc2cb87395b7`.
+- **Far Cry&#174; 4 PS3** — app ID: `569d2d3c-5c32-4e3c-a3de-148e58c3b38a`; space IDs: `07304340-c474-4155-aa53-aa4191f648be`.
+- **Far Cry&#174; 4 PS4™** — app ID: `f551ac2d-ae81-4cb3-931a-048c7d96ebb0`; space IDs: `1437bc51-401d-4f35-b0a7-107bd50fdb60`.
+- **Far Cry&#174; 4 Xbox 360** — app ID: `6f7d1e86-ade5-4dbd-86dd-d779ebe247f2`; space IDs: `1b736b0e-3e38-40d3-aef7-aff8fdb3ebfb`.
+- **Far Cry&#174; 4 Xbox One** — app ID: `947d6b56-5b89-4e65-9f88-f5f6c9681760`; space IDs: `01b4d7cf-3920-4ba9-8aa2-620afd02e2e4`.
+- **Far Cry&#174; 5 PC** — app ID: `e0b29a98-ce38-4bc7-96ee-9d20e793e9e3`; space IDs: `f40e304d-8e8d-4343-8270-d06487c35add`.
+- **Far Cry&#174; 5 PS4™** — app ID: `99562141-a6dc-4f79-8ba5-7bb39acf847d`; space IDs: `252bce22-65d0-4e54-92f3-5e0a435b420f`.
+- **Far Cry&#174; 5 Xbox One** — app ID: `919adfde-17f0-4306-bb8e-1c22dc9516cc`; space IDs: `6de56557-6cc6-4da0-ad3a-dfb642357ef9`.
+- **Far Cry&#174; New Dawn PC** — app ID: `4eb9089b-324e-4e65-a055-5ea05cfeb68f`; space IDs: `6f75883b-3b5b-45ce-a2d4-2a7a8477180c`.
+- **Far Cry&#174; New Dawn PS4™** — app ID: `4cbd785d-a248-49d6-b483-04984240ee45`; space IDs: `f958bee4-8b5b-40f6-bff0-0783b2efb29f`.
+- **Far Cry&#174; New Dawn Xbox One** — app ID: `71dfba9d-3587-496a-8829-b2d3e84e4ab9`; space IDs: `7ee60622-e6ea-4a87-b8c0-f5a26c7a422b`.
+- **Far Cry&#174; Primal PC** — app ID: `933153ac-0e93-4ead-be41-563de8dc6487`; space IDs: `91857f7a-783d-4520-a1ad-8e2f4bdba236`.
+- **Far Cry&#174; Primal PS4™** — app ID: `f3fe1357-0071-417e-8a82-35a186786d38`; space IDs: `da9398c9-5a88-4021-ba58-9147b8ce4903`.
+- **Far Cry&#174; Primal Xbox One** — app ID: `da608614-1554-4cbe-9238-ab045a1597a2`; space IDs: `f803f49c-ce4e-4436-85f0-df3a661eb86a`.
+- **Final Fantasy X/X-2 HD Remaster PC** — app ID: `f4da9222-5e3a-4c31-a22c-dedd36a2635a`; space IDs: `16a35046-d7ef-4a15-bbf0-02d69669eeaf`.
+- **Flashback Origins PC** — app ID: `4330745b-768c-4d07-9883-7e126500abe3`; space IDs: `ace8cf9c-3320-44de-8744-0ab571b4fa85`.
+- **For Honor PC** — app ID: `3b27ede8-3ff9-435d-a264-e2de2ccbb2ce`; space IDs: `882ad5b5-f549-44a1-a434-c465d22fe4bf`.
+- **For Honor PS4™** — app ID: `0aa18dfd-204d-42b4-a631-2d5952c21999`; space IDs: `0d515900-c1e3-498b-9500-62d945002adb`.
+- **For Honor PTS PS4** — app ID: `03338be5-f7e6-4b50-bbe0-0d7944043646`; space IDs: `de757d1d-093b-4b5a-a9d1-23ffd4f87789`.
+- **For Honor PTS Xbox One** — app ID: `e73f6e85-2b91-4473-855a-868b28b37f5e`; space IDs: `6995f473-b304-4239-afe7-1864ac954795`.
+- **For Honor TTS PC** — app ID: `684d250d-2f66-4d8e-b075-04eb3884fc9e`; space IDs: `3f10315d-3bb3-4eaf-9983-74eb71b3f073`.
+- **For Honor Website** — app ID: `7793e1be-8849-4e87-b755-684a87103fd0`; space IDs: `31049838-ec63-4b48-9389-a4f91ddb3b0f`.
+- **For Honor Website** — app ID: `fb837d26-0845-4eb3-8ea6-554fbd577acd`; space IDs: `6101ab04-17b4-4bdc-bfac-88074ef8394f`.
+- **For Honor Xbox One** — app ID: `63637663-c6f6-4eb2-99d1-083196b01d68`; space IDs: `c308d745-9544-4f2d-bcfc-4804e3848bf9`.
+- **GamesPlanet Marketing Website** — app ID: `00b7190a-9b50-4130-97c8-8b39c970fcb0`; space IDs: `c474a359-ca0b-412d-98b0-482dc3431136`.
+- **Genba Marketing Website** — app ID: `59adae69-0388-4a38-bd8c-1f5cb3a714ef`; space IDs: `975e7d16-d863-421b-a87d-b56b83429749`.
+- **Genba V2 Marketing Website** — app ID: `5efaf6e3-aeef-4b43-8b28-6209203d320b`; space IDs: `5b11376b-bc3e-4140-bbff-8a248eae3af3`.
+- **Genesis Marketplace Frontend (WebMarketing)** — app ID: `c8edfade-034e-45cb-9123-d98791734190`; space IDs: `2e309892-59b1-4559-99f4-a865182f5792`.
+- **Ghost Recon Phantoms Web** — app ID: `50bc88d8-e213-4040-a87a-8cbd07644136`; space IDs: `96a32ada-ae11-4a6a-b650-3e9f70074ca9`.
+- **Ghost Recon Wildlands Beta PS4** — app ID: `88bdf7ca-ffc2-484a-88c6-2a2f47b9ab26`; space IDs: `b7d8b7e7-3ec3-407b-9277-87b0dcf348ca`.
+- **Ghost Recon Wildlands Beta Xbox One** — app ID: `51cdc67f-1b38-45a1-a7ce-bf652f2439a0`; space IDs: `61b20ea0-06b0-42d5-bad7-748561935fd6`.
+- **Ghost Recon Wildlands Companion Android** — app ID: `0ddea016-4240-4c44-9254-4bef6a92e971`; space IDs: `e590b586-5809-4551-8e3b-d73a5715a044`.
+- **Ghost Recon Wildlands Companion iOS** — app ID: `c2d0cd18-a5b3-4df1-8c8f-7f95932319f3`; space IDs: `7b0a8bbd-00b5-4ec9-a60a-c7a759bb1b08`.
+- **Ghost Recon Wildlands GoogleStream** — app ID: `c87afb08-c95d-449c-94a1-83e0fe19f336`.
+- **Ghost Recon Wildlands Website** — app ID: `fe760c9f-8a54-48e4-91b9-b63fa0974b1c`; space IDs: `b60df701-d62f-4167-95ac-5de4f7d9c80c`.
+- **Ghost Recon&#174; Breakpoint PS4™** — app ID: `4687c52a-0827-43ff-a693-e568aaef20f9`; space IDs: `d7b36074-b1e9-4dca-9089-457354c07895`.
+- **Ghost Recon&#174; Wildlands PS4™** — app ID: `95af02d7-9914-43f2-a33f-07482ecba58e`; space IDs: `12260d15-0d31-412a-8b84-126ee6b15e6b`.
+- **Ghost Recon&#174; Wildlands Xbox One** — app ID: `abb2850f-4447-4b63-9191-09e159cb54ad`; space IDs: `c86e2431-099b-4816-8463-0fb9f6a5d16e`.
+- **Glass Marketing Website** — app ID: `f6214bf2-584f-47c2-ab4e-c6b1e8375925`; space IDs: `dd0ab0d9-d2ae-4c3f-862c-96d8fb416d14`.
+- **Gods and Monsters Marketing Website** — app ID: `b870aea3-34e2-4142-869a-40a2650bc9df`; space IDs: `245b20d0-0b2a-4413-846a-7235f59bf46b`.
+- **GOG Galaxy Marketing Website** — app ID: `b8fde481-327d-4031-85ce-7c10a202a700`; space IDs: `9cb18d54-850e-42b1-9202-356e97984d06`.
+- **GoogleStream Website** — app ID: `b2a701d3-1c8d-4438-84bd-b2ca6e3930ca`; space IDs: `44f2e4b6-7f6a-47ff-9ac4-8e3695cfe6da`.
+- **GreenMan Gaming Marketing Website** — app ID: `7fd14620-fe65-4c43-80eb-882b92d40553`; space IDs: `93cb2177-d6ec-40b9-aef9-d55c49809483`.
+- **Grow Home PS4™** — app ID: `173c4924-f85b-4846-9303-0329296cf03c`; space IDs: `9e04e7ec-a885-4784-a584-6ba7bc2a11b1`.
+- **Grow Up PS4™** — app ID: `54bf7f51-5f2c-4b70-aad6-0abcc115fefa`; space IDs: `42c446b1-d2c1-44c6-933d-a01a0bf0b3b3`.
+- **Grow Up Xbox One** — app ID: `93348c0b-9b13-45d6-b1e9-8663b6817875`; space IDs: `ef8d11d7-c819-400d-8494-a27e1c5da02c`.
+- **Growtopia NintendoSwitch** — app ID: `5c493f12-69c7-487e-a826-6dc1b5d90408`; space IDs: `0dde1af1-a127-4662-bb33-d093f8e1142c`.
+- **Growtopia PS4** — app ID: `f4e2e597-a968-4de7-8e08-081b18b38913`; space IDs: `eaf7386d-bd59-426d-b294-fce433b9592f`.
+- **Growtopia Xbox One** — app ID: `f2136336-4e59-4646-9dee-baa2d18b4f54`; space IDs: `ba113fc1-b1da-4bf0-97e2-02f81853f580`.
+- **Growtopia&#174; ™ (PC)** — app ID: `f2f8f582-6b7b-4d87-9a19-c72f07fccf99`; space IDs: `3b2ceefd-2316-4abb-962f-4153257ce741`.
+- **Half Life 2 PC** — app ID: `d5ecbdd7-47d3-4576-b15a-45b4545c5427`; space IDs: `6a343b0e-3a41-49b6-9d75-7d4fcf640300`.
+- **Half Life: Source PC** — app ID: `af476b5a-68a4-4f6a-876b-5568ff34d250`; space IDs: `7d29daf7-1732-42ad-831b-503591024adf`.
+- **Harbour Account OAuth Api Component Server** — app ID: `0cc055bc-b332-4171-b9ae-62bde0612938`; space IDs: `e82e625b-11dd-434f-b9a2-aafe15328506`.
+- **Harbour Account Users Policies Api Component (Server)** — app ID: `bc401031-b8df-4aa3-9c7a-cc314836f8b9`; space IDs: `ac7fecf5-ee61-4b1a-bf6d-6ecf5d86f15b`.
+- **Hasbro Family Fun Pack Conquest Edition PS4** — app ID: `6edcae31-b1f0-496b-a77d-46fb1cd80b99`; space IDs: `39f60f2e-fa25-468e-8e32-157c4e11fa86`.
+- **Hasbro Game Channel Family Fun Pack PS4** — app ID: `0c776132-2eca-42e9-a67f-a51a35b3011a`; space IDs: `cd22529d-5277-4b52-a3d7-63d5fb264b26`.
+- **Hasbro Game Channel PS4** — app ID: `3387133e-4a1a-4bb0-bcb1-9a39992422ba`; space IDs: `63fa0b28-156e-46b9-a955-fe764d82d970`.
+- **Hasbro Game Channel Xbox One** — app ID: `4b43e7ed-2ef6-4dc0-9413-d62d903baf55`; space IDs: `76032b6d-9b33-4b82-b3ce-270dd094c24f`.
+- **Helix Amazon (AmazonStreaming)** — app ID: `c59a605a-4074-414a-b527-ad6640b5ec80`; space IDs: `61f6a05a-dc70-401f-8bd4-b287aed39f79`.
+- **Helix Marketing Website** — app ID: `05adffc8-738d-48c5-81f4-297b1d0df256`; space IDs: `b8e5ff6a-77df-4e79-b226-b3209b53e27f`.
+- **Helix NvidiaStreaming (NvidiaStreaming)** — app ID: `434cee1c-ac30-4f43-8e16-6272738c1dae`; space IDs: `c053e527-5bf3-4ee3-9dc5-f258f331cc37`.
+- **Helix Ounce RETAIL (Ounce)** — app ID: `34432311-2dc8-42c9-96f8-f4eece4977b8`; space IDs: `555428f9-d094-44d7-b92e-24e027c04cb1`.
+- **Helix PC (PC)** — app ID: `69488c50-c7b7-4460-b502-66a973e02150`; space IDs: `cf431d02-af1f-47b7-a0c4-0da78cc3f088`.
+- **Helix PS5 (PS5)** — app ID: `17708827-7f99-4fc8-b1e3-e27f00ff2486`; space IDs: `0faaecad-13fe-4b11-9030-ac982cce24b0`.
+- **Helix PS5 DEMO (PS5)** — app ID: `cf570283-2061-410c-b8ec-beb2b0306e2d`; space IDs: `bb0e3d54-c0e0-411a-ac68-a939bfc1b6e3`.
+- **Helix Scarlett (XboxScarlett)** — app ID: `01a45e13-2f43-4392-a9d1-ce20da13a026`; space IDs: `304b4fff-993a-476e-aaf2-a1beb2cde25d`.
+- **Helix Scarlett DEMO (XboxScarlett)** — app ID: `bf3e52fa-882b-4e09-9be5-7cf8f00dabc6`; space IDs: `89280f66-895a-4d16-9cde-5e780b49f229`.
+- **Heroes of Might and Magic 7 PC** — app ID: `3bc90dc0-708d-4b32-bda6-bec50c0f3d4b`; space IDs: `108ebcb9-a058-4927-9058-d4579ea9acde`.
+- **HeyBox Marketing Website** — app ID: `bf8476f9-10a7-4cf0-b084-f36540aa03b2`; space IDs: `4cea3aaa-423a-4173-bf6c-d6a181acbd87`.
+- **Hungry Dragon Android (ANDROID)** — app ID: `12e4048c-5698-4e1e-a1d1-c8c2411b2515`; space IDs: `8ad17656-cb68-4657-837f-95bb7b4ba9c3`.
+- **Hungry Dragon IOS (IOS)** — app ID: `42cbdf99-63e7-4e80-aae3-d05b9533349e`; space IDs: `786883e5-dc7f-4ac9-bbaa-fe223b158985`.
+- **Hungry Dragon Marketing Website** — app ID: `61351e59-fa2b-4fc1-9fd8-13b94a10a397`; space IDs: `b8c98fd2-0a2f-42cc-8daf-369ea99389a0`.
+- **Hungry Shark World NintendoSwitch** — app ID: `78da511b-4891-4218-98ee-2914cf47930a`; space IDs: `ab542416-78d4-4e5c-8f64-25e0b61b2c54`.
+- **Hungry Shark World PC** — app ID: `26bd9e82-5d4f-40fc-aeee-ca5cb4254b98`; space IDs: `c23b60a1-4c13-4bad-94c9-4e38e3a248ba`.
+- **Hungry Shark World PS4™** — app ID: `7bf7e04b-7b27-4ebd-ad60-1aa14a107232`; space IDs: `d2b0e86c-fc70-440e-8e11-4fced733c928`.
+- **Hungry Shark World Xbox One** — app ID: `20fdba3b-3363-44f9-bf84-193e940f4a53`; space IDs: `62c43d2e-cd4d-4028-a6ec-803f8eac01a6`.
+- **Hyper Scape Crowncast Twitch Extension** — app ID: `c3fceeb8-16c0-444f-ae5b-d872f13dc04e`; space IDs: `793a272d-503a-48dc-8c9d-ea935305e586`.
+- **Hyper Scape PC** — app ID: `69e55abd-5aca-4eee-be94-ce3944c72e73`; space IDs: `c2eedce4-d622-4a30-a82c-bfe377c7c580`.
+- **Hyper Scape PS4** — app ID: `ac2503cf-b905-4a92-bbb4-df3cc1bd7055`; space IDs: `b525129f-8112-4a6b-b83e-00c805238ae4`.
+- **Hyper Scape TTS PC** — app ID: `064b053f-b360-45a4-ba59-570756a4ec42`; space IDs: `3da9c41b-7938-4c2b-9943-5855a0fbc797`.
+- **Hyper Scape Website** — app ID: `60efe539-faee-4bff-8014-fd674988b430`; space IDs: `50072112-2702-42b8-af58-85c7eb002122`.
+- **Hyper Scape Xbox One** — app ID: `97241056-7875-4f5c-b736-70066e93c3cf`; space IDs: `8139dad1-852b-4451-b413-5d3a5d2a371d`.
+- **Ibex Android FullGame Android** — app ID: `3a75b085-81de-4511-849d-15a14fe0c370`; space IDs: `47c34af5-e4c1-40d6-9727-8fcc67604feb`.
+- **Ibex Android PaaM** — app ID: `035c6f1a-4b48-4a98-adba-fac59290a423`; space IDs: `2783f92a-cf54-431f-a619-ca7be384f82c`.
+- **Ibex iOS** — app ID: `d5967390-bbca-4df4-a5f6-14a019c01e36`; space IDs: `d3254e1d-36fd-4977-ab8e-a86216f8d54d`.
+- **Ibex IOS FullGame (IOS)** — app ID: `70ca8722-069c-46ee-a0bf-c687040ad928`; space IDs: `71fdc860-8ca4-4bc6-b355-b9073e100e2f`.
+- **Ibex Marketing Website** — app ID: `21a6b8b8-0e1a-4308-b2fc-bfd3470bd4d6`; space IDs: `2c944f5b-caf6-4fee-b9fc-f203342d5504`.
+- **Ibex PC** — app ID: `172517d7-64e7-4bb4-9f94-a2bca0af2286`; space IDs: `d7dfe1cb-80c2-48d7-8091-504d85c132e5`.
+- **Ibex PS4 (ORBIS)** — app ID: `9962a5aa-5272-4433-81ea-f8668a4d8ef7`; space IDs: `ee58e567-afdf-4a61-876f-3a70ef497111`.
+- **Ibex PS5 RETAIL (PS5)** — app ID: `74e0f195-7018-441f-81d2-5d369fe3be50`; space IDs: `5b8d9286-5644-4ec6-8bcf-4830c8f6bf53`.
+- **Ibex Website** — app ID: `694aff5e-a14c-44a1-bf07-9bff41263f35`; space IDs: `70e046b3-9e9d-410c-b3da-9508fe3284f5`.
+- **IdentityService Test Server (Server)** — app ID: `3231a593-2c78-461c-b0bc-e5f534b41f4f`; space IDs: `08f68254-c3ae-4892-b084-c3606f0cddae`.
+- **Immortals Fenyx Rising PS5™** — app ID: `f7f5ad69-f538-4dc0-9313-3ee62e137dc1`; space IDs: `de75f0f9-9270-4996-a77a-c601a12ad636`.
+- **Immortals Fenyx Rising Xbox Series X/S** — app ID: `d7c2b311-d070-4110-9111-4ff7ad96f170`; space IDs: `090c4711-0e67-407b-bfa8-fb7dc35dcc72`.
+- **Integration Platform Marketing Website** — app ID: `3ba2c40c-ffe8-4279-8820-c6de3fea77d9`; space IDs: `01db46e8-f31c-4ac8-872b-4550cfdcab45`.
+- **Internal Game Access Marketing Website** — app ID: `005aa2ea-6004-47ee-a184-e132127f3ad5`; space IDs: `594954c8-3e0b-49fa-a98b-67a373397476`.
+- **Jeopardy NintendoSwitch** — app ID: `cf88e025-9303-44c2-8599-bf7363a9d111`; space IDs: `0517ddde-4e75-473f-b870-fabf2a6e017f`.
+- **Jeopardy!&#174; PS4™** — app ID: `4c66af0a-ca9e-42ea-a165-5a802901e69d`; space IDs: `3715c450-d91c-4e25-b048-78b7b007f5d3`.
+- **Jeopardy!&#174; Xbox One** — app ID: `a4ea45f4-7b99-4fbd-824f-dd3cc530ed13`; space IDs: `0d889a2b-0bda-444e-855a-2a2f3ae0c4ae`.
+- **Jotun Authentication Website** — app ID: `31f0a20d-1379-48da-96fc-06ef4ab93f6b`; space IDs: `6b9e4a44-6793-4787-b439-348405e73e26`.
+- **Jotun Overlay Website** — app ID: `b6f2c54e-550b-474b-8853-bf69a633329e`; space IDs: `4be64871-ed56-4969-b662-26cc8c0d8312`.
+- **Just Dance 2016 Demo PS4** — app ID: `fd518947-f10d-4bea-95a0-15a17b75af19`; space IDs: `8634bdca-0991-49d1-95a5-6dc5ed4d92f8`.
+- **Just Dance 2016 Demo WiiU** — app ID: `a1b564f7-dee2-4819-a8e9-aced1cbbf1d0`; space IDs: `20310a7b-d5c2-4cf3-b8ff-1528f13bd429`.
+- **Just Dance 2016 Demo Xbox One** — app ID: `a03a1b61-083a-4896-bdaf-d9d517d13d56`; space IDs: `ac910e1d-a28a-4140-83e9-63a1004dd11e`.
+- **Just Dance 2016 PS3 (PS3)** — app ID: `2805d3f9-5388-4713-b2e3-5329b8b2f131`; space IDs: `f454f1fc-8066-409c-9091-1427f0d315f5`.
+- **Just Dance 2016 Web** — app ID: `0cab1433-e176-4c08-8ea4-3eb76a38bd2b`; space IDs: `19a51ec4-b793-4454-8f2d-1bc03c23c317`.
+- **Just Dance 2016 Xbox 360** — app ID: `16d371ba-a261-41f2-9663-0ae77be13c6c`; space IDs: `17b25bb4-b8f1-40cc-ae29-2446ad17790a`.
+- **Just Dance 2017 Demo PS4** — app ID: `b4bca019-cb3e-4fad-8227-b1c5a21ed798`; space IDs: `32229e4a-83b6-45ab-97ab-e288cf6d37c0`.
+- **Just Dance 2017 Demo WiiU** — app ID: `b0c07319-b196-4ae2-9e7b-3b3e05136a22`; space IDs: `db9a131b-abf7-494f-872f-14d6b6daaf89`.
+- **Just Dance 2017 Demo Xbox One** — app ID: `bb9c6620-19b9-4e3c-9083-1459d10f2d2e`; space IDs: `0c0a9960-8e5d-4ece-a112-041f937606ba`.
+- **Just Dance 2017 Marketing Website** — app ID: `4a50b8fc-8e90-4a36-a6c7-04ea0a03136b`; space IDs: `2382bba5-c103-4fbf-a07c-3bd6355478b4`.
+- **Just Dance 2017 NintendoSwitch** — app ID: `613fe1a7-86c6-4fa7-bfb3-230e92ae29d3`; space IDs: `0415144b-ed4c-4098-a50d-5ba36d7d8466`.
+- **Just Dance 2017 NintendoSwitch Demo** — app ID: `fe369812-23c7-492e-b038-b42b7638681f`; space IDs: `4961f520-0108-45b4-a3f6-efd285be0e9a`.
+- **Just Dance 2017 PS3** — app ID: `224d6520-1dc7-40fd-9250-33578e6af9ca`; space IDs: `8fc814b1-5215-449e-ad97-0acbe363ed46`.
+- **Just Dance 2017 Xbox 360** — app ID: `032d07a9-d5a6-444e-9073-c25263a9063b`.
+- **Just Dance 2018 Demo PS4** — app ID: `a97c7f9c-8133-4ded-951a-625a63bf2304`; space IDs: `e9ed7901-763e-42be-ab93-6b3e62236f9c`.
+- **Just Dance 2018 Demo WiiU** — app ID: `0e46b98a-7b03-4fb2-b99e-eb274697708e`; space IDs: `1549bc83-04f4-4479-be30-104e9b0c8643`.
+- **Just Dance 2018 Demo Xbox One** — app ID: `5b526d28-b87f-43df-aea4-8103b078c021`; space IDs: `c3671561-ea85-44f5-b6b7-9f74f0fde677`.
+- **Just Dance 2018 Marketing Website** — app ID: `66494cdc-5f4d-4f01-89e3-703b436b31f7`; space IDs: `af515cc9-9fc4-45b1-9805-4796941bbeaa`.
+- **Just Dance 2018 NintendoSwitch** — app ID: `853badc5-e5b8-47a9-be06-630a1071701c`; space IDs: `cdf9d0d7-8e4d-4afa-8268-c25ad42c579b`.
+- **Just Dance 2018 NintendoSwitch Demo** — app ID: `fbb871bd-562b-463d-bb84-808c2b372588`; space IDs: `514ee4f2-2fab-4eba-8cdf-7ff1ac2a3823`.
+- **Just Dance 2018 WiiU** — app ID: `f8c1989f-ea92-4567-b43d-436de74b2c5d`; space IDs: `807358a9-c9e5-4d5b-be84-e5e7b98d0421`.
+- **Just Dance 2018 Xbox 360** — app ID: `a6332fe1-18a3-4b47-90c7-e83ad2da2c5c`; space IDs: `11d7895b-6ad1-45fd-94d3-824ef60966d1`.
+- **Just Dance 2019 Demo PS4** — app ID: `298ed6b1-38fa-4bc1-a1cd-2e1d40cd5bf7`; space IDs: `9183efd9-c5c6-4fc7-99f1-23c7b00493d5`.
+- **Just Dance 2019 Demo WiiU** — app ID: `9e4914b4-edff-4a62-afb6-be8660ef16fc`; space IDs: `a374d410-62ba-4283-9534-1f6e87e313b1`.
+- **Just Dance 2019 Demo Xbox One** — app ID: `86dc7cf8-338d-47a5-b2f0-0d6d09039b90`; space IDs: `b1e6b771-1893-43e2-a444-d140b0c8e040`.
+- **Just Dance 2019 NintendoSwitch** — app ID: `848e9f13-07c1-41ae-baef-57bb9f4ac899`; space IDs: `e92e485b-893e-4dd1-a55d-13d2696fcc38`.
+- **Just Dance 2019 NintendoSwitch Demo** — app ID: `cbd09488-7ada-44ad-9707-a826722fd173`; space IDs: `a26a738a-7e2d-4e4e-a8cb-31ec26d71dea`.
+- **Just Dance 2019 WiiU** — app ID: `3b4009a1-66cb-410d-9799-3041835d8e1b`; space IDs: `ef680ba3-e1ae-4fb5-b434-ab448f1c3210`.
+- **Just Dance 2020 Demo PS4** — app ID: `635d07a6-2841-4bd0-ba81-f9cd90564c7d`; space IDs: `b49d3466-c46c-4015-ab43-d37484ceabd3`.
+- **Just Dance 2020 Demo Xbox One** — app ID: `02729454-f6c2-4cb6-bc8e-c9f46c1385c8`; space IDs: `998c2bd7-df25-4cbb-9ba8-e387a2561330`.
+- **Just Dance 2020 GoogleStream** — app ID: `dcdad3dc-4124-4c74-9e1a-8fa35a6c9489`.
+- **Just Dance 2020 NintendoSwitch Demo** — app ID: `ae231a4b-8991-476b-89f9-3955fa77a7eb`; space IDs: `0950d9b1-340f-4522-8a0b-41289af96017`.
+- **Just Dance 2021 Demo NintendoSwitch** — app ID: `9fd83e22-3aa7-4e22-b6a4-b743be9d5ed6`; space IDs: `85042f60-4980-4fbb-ba84-53604b32fbb4`.
+- **Just Dance 2021 Demo PS4** — app ID: `2b3b2ad4-909d-479e-951c-e1186190c09d`; space IDs: `ac9e1021-7777-4408-ad6f-fd87f68e5390`.
+- **Just Dance 2021 Demo Xbox One** — app ID: `ca5b6a7d-fc3a-4e0c-a21a-d2d89521aaf1`; space IDs: `aab57bb0-76e1-46a2-aa7a-025d374dfb5c`.
+- **Just Dance 2021 GoogleStream** — app ID: `984a17fd-1da1-4f16-97ff-98d56a6c7147`.
+- **Just Dance 2021 NintendoSwitch** — app ID: `778c0fff-db09-4c65-bcf0-84a40170c1d2`; space IDs: `cd052712-ba1d-453a-89b9-08778888d380`.
+- **Just Dance 2021 PS4** — app ID: `63475868-1e27-45c2-95c4-cfc58c951016`; space IDs: `d8304bc2-848b-46f5-bf75-2dfb1f6d3ddd`.
+- **Just Dance 2021 PS5** — app ID: `76570aa8-9ce4-43b3-b226-bcf654b5d9a8`; space IDs: `01d77265-3270-4cfc-91b3-0061c4c7a76e`.
+- **Just Dance 2021 Xbox One** — app ID: `f78cbbdb-72eb-47f4-af54-91618c1eecd0`; space IDs: `7aa2ea90-484c-45eb-9799-c0ab64e8a483`.
+- **Just Dance 2021 Xbox Series X/S** — app ID: `8375910d-7f13-441b-98db-b4065b043ae5`; space IDs: `1aaaf1e4-2650-485b-bbe6-0fb3eca28676`.
+- **Just Dance 2022 NintendoSwitch** — app ID: `34ad0f04-b141-4793-bdd4-985a9175e70d`; space IDs: `c0e6c86a-09ba-4b31-afa6-c6dd0759ff0d`.
+- **Just Dance 2022 PS4** — app ID: `6e8a0cf3-c60e-44da-984c-7f8d7e1f4157`; space IDs: `a1f251ad-509e-4e90-b9bd-66bb28ac76cd`.
+- **Just Dance 2022 PS5** — app ID: `812a8fa1-e45a-4734-835e-6359ab86df8b`; space IDs: `d9e7826a-e250-406a-a64d-12d91f447d45`.
+- **Just Dance 2022 Xbox One** — app ID: `594d5ecc-0c64-441b-b129-42ceafb22c81`; space IDs: `24276189-f66e-4bd2-82bb-1fc38e7c4574`.
+- **Just Dance 2022 Xbox Series X/S** — app ID: `6fc1c284-c2a6-4eed-9da8-c49769506fa0`; space IDs: `259887b7-29eb-41ae-8217-c950f098eb2d`.
+- **Just Dance 2023** — app ID: `fa1b9656-0990-44f0-a371-4b59b884c995`; space IDs: `1979bc4e-d290-477b-915a-97c51b820ec2`.
+- **Just Dance 2023 NintendoSwitch** — app ID: `77b6223b-eb41-4ccd-833c-c7b16537fde3`; space IDs: `df67242d-9616-4652-9f40-fbcfde99b3c6`.
+- **Just Dance 2023 PS5** — app ID: `a92e073a-b30d-49b1-98b8-2ddd705a43da`; space IDs: `7e87907a-edb8-4df5-aa9f-76bb7ac41b03`.
+- **Just Dance 3** — app ID: `9c9f5d89-38fb-4b20-a40d-47e221286c00`; space IDs: `e919d8d0-36e7-48d4-8df8-9f244a4ea916`.
+- **Just Dance 4** — app ID: `1fe0b753-66f0-4ad3-8ec0-9159643b5eb3`; space IDs: `82ee0ecd-5911-492c-94f9-676f5e07bcf9`.
+- **Just Dance 4  (PS3)** — app ID: `3f95d06b-971b-4a85-bbdf-b1cec652f832`.
+- **Just Dance 4  (WiiU)** — app ID: `5663f978-e363-48c0-9244-962653aaf5c3`; space IDs: `e707810f-1af5-432c-a346-fd7cc293a0ff`.
+- **Just Dance 5 Autodance iOS** — app ID: `3b7025a6-98b0-45b1-bb85-83a270b36ae2`; space IDs: `6dc33421-9ce8-438f-b75c-4ec6e21aafc3`.
+- **Just Dance 5 PS3** — app ID: `b674112e-0e1d-4009-8419-ee7c80a71ad7`; space IDs: `6eca3bac-a1c6-435c-a079-fcb0bff93878`.
+- **Just Dance 5 TV Website** — app ID: `e22d4e82-1462-4b73-85c8-05316a931215`; space IDs: `b8555195-b1de-4ef3-a374-29c413e2fa96`.
+- **Just Dance 5 WiiU** — app ID: `1e18cb3c-c140-4e30-990e-bd744711ce5f`; space IDs: `adec052e-7d7a-455a-8c0d-a251fe5d00f6`.
+- **Just Dance 5 Xbox 360** — app ID: `67dd5eab-657a-4934-b423-fda24478c334`; space IDs: `bc73b56b-ea11-48ea-97ae-9ce0eab3b1e5`.
+- **Just Dance 6 PS3** — app ID: `e0ec3eef-6c54-46ae-88b8-0bbefdbae582`; space IDs: `a118022f-57b7-4b65-b19d-d6ea8d72b3d8`.
+- **Just Dance 6 WiiU** — app ID: `3133a1ba-bf7b-443b-9e8a-f1d5f3b2ac7b`; space IDs: `ab6499c4-f7d5-4125-be3c-31fd6428a2c7`.
+- **Just Dance 6 Xbox 360** — app ID: `06cf6c04-feb8-404e-8cf4-2cb3a073fa48`; space IDs: `356221f8-03a4-4231-ac86-646907682cdf`.
+- **Just Dance Companion Android** — app ID: `210da0fb-d6a5-4ed1-9808-01e86f0de7fb`; space IDs: `e9116be2-587b-4c95-8eb7-ef8a1908b8fc`.
+- **Just Dance Companion iOS** — app ID: `ed08150d-86ae-4957-80c0-d3ee8ba1a50c`; space IDs: `6346d8a9-ec5b-4c3a-8dae-393b1ad61cb7`.
+- **Just Dance Greatest Hits (Xbox 360)** — app ID: `85a7929f-1db8-49c5-b08c-99e041f3d84e`; space IDs: `0f35a413-14cd-4cdc-8d10-d1ac2be23219`.
+- **Just Dance Live Marketing Website** — app ID: `372bf732-d9b6-4c95-a0f2-62d9b3e34f16`; space IDs: `4f99ecde-ebf3-405c-bfc8-a4c1249ed4de`.
+- **Just Dance Now Android** — app ID: `cef33ce6-9b88-49a0-ac1d-f2d7cfe2d4b2`; space IDs: `c1994b6d-c4a4-46b1-84b4-c97a19f413dd`.
+- **Just Dance Now AppleTV** — app ID: `f9a733b5-3f00-4d87-9304-20ad00a1dd31`; space IDs: `da9f1076-381f-4416-9375-228fc41e650e`.
+- **Just Dance Now iOS** — app ID: `fe805255-57a0-4103-b6af-8163e942069b`; space IDs: `452701e5-9b91-4fc6-90a7-ad73fe377bb4`.
+- **Just Dance: Disney Party 2 360 (360)** — app ID: `de386497-c638-42e5-8de0-dd95a92449e8`; space IDs: `e5721755-b5aa-47d5-820a-e18001542db7`.
+- **Just Dance: Disney Party 2 Xbox One** — app ID: `33c9cd61-1ad0-484a-a960-a614e82dd312`; space IDs: `b438370f-35a5-4a84-bfbe-7ef2944e3b5e`.
+- **Just Dance&#174; 2014 PS4™** — app ID: `3c6ef3f8-36a2-4944-86b2-7b90c145b4e1`; space IDs: `498b5bcd-abff-4928-8b4d-ac1f89ba017a`.
+- **Just Dance&#174; 2014 Xbox One** — app ID: `ca3dfb37-f564-4206-9f77-a96b95e5325b`; space IDs: `2f8c100d-5942-4df6-9423-d30504c31340`.
+- **Just Dance&#174; 2015 PS4™** — app ID: `1180c246-7151-4c7d-95d3-301b701d521a`; space IDs: `513d49ed-ce98-44aa-b885-6f4752d05031`.
+- **Just Dance&#174; 2015 Xbox One** — app ID: `e6d674d5-947e-403d-b940-fe6703b597da`; space IDs: `3da5d80d-f553-40c2-9ce2-cbe25d9626ed`.
+- **Just Dance&#174; 2016 PS4™** — app ID: `cd0fcaad-e5e0-4996-a13a-5922362ced7a`; space IDs: `07e0f404-d897-4e22-a98e-e20aa7ef5c1c`.
+- **Just Dance&#174; 2016 Wii U** — app ID: `3696a38b-1edd-4e7b-bbb7-855f15a25408`; space IDs: `17599f67-8a3b-407d-ac5e-7dfdd66d5194`.
+- **Just Dance&#174; 2016 Xbox One** — app ID: `2714264f-9d54-4810-845f-3f5c2135f965`; space IDs: `04ed0716-b067-4e11-a643-6b596242de55`.
+- **Just Dance&#174; 2017 PC** — app ID: `341789d4-b41f-4f40-ac79-e2bc4c94ead4`.
+- **Just Dance&#174; 2017 PS4™** — app ID: `d03d28dd-4706-4808-ba6d-13f43ba62a11`; space IDs: `56151e14-8ba6-4baf-ba5b-cbd75bff1dcb`.
+- **Just Dance&#174; 2017 WiiU** — app ID: `81cf5bb0-e037-4374-b38d-106bd21307fa`; space IDs: `96f82187-4d45-4544-9718-0cde2f8d5ccb`.
+- **Just Dance&#174; 2017 Xbox One** — app ID: `155d58d0-94ae-4de2-b8f9-64ed5f299545`; space IDs: `b7ef9d86-2a78-4aab-97c0-d027560e4373`.
+- **Just Dance&#174; 2018 PS4™** — app ID: `338f2a70-2587-44ee-a64b-5dbe112fb043`; space IDs: `16246b37-d8f2-43b4-a5ba-f07c2ed5a88e`.
+- **Just Dance&#174; 2018 Xbox One** — app ID: `ccfda907-9767-4ae5-895c-6204e7a39cbd`; space IDs: `947bcde1-c49f-4017-b073-458ecb7cefef`.
+- **Just Dance&#174; 2019 PS4™** — app ID: `46f44bb2-76f0-450b-8114-280e8b12b013`; space IDs: `9c029e8a-f03a-4743-a924-790dfd23e839`.
+- **Just Dance&#174; 2019 Xbox One** — app ID: `f64e368b-88c7-49e7-bc57-f3cfee43d70f`; space IDs: `97758012-ec0d-4d96-9d84-391f758e7179`.
+- **Just Dance&#174; 2020 NintendoSwitch™** — app ID: `b9363005-413a-436d-a75c-99c2d7a5d0de`; space IDs: `d2aa3e85-8340-462c-bd13-3a88dcfe6a67`.
+- **Just Dance&#174; 2020 PS4™** — app ID: `71a93f8c-7b00-47ca-a2de-7dbf8de5a5d3`; space IDs: `cccb8e2e-646d-446f-a70e-f99f59defcd4`.
+- **Just Dance&#174; 2020 Xbox One** — app ID: `7df3c817-cde1-4bf9-9b37-ceb9d06c4b96`; space IDs: `37a67b61-a586-49ea-97f6-0bd1ec05283e`.
+- **Just Sing™ PS4™** — app ID: `1199638b-fd45-4a06-8ecf-22877f876d16`; space IDs: `1a712935-c6ff-484e-82a4-dd890cf21f14`.
+- **Just Sing™ Xbox One** — app ID: `878b59ac-2f40-4bc7-ac94-814c4d90b80a`; space IDs: `17e5abee-f223-42dd-ba06-215f78ea341d`.
+- **Lacuna PC** — app ID: `db14ef19-8932-4e54-9ed7-695fa745f0bd`; space IDs: `1c31f617-d93a-4273-8957-013010193236`.
+- **Laser Web Frontend (Tool)** — app ID: `6e052fea-827b-4482-b3a7-8bca38cf86be`; space IDs: `6eddee8b-1051-4e67-9363-a22c1981ed6d`.
+- **Left 4 Dead Game of the Year Edition PC** — app ID: `65101a6c-aa2b-4c4d-8059-8eb0b7344902`; space IDs: `ab386ac5-9663-4556-97b1-eaa8943aeda0`.
+- **Legendary Fishing PS4** — app ID: `41ea6dbf-b704-4734-ba9d-22a4ab8651c6`; space IDs: `523cd9a7-b858-4c02-8e9f-ca70bf9d028c`.
+- **Level Up Marketing Website** — app ID: `f83c69e8-a0f8-4d93-ba20-23fc82141512`; space IDs: `1c3ec1c7-d723-40b9-8892-8097a7c74286`.
+- **M&amp;M Elemental Guardians Marketing Website** — app ID: `ba7be10e-fdeb-422f-b566-60c0f7f65041`; space IDs: `37405cb5-2b7d-400c-ab59-dd0271a7187f`.
+- **MAB JAB (Tool)** — app ID: `823db9db-fde1-48ee-9b4b-2f43b0dab8db`; space IDs: `0353161b-02ca-4e32-9701-e04208b610fc`.
+- **Maestro Website** — app ID: `818017c4-2b7c-41f9-85be-00b1d9998a1e`; space IDs: `5f15f49f-5ce6-4466-a6af-2c9a90c27db9`.
+- **Magnum Android** — app ID: `bfd9dc39-90b5-4462-987f-582697a58cf6`; space IDs: `4d4c127c-1931-47fe-8f34-91bb4ffdf26a`.
+- **Magnum IOS (IOS)** — app ID: `ad6d9e79-f979-48b9-90ef-a5d8757bf02f`; space IDs: `48394fa2-69d8-4fc1-a5ea-339c6aca360b`.
+- **Magnum Marketing Website** — app ID: `67495989-4cd4-4fe6-bad5-b25af409bc64`; space IDs: `0f15d8fa-ef5a-4f69-b424-1c07ebdb0e14`.
+- **Magnum Switch (NX)** — app ID: `75c78c0e-f2b8-4d16-9dfd-4f4fdcf4fab9`; space IDs: `a32ed219-ccca-47a2-891b-20bfde4a1b53`.
+- **Mario + Rabbids&#174; Sparks of Hope NintendoSwitch™** — app ID: `9044a2e2-3a6a-4845-862e-434e57aa9e14`; space IDs: `9402a8bc-61ce-439b-9c25-bf4aad2b3a8d`.
+- **Marketing News Ubibar Website** — app ID: `b0ce28e8-4df0-4aa6-8fdd-3fdda644e583`; space IDs: `a2fc6e8f-43be-4970-81b0-2d5c80426ad0`.
+- **Marvel Avengers: B4E (Xbox 360)** — app ID: `cf32ad05-eec6-4d3d-915c-733f10a4a93d`; space IDs: `dfa74e43-57d6-4ed3-9470-701e9829ad08`.
+- **Memory Android (ANDROID)** — app ID: `b99849bb-f2b0-4fbe-bcb1-46bceff347ea`; space IDs: `d863a20c-03e8-49a9-9124-0803a4b38d6f`.
+- **Memory Demo PS4 (ORBIS)** — app ID: `1056ed8a-1705-4708-a853-9d70a26efeb6`; space IDs: `3ff99779-018b-4bbd-91df-6509bb20c596`.
+- **Memory Demo PS5 (PS5)** — app ID: `955e425e-7646-4042-913d-3cbb4544b05d`; space IDs: `c3806f09-b879-4a74-8d21-38c4205e31ae`.
+- **Memory Demo Scarlett (XboxScarlett)** — app ID: `5aca11f8-48eb-425a-a087-e0bbdfe940d0`; space IDs: `49c87e66-394d-4a71-b179-dbb84784af86`.
+- **Memory Demo XONE (DURANGO)** — app ID: `b73d7c9e-c9ee-48d3-9d6d-259f9bb76202`; space IDs: `0448e4d8-4f40-4aac-bdfe-6f1cfbb189bc`.
+- **Memory GeForce Now (NvidiaStreaming)** — app ID: `b710c3cd-7a25-4b90-90ce-6d741c004077`; space IDs: `198e4b73-d2ba-4437-9a69-41a1a90622ae`.
+- **Memory IOS (IOS)** — app ID: `9b04fd73-4374-42ca-89f1-74fa511a660c`; space IDs: `61882845-2080-43ac-82ec-ddc6a7a15c03`.
+- **Memory PC** — app ID: `e1e04a50-7a85-46b7-afea-9c4f83b9de8d`; space IDs: `5bc06f36-c4fe-4cdd-b92e-0ca69cba7c55`.
+- **Memory PS4 (ORBIS)** — app ID: `1ccb499d-6d1f-452c-add2-09ac13c8563e`; space IDs: `13493e9b-882d-4fee-bdc7-491fba09884c`.
+- **Memory PS5 (PS5)** — app ID: `22118087-f488-4060-808f-552a4406062a`; space IDs: `82b702a1-c1ee-4957-a614-ab9a6418d460`.
+- **Memory Scarlett (XboxScarlett)** — app ID: `65ff10df-acc1-45de-8803-19b748347d10`; space IDs: `66afcdf3-979f-45da-8797-53a01ae2c1de`.
+- **Memory Switch (NX)** — app ID: `b1a3c7f5-7dc2-446a-b555-c90527cc0d86`; space IDs: `c238f9d7-d4a7-4154-b879-24b22ebc35d3`.
+- **Memory Web Marketing Site (WebMarketing)** — app ID: `a66044b1-c2a5-44c4-a464-ca0c328526be`; space IDs: `82a0abc6-8c92-4baf-b5c6-34da27544887`.
+- **Might &amp; Magic X - Legacy** — app ID: `abf6a027-dd24-4268-9130-20dfbfd77b9f`; space IDs: `5df43c03-cb04-48bc-b279-cb8e820fbe22`.
+- **Might &amp; Magic X Legacy Marketing Website** — app ID: `25718fff-cf1f-49a2-8c9b-8274635b1bcb`; space IDs: `20d45854-abe2-4491-a9f4-ef68590a0b9e`.
+- **Might &amp; Magic&#174; Heroes&#174; 7 PC** — app ID: `45147d2f-09e4-4e0d-b4b0-31da180f2412`; space IDs: `67944455-5b1e-4951-8759-85dac2b6102c`.
+- **Might and Magic Checkmate Marketing Website** — app ID: `83384bef-41f5-44f9-9a3f-ce18745afa4b`; space IDs: `3d4de832-4a56-4c7c-bb2e-67d24ecda26d`.
+- **Might and Magic Checkmate PC** — app ID: `124bbcfb-9fd0-4ddc-b3f9-c3b1a8506efa`; space IDs: `afc4d072-356f-4583-80de-1532d492c883`.
+- **Might and Magic Heroes : Era Of Chaos Marketing Website** — app ID: `067b96e7-c41b-420d-a9b6-ff0170311866`; space IDs: `3d389ccf-fcb3-4909-bf8a-5cd1aa7653a2`.
+- **Might and Magic Heroes Online Website** — app ID: `d66d34a6-0030-4de8-a632-adb178e60c05`; space IDs: `e3f68209-078d-4bb1-8cee-9982f29f03ad`.
+- **Might and Magic Heroes VI PC** — app ID: `f59ec261-8ecc-49fe-b159-99a90de626bd`; space IDs: `8f12b904-a7d5-4fcb-9990-1cf85038c104`.
+- **Mighty Quest for Epic Loot IOS (IOS)** — app ID: `af78c89a-cc61-4821-8033-5c24482586c8`; space IDs: `3d66e683-5ad8-40eb-b524-f71ab1332c83`.
+- **Mighty Quest for Epic Loot Website** — app ID: `cc790db0-5da5-4249-bc5c-04d61d3e80ab`; space IDs: `3da14460-a57b-4a8c-b87a-2a4a281366f3`.
+- **Mobile Customer Support iOS** — app ID: `d9c509d2-d603-4cdd-a99f-51cfdfec40b1`; space IDs: `da2bdc0c-67bf-4e58-84c6-615ab833d50f`.
+- **Monopoly 2 NintendoSwitch** — app ID: `5a27e346-8f9a-46f2-8441-0e4c43011e3b`; space IDs: `46a662fb-9d36-4216-b5ce-275a2742fc93`.
+- **Monopoly Deal PS4** — app ID: `238b6674-4f84-4d26-98c5-d7d9f380eeaf`; space IDs: `7136646c-f0a2-4b2a-bc7d-56c02455ebd7`.
+- **Monopoly Deal Xbox 360** — app ID: `17aae7f1-308e-499e-b7ab-dbf9d5d064ac`; space IDs: `6625dc4a-48af-4b26-833d-03b038ae3396`.
+- **Monopoly Deal Xbox One** — app ID: `32773e54-ba38-40c6-bb3f-4efbfee8b1f7`; space IDs: `472cff34-2088-4aca-a6c0-2420fbe1d02e`.
+- **Monopoly Hermes NvidiaStreaming (NvidiaStreaming)** — app ID: `667ab864-95e2-44a7-bc1e-5c09f032cb0e`; space IDs: `dc422814-219f-431c-9d8d-033673e3ecdc`.
+- **Monopoly Hermes PC (PC)** — app ID: `3478bc1f-7747-47a4-a446-cebb87b36a14`; space IDs: `b24ccc74-737d-47c9-a415-0e2189fc7508`.
+- **Monopoly Hermes PS4 (ORBIS)** — app ID: `8332cf89-4546-423a-bf3c-d043a2918d31`; space IDs: `6af90ad5-0e0d-437e-8d46-3f560922a803`.
+- **Monopoly Hermes PS5 (PS5)** — app ID: `2018f212-d4b0-4ccc-a7ec-412c36ef7ff8`; space IDs: `20675ad0-c19f-4f45-b774-72e6f935ef24`.
+- **Monopoly Hermes Scarlett (XboxScarlett)** — app ID: `f954426d-a93b-4ed3-ad79-1a8606f32b77`; space IDs: `734a05c9-682b-4b38-ba9c-c0cb467c1d9b`.
+- **Monopoly Hermes Switch (NX)** — app ID: `a1443d14-327b-4d41-befa-1e53ec57266c`; space IDs: `69ffe931-d306-4901-aaa3-352a58b22e3e`.
+- **Monopoly Living World Marketing Website** — app ID: `267a7022-f16c-49fd-9703-91fa032f021a`; space IDs: `1af58a43-5477-4ca9-a7ef-03fd4818c568`.
+- **Monopoly Madness Demo PC** — app ID: `c6fe93d0-c012-4851-97d9-abf2129de220`; space IDs: `65ec5d99-294b-4d08-a097-4a556ef6b3d8`.
+- **Monopoly Madness Demo PS4** — app ID: `ce5c994a-7bc4-41af-ad94-117f9bd7b68e`; space IDs: `0808b515-6bff-44fb-8f4e-db4b623a80c0`.
+- **Monopoly Madness Demo Xbox One** — app ID: `43dd19ac-56b6-4dd9-a491-f47c80473c3f`; space IDs: `eb248205-60a7-48ff-bff7-79a2a71efcff`.
+- **Monopoly Madness GoogleStream** — app ID: `195e5df5-9a75-404d-92a8-b42aff192a7d`.
+- **Monopoly Madness GoogleStream** — app ID: `aef4cace-34d1-4c13-b01b-977223602b72`.
+- **Monopoly Madness NintendoSwitch** — app ID: `31e552d1-e624-4f7a-9d3f-35146d13bf1c`; space IDs: `560a1f36-90f1-4f93-9085-7ccb4027fa2f`.
+- **Monopoly Madness NintendoSwitch Demo** — app ID: `f04c52dc-a9e2-4e65-a67d-fda37fb5e4d5`; space IDs: `a9ba53f6-6991-470b-a86d-419a7df8ddc3`.
+- **Monopoly Madness NvidiaStreaming** — app ID: `45c0aecb-df11-47e1-939e-4429951c442a`; space IDs: `a3793bc6-3fb6-4e35-b2cd-c30cbb6ec5fb`.
+- **Monopoly Madness PC** — app ID: `a1a5dc5a-203a-4980-8876-7db1c5920ba9`; space IDs: `653c7a76-e2d6-4d48-b087-26867a97197c`.
+- **Monopoly Madness PS4** — app ID: `0ded6d77-d9c8-451f-b54e-4c7cc4ed5999`; space IDs: `8cd38079-35e3-44e0-8a46-254be49dec0e`.
+- **Monopoly Madness Xbox One** — app ID: `346a01e1-622f-4a31-aa4b-98fbff2551fc`; space IDs: `5f7becab-869c-4894-9080-be214779b205`.
+- **Monopoly Next Marketing Website (WebMarketing)** — app ID: `bea36e3d-1ecb-449c-b90b-30b9b0a96b03`; space IDs: `1ebacfd9-44a8-4fc7-b161-7f3987126bd1`.
+- **Monopoly&#174; Family Fun Pack PS4™** — app ID: `375760d3-d04a-40a4-95f3-1dba348c32fe`; space IDs: `c0e93853-9496-4f21-a6cf-d57e8f496e66`.
+- **Monopoly&#174; Plus PC** — app ID: `83a2f50b-9e59-4c9b-81fd-7803cf081613`; space IDs: `3024e463-c630-46ad-b0b3-8984e09d2ff2`.
+- **Monopoly&#174; Plus PS3** — app ID: `d974993f-383d-4031-97c8-02e57d535a77`; space IDs: `c080467b-46b1-4207-876d-cb72af17349d`.
+- **Monopoly&#174; Plus PS4™** — app ID: `0c8d02f0-60ad-4c91-955f-bc3a606b0861`; space IDs: `9a7fba32-9740-437a-a9e1-fa05b498cb3b`.
+- **Monopoly&#174; Plus Xbox 360** — app ID: `2572732e-f154-44db-bb1c-a866a21fa143`; space IDs: `229abd51-9076-4096-ad32-e3c541b6da59`.
+- **Monopoly&#174; Plus Xbox One** — app ID: `c5c433b2-abe8-442d-8c85-819ec503d5aa`; space IDs: `8a90b866-9883-4d53-821a-e529e7056f43`.
+- **MURL - Goldfish** — app ID: `c9af7444-aba5-4b90-ac78-34d313b6d922`; space IDs: `507fd668-a31d-433b-ab79-aeebe814ed26`.
+- **Nexway Marketing Website** — app ID: `ebbfef1c-fdcd-43e5-8161-e5baea419203`; space IDs: `68aa4d7d-ee22-483e-a618-85f1f4579b79`.
+- **Nova Android** — app ID: `235159d6-bff4-4a16-b028-f17a98b1f8af`; space IDs: `80876cb8-ccd2-43dc-a470-f37e1e3ff425`.
+- **Nova Marketing Website** — app ID: `1a8b5315-eb92-4b68-8e72-4db891ee9ee4`; space IDs: `4756d581-465f-418e-848e-92b2ffb3b387`.
+- **NVIDIA OEM Key Injection Website** — app ID: `96466e10-b60f-44e6-8683-7c190e65f9c4`; space IDs: `83239189-b2ce-4f0c-96f0-b4f73fe7f9c6`.
+- **Odd Ballers Marketing Website** — app ID: `7e9d7611-1af8-4bba-a5e1-106a284bc6a7`; space IDs: `5192026b-84e0-480b-9aba-f83397c2fd19`.
+- **Odd Ballers NintendoSwitch** — app ID: `6ea1ba04-bbc2-4bae-8aaf-6bc344e03614`; space IDs: `5838bf61-96e3-4191-ac8b-add5936c9d1f`.
+- **Odd Ballers NvidiaStreaming** — app ID: `d8cb041a-8868-489e-a89f-2f3cbd426e6f`; space IDs: `146649bf-c482-4fb0-b3f1-16c90fb4b81c`.
+- **Odd Ballers PC** — app ID: `54abb071-aa48-4d97-8228-92b5fb52fa94`; space IDs: `cca03df5-54af-42c5-b70c-53bad2a36df1`.
+- **Odd Ballers PS4** — app ID: `e8dda092-d437-4270-ab93-8a38d1b69c20`; space IDs: `f054952f-864e-4748-af94-c6db1a114694`.
+- **Odd Ballers Xbox One** — app ID: `e84d7ddb-43be-47ed-ab26-4b142698d345`; space IDs: `91482e02-a906-4ee5-98fc-1cf8228c8677`.
+- **Ode PC** — app ID: `2a965dab-05f3-4951-8ff6-da6d86994e94`; space IDs: `89cdf9d2-a3ca-4ed1-9521-3abfd09668f9`.
+- **One Web Destination - Main Website (WebMarketing)** — app ID: `aa88e512-9395-457d-bcb9-8d59c23f88c9`; space IDs: `9472f0ea-147a-4db8-9855-2667f4978931`.
+- **OneClickPlay (Tool)** — app ID: `c02f7384-81f2-4700-80b9-4fdb45f10827`; space IDs: `bd959407-b08c-4430-8d01-df8b24bff866`.
+- **OneUp Marketing Website** — app ID: `c0fcb468-bb5a-4cba-a878-dac916ef85e5`; space IDs: `a26aff3a-b5ca-45b1-92eb-3b4257e50e60`.
+- **OnlineUser Server** — app ID: `f9524717-e8af-431b-a31f-783e136b3a5c`; space IDs: `ed0ee898-d4dc-4a4a-b298-8221eda9f2ee`.
+- **Origins Marketing Website** — app ID: `dff2b7d4-7623-44e3-b9b4-b6031d9cba8a`; space IDs: `8a94f2a6-ec14-4d72-bb41-9969434980b0`.
+- **Passe Culture Web Marketing Site (WebMarketing)** — app ID: `37da67fd-26da-47c9-982b-d7590aca102f`; space IDs: `1683cca6-911f-4e9e-ac76-a64a9d781178`.
+- **Pathfinder Marketing Website** — app ID: `40c20eb9-1b53-41c0-9fc4-64fb24afb39a`; space IDs: `00d15036-f4df-439e-beca-08f59203c067`.
+- **Pathfinder PC** — app ID: `38fa10f9-ce90-4edf-9ea3-6d75ca9cf947`; space IDs: `e1e1fdb1-9b18-4193-813f-b7a9afd80b0c`.
+- **Phoenix Marketing Website** — app ID: `2964c914-8dd0-4502-bcfd-80a2e5b3b817`; space IDs: `c85766ff-656c-43e1-9e15-91873e0ac96d`.
+- **PHP Ubibar Web** — app ID: `8e752215-67fc-4545-96dc-f2c3daf14c94`; space IDs: `d5405ad7-3a6a-4d22-af30-111c5a617831`.
+- **Pioneer AmazonStreaming (AmazonStreaming)** — app ID: `c122d4e3-6e88-485f-9095-242a5c1d4c43`; space IDs: `b44dfb9d-9808-40ad-a6f6-e4d2c2f8f980`.
+- **Player360** — app ID: `5a281651-6415-4a79-a064-791796076a7e`; space IDs: `bc5ad9f0-bc8b-40f1-80bf-083ca65d9f46`.
+- **Playlist Project Tool** — app ID: `9f99d0c8-28fa-4c11-a817-4b4dbcafaa24`; space IDs: `651ad513-1bd1-4035-9480-65da7314c38c`.
+- **Prince Of Persia Musset PC (PC)** — app ID: `6a517b49-dbac-4815-9f6d-f92ecfee0713`; space IDs: `41d0fcd6-7ef6-464e-9486-03bf06fa40d6`.
+- **Prince Of Persia Musset PS5 (PS5)** — app ID: `f1eedb63-bd9e-4748-8682-f755d5e5616a`; space IDs: `f0a7286f-446a-4cd3-85b3-bee0dd066212`.
+- **Prince Of Persia Musset Scarlett (XboxScarlett)** — app ID: `8ebc7d38-8eef-4846-81e0-e55e51e0cb38`; space IDs: `0a036bcc-2d10-4139-a9e1-1b742732f91f`.
+- **Prince Of Persia NintendoSwitch** — app ID: `b06b9053-46ef-475f-b91a-40dd41eca36b`; space IDs: `23342bb6-54ca-4177-a5af-ff9e75ba04c4`.
+- **Prince Of Persia Website** — app ID: `3a081213-7fa9-4d1e-9a59-a2bec7b4722b`; space IDs: `2c77bc3c-ff7b-4250-b8d6-cfbf17b5a13c`.
+- **Prince of Persia: TFS** — app ID: `4e1765af-a5da-42e4-b4d1-c7b617936401`; space IDs: `9feecc9f-4805-487d-8350-b5f2ad6a43fa`.
+- **Prince of Persia: TFS** — app ID: `92906ac2-4c92-4be2-89c0-e8d6da11abe9`; space IDs: `ca33ba89-6119-4e98-b1ee-c72f47b37a3b`.
+- **Prince of Persia: TFS** — app ID: `d8e06e44-f881-4cab-81aa-adeb09fe89cc`; space IDs: `f5e7e4a5-76b3-4356-8684-9f8422814d95`.
+- **Prince of Persia: The Sands of Time Remake PC** — app ID: `5774a183-cb59-455b-ac85-808d104e95f3`; space IDs: `b46c1168-e242-471a-a342-62245b1bd7f3`.
+- **Prince of Persia™: The Lost Crown - Demo (Nintendo Switch™) (NX)** — app ID: `95006bd2-913e-4f31-ab03-67489cabdeed`; space IDs: `97663b5d-f45a-4730-9b62-959fff3d7db0`.
+- **Prince of Persia™: The Lost Crown - Demo (PC)** — app ID: `f422a0c1-da56-4602-9a45-c2cf707f4ccf`; space IDs: `b0133d48-d651-4300-b6ff-7737b0d9558d`.
+- **Privileges Admin (Tool)** — app ID: `3edd4856-4d04-4bb0-bb44-ca51ac2b87ca`; space IDs: `081f44b2-2070-48c0-b2da-5648fe30833a`.
+- **Project Oikos PC** — app ID: `f5bfee67-bcf4-42c3-8311-b45fc58df5ac`; space IDs: `bcd71e14-c34b-456c-bddc-91bf31028cda`.
+- **Project Q Website** — app ID: `a11f33df-b23a-463b-9483-730fa500ee09`; space IDs: `fb11910b-943c-4c00-94bc-911c39af1579`.
+- **Quantum Marketing Website** — app ID: `07652c92-f990-4bb6-a245-cf6f4911444d`; space IDs: `adbeace2-b31a-4744-a19b-a4c45775657d`.
+- **Quantum PC** — app ID: `0ec9d7c3-7431-4949-9b27-09ba097fe8a7`; space IDs: `00357417-66eb-4e48-bdac-5df23b73f1ea`.
+- **Quarantine PC** — app ID: `b2a84851-d03e-43a6-807d-0b252a61cedf`; space IDs: `cac96198-fdfe-4174-9e1e-4e8ce29e5c81`.
+- **R.U.S.E.** — app ID: `2cfc0a31-d6cd-444e-a39d-55136c17da3f`; space IDs: `9d04596e-f656-4b77-96de-df348b7f4208`.
+- **R.U.S.E.** — app ID: `59872428-edd5-4d3e-a90e-0ed48bdab00e`; space IDs: `0923c6a9-3b66-4099-b556-15e6ea0d5146`.
+- **R.U.S.E.** — app ID: `af6f94b0-a467-41f0-bb51-0e5eccc065d4`; space IDs: `6b8e1793-db67-4951-837a-f8210418df7c`.
+- **Rabbids Alive &amp; Kicking Xbox 360** — app ID: `c58f84f1-de4e-407a-b008-c55b28b98af2`; space IDs: `0823bfff-a8b5-4ade-a891-0badafb32d9d`.
+- **Rabbids Coding Marketing Website** — app ID: `06a9407d-22c8-41e0-9a6f-e25c33c2ac46`; space IDs: `f8dba79f-35fb-47d9-8c9b-c9b01462d0dc`.
+- **Rabbids Coding PC** — app ID: `b0bb23c6-619e-424f-85e4-aa075c134ecc`; space IDs: `9d6ffbb8-0264-477b-b3b1-ab7de3512d2f`.
+- **Rabbids Crazy Rush iOS** — app ID: `e46e616e-3347-4891-b86e-e3dd9ec4eb29`; space IDs: `cd7dd87d-0945-4280-a5b6-0832e0bcec4a`.
+- **Rabbids Kingdom Battle NintendoSwitch** — app ID: `a303bf8a-d378-4af3-9120-35d3ea792b54`; space IDs: `059006da-dbb7-49de-96c9-897e3fdaed7f`.
+- **Rabbids Land** — app ID: `20441794-8427-43d6-a3af-a24104a4a36e`; space IDs: `61478a3f-36af-4e0d-913e-7b53d4370e5c`.
+- **Rabbids Legends Android** — app ID: `3a7e9a10-0413-4043-ad28-a264152488b3`; space IDs: `5f41c26b-c28c-4750-985b-fe5478214f94`.
+- **Rabbids Legends IOS (IOS)** — app ID: `66b0ca03-1958-4c95-887c-2e500cc8cddb`; space IDs: `4312059f-0c79-4df3-800d-47db9ec44dab`.
+- **Rabbids Legends Marketing Website** — app ID: `9317f7da-4cd4-4dea-874f-6264d093460b`; space IDs: `1d756e6f-f36a-4f8c-abe8-5cc61b547f0a`.
+- **Rabbids Legends PC** — app ID: `bf12351a-ae9e-457c-9304-4ba71703b0c4`; space IDs: `de322609-e382-4316-b8d4-5558427cf129`.
+- **Rabbids Party of Legends NintendoSwitch™** — app ID: `7bb7114e-ac76-420a-8899-0502cde00f3c`; space IDs: `0f0ea978-3447-4b18-bead-3226daf62f60`.
+- **Rabbids Party of Legends PC** — app ID: `d02e21f7-47bf-492a-b091-cb90e65f9497`; space IDs: `8ab9deb2-26a4-4970-b11e-40d28787cf8a`.
+- **Rabbids Party of Legends PS4™** — app ID: `4b9c9329-a356-4119-b4c3-edf5467716b7`; space IDs: `4604739d-d47d-49a6-9f37-79721d742bf8`.
+- **Rabbids Party of Legends Xbox One** — app ID: `0816549d-4bbf-41c3-a270-0baa72ffa84c`; space IDs: `9e3b08a6-39e0-4981-bc88-3bc790924f7a`.
+- **Rabbids portal Marketing Website** — app ID: `f9dd2f0b-9a7e-4b2d-85cc-c8e7aa95d42e`; space IDs: `08faa43f-791b-49da-b7b7-1328ccaf9663`.
+- **Rabbids YUTU WW AmazonStreaming** — app ID: `2140af79-e591-4801-873f-2c44d7c1308d`; space IDs: `8c024c90-82d2-43f9-8427-4ea3245d387b`.
+- **Rabbids YUTU WW GFN (PC)** — app ID: `cb35c616-5b47-481b-ac9b-65489e67f553`; space IDs: `f8ed0291-485b-4a4a-a598-51e4030fcc8b`.
+- **Rabbids YUTU WW GoogleStream** — app ID: `f585e3fa-4b17-4230-8fd7-7ac19702ff7c`.
+- **Rabbids&#174; Invasion PS4™** — app ID: `7027c9b0-ba7e-4ee2-bd1e-75baf300652c`; space IDs: `615f5054-aee6-46dd-b134-5bccf7d90557`.
+- **Rabbids&#174; Invasion Xbox 360** — app ID: `218f13a5-ca95-453c-b2c1-317b76e1bafa`; space IDs: `a358bf51-ddfb-44ff-81ce-dce6840c86b4`.
+- **Rabbids&#174; Invasion Xbox One** — app ID: `a73cbc16-5252-4d5d-a165-dad7a9e5099f`; space IDs: `23a04394-ba46-420d-bd3a-97f65b5cee4d`.
+- **Rainbow Six 7 Game server (Server)** — app ID: `8d244edc-4511-4fc4-ae76-1839564845c2`; space IDs: `d3d25c28-7dbf-46f3-bdeb-9b6d9be54f4c`.
+- **Rainbow Six 7 PS5 PTS (PS5)** — app ID: `3c189c4b-3c50-4ff4-9172-a89d430a2553`.
+- **Rainbow Six 7 Scarlett PTS (XboxScarlett)** — app ID: `a17fda6f-9e6c-4a56-bb91-796fabaab54b`.
+- **Rainbow Six 7 WebMarketingSite (WebMarketing)** — app ID: `f612511e-58a2-4e9a-831f-61838b1950bb`; space IDs: `aac52d2d-47f2-4580-812d-5d6edff9cf2e`.
+- **Rainbow Six Siege Game Website** — app ID: `3587dcbb-7f81-457c-9781-0e3f29f6f56a`; space IDs: `2c017c99-65c2-4b69-950d-f3d9c22ede59`.
+- **Rainbow Six Siege Twitch extension** — app ID: `ffec9713-9fae-42e7-b4c6-a1ca9ad50ab0`; space IDs: `1d7bd289-4898-426d-80d4-7f4b80f8a345`.
+- **Rainbow Six: Extraction GoogleStream** — app ID: `f639b45f-4e13-41bb-ba9a-95c3e380f232`.
+- **Rainbow Six: Extraction NvidiaStreaming** — app ID: `ed3ff589-01f3-4ca3-8d7c-462c29dcd635`; space IDs: `72a31bb5-ccfd-49da-a95c-866b59606e47`.
+- **Rainbow Six: Extraction PC** — app ID: `5033bfb3-8a2e-4748-93e5-2ffa82975a85`; space IDs: `ec7c3a36-1e06-4689-936c-0600c9211b54`.
+- **Rainbow Six: Extraction PS4** — app ID: `aa258958-d65e-46ef-b301-52d96b718ccd`; space IDs: `2e2d4509-f0bb-4628-abf6-2acabf9b58da`.
+- **Rainbow Six: Extraction PS5** — app ID: `6fe4a718-775b-4e34-b8dc-b968a994493d`; space IDs: `6025ddec-7ff6-4372-b858-93d565e72636`.
+- **Rainbow Six: Extraction Website** — app ID: `bd892e76-9522-434a-b09a-0c558aad1a9b`; space IDs: `4ce12b70-a48c-4119-bcdb-16841486dfc0`.
+- **Rainbow Six: Extraction Xbox One** — app ID: `10d57e28-2a4d-4a9a-ae08-3fa59bc25ae0`; space IDs: `0823786d-9429-430b-8ca0-7a747e29b116`.
+- **Rainbow Six: Extraction Xbox Series X/S** — app ID: `87b982a1-9157-46fa-9f32-7dcf070d23c8`; space IDs: `53eeeb87-eb21-40c8-9975-6d6140fc053e`.
+- **Rayman Creatures Android** — app ID: `27514f10-0f1e-4b37-aa49-e312741d381f`; space IDs: `56a546a3-0070-4be2-9145-77de54dde03c`.
+- **Rayman Creatures iOS** — app ID: `907d9bf9-3f60-4ca7-ab1d-44eb06bb4160`; space IDs: `c5728ca1-2653-4020-a305-674d74e87531`.
+- **Rayman Fiesta Run (PC)** — app ID: `3d8802d4-498a-45c9-9328-d9b6682bcde5`; space IDs: `bcba8817-b95b-4e1b-b93f-dbeb6c8f22ae`.
+- **Rayman Jungle Run (PC)** — app ID: `346b31d1-cace-4b11-ac47-883aa69622cf`; space IDs: `37e0b2ad-2ded-4ee6-92db-0214b0f8c7d0`.
+- **Rayman Legends** — app ID: `84e0b70a-54c1-4203-8135-c4b71d339401`; space IDs: `3beb642c-6ca3-47ba-ae39-5dd56b1fb4f2`.
+- **Rayman Legends PS4™** — app ID: `4fece45b-628b-4943-9995-c9f1cdbb67a6`; space IDs: `55e702fd-322d-4c4e-ba2b-ef5caa7943ee`.
+- **Rayman Legends Website** — app ID: `92511b15-56ab-40ec-b55b-985916069d1d`; space IDs: `880c4393-af90-4d71-b65e-411bd103f43d`.
+- **Rayman Legends WiiU** — app ID: `006e1792-e7ef-497d-a6cd-764ca68855e9`; space IDs: `3a749edd-5aa8-4886-bbb8-a6fb62dd3188`.
+- **Rayman Legends Xbox 360** — app ID: `7ca31a73-82c6-419d-8c24-2d7d4d29eb16`; space IDs: `5b0524b2-595e-4749-9cd1-0d0a889d37f9`.
+- **Rayman Legends Xbox One** — app ID: `cffbf325-aabd-4ebc-8b2e-dbb541585ac3`; space IDs: `b33cd78e-e0a7-4125-8b7c-6f103cd480ab`.
+- **Rayman Origins 2 GoogleStream** — app ID: `f244175e-f3c5-4940-acdc-f355dd400e1a`.
+- **Rayman Origins 2 NintendoSwitch** — app ID: `83894287-4e6d-4f12-84e5-599fbc3fc21f`; space IDs: `f84f06b4-b466-4fb4-83c5-5ff59bda3d02`.
+- **Rayman Origins Giveaway** — app ID: `6778b045-0eec-4474-a685-17189a01243e`; space IDs: `7950b5bf-8ccd-44a9-95fe-0c7fa82b0c81`.
+- **Reaper AmazonStreaming** — app ID: `a3f32cc8-61c9-4143-b4a0-4731f6cdb2cf`; space IDs: `3b25ec59-f953-4ac0-b27a-4d7c1d8b06a6`.
+- **Reaper Marketing Website** — app ID: `26fe835e-1ef8-421e-87db-3749d9d79a30`; space IDs: `78b91f72-c4b0-4cf0-a93c-4a097df6c900`.
+- **Reaper PC** — app ID: `3578a7b0-b461-4339-ae0a-a52c7f66205b`; space IDs: `f094779c-ac72-41ee-afa0-3d4c70a6aded`.
+- **Reaper PS4** — app ID: `80ffffb8-4080-41bc-93fd-c464a7dc4192`; space IDs: `e5b3047d-439d-4f6b-9b74-b758f9d69c49`.
+- **Reaper PS5** — app ID: `8dbb80d3-db94-47ef-bcff-b26dfd7a767d`; space IDs: `d5071e64-baf0-463d-a02d-4f3f482e2793`.
+- **Reaper TTS PC** — app ID: `60312dc1-a326-4c0a-9bca-3e22bc3f40d0`; space IDs: `3aef6a69-bf4f-4e91-a1b6-3eb40b9e726f`.
+- **Reaper Xbox One** — app ID: `7f5ae2ae-19a3-466c-9ce0-f290f32b9e7f`; space IDs: `ecacb21d-a437-4c9f-8b8b-856769ccc770`.
+- **Reaper Xbox Series X/S** — app ID: `5010bfdf-9b57-4973-82ce-d4c88af0d464`; space IDs: `f84aa1ff-999b-46af-803a-620938151aa8`.
+- **Remote Event Client** — app ID: `8db78924-07cf-4e48-91e6-968045590fa2`; space IDs: `dd22d322-bda6-4447-9944-fe921665f3eb`.
+- **RemoteEvent (Tool)** — app ID: `9cc036eb-0d85-402a-b27a-ba5b941f3387`; space IDs: `365bb4b4-2fda-4d9c-97f6-835675591447`.
+- **Riders Republic™ GoogleStream** — app ID: `0727e9d3-4f24-4692-ba68-7caa80ed838b`.
+- **Riders Republic™ PC** — app ID: `8f6dd8a1-ad76-47f2-8b2e-f12333224a97`; space IDs: `4b23edff-2983-4766-9719-070d8909f254`.
+- **Riders Republic™ PS4™** — app ID: `e10d5661-33b3-4021-b817-cc3abdab6372`; space IDs: `58cd7165-6008-4fba-8a04-0411030dfc91`.
+- **Riders Republic™ PS5™** — app ID: `1e9705a9-c7d2-4b6f-8242-ba7cd0b8e4b7`; space IDs: `230e24e4-14ae-48f1-a289-e0ffe83e6431`.
+- **Riders Republic™ Xbox One** — app ID: `3bbc9471-067d-4e8b-869f-3558627ac19c`; space IDs: `83c9d564-4d18-4aad-880c-5a2c8ea1dd5c`.
+- **Riders Republic™ Xbox Series X/S** — app ID: `58d00af4-087c-4a12-a835-6a5284c9ff68`; space IDs: `8470ceed-10f5-4db3-972c-ed1e73179a46`.
+- **Risk Domination NintendoSwitch** — app ID: `6f25fc50-1ef0-48fa-b174-1b6311c81737`; space IDs: `0bd92e52-6b9a-4901-a844-0877af1a0f0f`.
+- **RISK PS3** — app ID: `2a4871d1-769d-4650-acac-6a3159c01eec`; space IDs: `f65a2fc5-54ff-4c28-9c78-9d1b10b181bf`.
+- **RISK PS4™** — app ID: `203f3f4c-6382-48a3-a19e-50b85d40341f`; space IDs: `005a4cc5-1be6-40cf-b0cd-e52bdbcb8cb4`.
+- **Risk Urban Assault PS4™** — app ID: `f7411950-0a47-4ad8-8534-0d50b6908bcf`; space IDs: `fd0e9bdd-9734-4c69-805e-ee6b3baf2a36`.
+- **Risk Urban Assault Xbox One** — app ID: `d4cdc157-a90b-4220-b33a-bc4772600cba`; space IDs: `f0b4d8cd-7299-49e5-bf6a-4a1ad0b8cd14`.
+- **RISK Xbox 360** — app ID: `58565446-ec51-434f-976d-43b175f60c79`; space IDs: `13746a60-049b-41b3-8b1c-388544113a9b`.
+- **RISK Xbox One** — app ID: `5ed1e27c-fd31-411a-9b47-6ba4102c7350`; space IDs: `34925384-fdb9-4edf-a95a-e4570404aebf`.
+- **Rocksmith 2 Companion Marketing Website** — app ID: `9a92620a-bf36-43e5-8e0e-5091a75ec972`; space IDs: `f717c2b2-ca0c-4892-a55a-fe98f122907e`.
+- **Rocksmith 2 Marketing Website** — app ID: `fb1eb375-df10-4f2e-ab5a-5d1aaa9775fd`; space IDs: `5bb9f4a4-ff9c-47da-a057-1a391fa15c0b`.
+- **Rocksmith 2 PC - GenomeId Hack** — app ID: `fda8040c-50e2-40b6-96c2-ef86d7ed2ff2`; space IDs: `420d4629-7289-4df0-bbd4-504e35927d31`.
+- **Rocksmith 2 PS3 - GenomeId Hack** — app ID: `c853685f-588e-46e3-af7e-49338755b146`; space IDs: `6e4f4b91-e0f2-41d2-ad40-d4fb322aa89e`.
+- **Rocksmith&#174; 2014 Edition PC** — app ID: `e3b756fc-fd34-44fe-8419-75ea48c4c9b4`; space IDs: `420d4629-7289-4df0-bbd4-504e35927d31`.
+- **Rocksmith&#174; 2014 Edition PS3** — app ID: `49ee246f-70b9-4f2c-9036-0893b6f77576`; space IDs: `6e4f4b91-e0f2-41d2-ad40-d4fb322aa89e`.
+- **Rocksmith&#174; 2014 Edition PS4™** — app ID: `f59e521b-19ad-47a5-9e66-01d1d308750a`; space IDs: `83d436fd-d8f9-4f1e-aefa-5aff5b3ff095`.
+- **Rocksmith&#174; 2014 Edition Xbox 360** — app ID: `a467b4a5-d754-4e41-ac12-cb3379b21904`; space IDs: `597569fc-18e1-4136-b805-9b0aa9deb7c7`.
+- **Rocksmith&#174; 2014 Edition Xbox One** — app ID: `1d4ab832-5fef-439d-9fce-6761344d6a8c`; space IDs: `3c4328da-ea50-47f4-8a63-89ee8fd9a112`.
+- **Roller Champions NintendoSwitch** — app ID: `f9146ecc-1e1d-44c3-a25b-4a66067467cf`; space IDs: `2e574ccc-6657-44b1-abe8-241cd26ae309`.
+- **Roller Champions PC** — app ID: `34c5530a-84e9-4a0d-a557-85e9d7f9d004`; space IDs: `8ee9cf9d-afe1-4b30-a739-d8a0c0253c24`.
+- **Roller Champions PS4** — app ID: `f8bcbf86-c42e-4f21-97d7-2fc35b3ee87c`; space IDs: `f13ece9f-ecc9-4fab-8adb-44894ece3488`.
+- **Roller Champions Steam** — app ID: `fb95cba3-9e0c-4da1-9cec-91b167ce6aad`.
+- **Roller Champions Website** — app ID: `e8f99d59-adb1-4fd0-a347-472098c77756`; space IDs: `2cb480f0-3602-4f38-89ac-e64cf09a4883`.
+- **Roller Champions Xbox One** — app ID: `dc1efa29-ec34-4cc2-9ef8-236cfe025a0d`; space IDs: `b048ea0b-e4d1-4c03-8f7d-e8a5c8e3cfb2`.
+- **Roller Public Web RETAIL (WebGame)** — app ID: `ba56fccd-dd87-4743-94d3-25571f594529`; space IDs: `28203ce7-abd1-486b-8604-db57c4f8766b`.
+- **ROTO Web Marketing Site (WebMarketing)** — app ID: `cfba95d1-54ea-42f6-9a52-8095434e42be`; space IDs: `bf413afa-9c9c-40b7-ad3a-74debf2f625c`.
+- **S2S Keyrotation replacement ~ KCLAIM** — app ID: `f88d6188-a8dd-46bf-8fea-7baa98b49ec1`; space IDs: `7439a276-9780-4252-8747-71806fa4aa91`.
+- **S2S Keyrotation Replacement App** — app ID: `3dae0b62-3441-4671-b024-a27f944aacd9`.
+- **Scott Pilgram vs. The World: The Game GoogleStream** — app ID: `1993deb6-86c3-4d4f-8138-858ec501f015`.
+- **Scott Pilgrim vs. The World™ : The Game – Complete Edition NintendoSwitch™** — app ID: `a9ab30d3-0aed-4aae-9915-74de5b5af325`; space IDs: `c1f65082-7b01-4b17-aaca-6eae7b254ff0`.
+- **Scott Pilgrim vs. The World™ : The Game – Complete Edition PC** — app ID: `15e52ec9-e269-48f8-bd00-079ce22f68b9`; space IDs: `aaaae066-2d0e-4998-ad16-378890de3e63`.
+- **Scott Pilgrim vs. The World™ : The Game – Complete Edition PS4™** — app ID: `8f427fff-2409-45fa-90b3-0a1f5534b1b5`; space IDs: `1e3edcd9-1a97-4949-837b-3c7ef53db0cc`.
+- **Scott Pilgrim vs. The World™ : The Game – Complete Edition Xbox One** — app ID: `0e07defe-5e7b-47ed-9ef3-5a709c3764c8`; space IDs: `9f4fd92b-137b-470d-9080-dae6de293c81`.
+- **Scrabble PS4™** — app ID: `d9873ffd-219b-456f-8135-a5a291bc12fc`; space IDs: `42036a13-6947-4fb0-9a1e-12a7938e44a2`.
+- **Scrabble Xbox One** — app ID: `e91c7d19-57f6-4442-9c64-6536729f31e5`; space IDs: `8ec416eb-b307-446f-98cd-f37929acf547`.
+- **secure.ubi.com Redirection Website** — app ID: `c5783e71-1f25-4dc3-bf5b-c5dc83be637e`; space IDs: `0338c185-44c0-49cb-b33b-16102bc8cf96`.
+- **Settlers 1 History Edition PC** — app ID: `b4e49e6b-3198-4f26-80ac-a35ad08680c2`; space IDs: `69cf3d5d-5461-45c9-8fbc-128d62eda942`.
+- **Settlers 3 History Edition Marketing Website** — app ID: `528ede92-f20f-43ee-abb2-cf7138fefff0`; space IDs: `6975b18a-5c3d-4081-8758-09d64ab7850c`.
+- **Settlers 3 History Edition PC** — app ID: `187ddb84-05db-4418-90ea-a386c4fd3d3f`; space IDs: `deda7f89-33ed-4610-949d-638f737bc73f`.
+- **Settlers 4 History Edition PC** — app ID: `48725ec3-179d-415a-9ff0-a51e42cecdaa`; space IDs: `7840eb33-1b6e-47f1-aa6a-c276a5a731f8`.
+- **Settlers 5 History Edition PC** — app ID: `abe4afcb-9eba-4d37-b410-bde9ba18e158`; space IDs: `20952732-5815-40a1-ad56-0e53cda44ece`.
+- **Settlers 6 History Edition PC** — app ID: `2d84fea9-f13a-4812-9301-d9e1c51eb926`; space IDs: `0dc87811-6648-43e3-aec3-5574ebfdaa02`.
+- **Settlers 8 PS4 RETAIL (ORBIS)** — app ID: `33a66225-ad1c-4ee3-9131-f00f18447260`; space IDs: `e2a0bbd4-78ac-40cb-a49b-8b7cb60782a4`.
+- **Shake NintendoSwitch Demo** — app ID: `ca80cb90-482a-470d-ae93-deb7abe1be26`; space IDs: `625069a7-eaf1-47dc-95c9-2ca915e53649`.
+- **Shake PC** — app ID: `aaae015b-b769-48a6-bf18-d1771b1683a7`; space IDs: `aaa11c70-2c23-423d-956d-c849719b5c95`.
+- **Shake Website** — app ID: `f1e16a89-7ce8-4b07-b29e-ba4874aeb30b`; space IDs: `d7ed9d0a-cd0b-4a73-8039-35e5dd1563f9`.
+- **Shape Playtime Xbox One** — app ID: `7c5c06af-01c0-4449-8eb8-69968787730c`; space IDs: `e09d2ba9-70da-45aa-8f05-102b686af435`.
+- **Shape Up Battle Run Android** — app ID: `a2e38d0c-06ec-41ee-bdb5-f657fca6282c`; space IDs: `893a5be7-8df2-41f8-9aa2-24ded45aa0fa`.
+- **Share Play Client** — app ID: `0d8b1cbf-1ee3-4ba6-8a42-1ad36c525ecf`; space IDs: `e563c04e-8eec-44a5-b7f2-02e77e3d267a`.
+- **Share Play Marketing Website** — app ID: `178727c6-7a12-4235-b774-62032fb5e1eb`; space IDs: `a10cedea-a92e-402e-88ee-c2281c68d4bc`.
+- **Shaun White Skateboarding** — app ID: `252724d8-6528-422c-a20b-f9d0efdabb96`; space IDs: `a745a1f4-d08b-4808-aab1-aa8840cda782`.
+- **Shaun White Skateboarding (PS3)** — app ID: `9b9f529c-a1c8-48fd-bc3d-b7eb480be8ba`; space IDs: `0b4e139b-1185-4e73-aef2-daae105a36c7`.
+- **Shaun White Skateboarding (Xbox 360)** — app ID: `40b728ca-76ee-4bf3-968b-2df29e879047`; space IDs: `b0096c92-6832-464f-9a81-439f263e4752`.
+- **Silent Hunter 5 PC** — app ID: `7dbeb2dd-1e7f-433b-9550-24d171712b33`; space IDs: `4647c509-9774-48ec-829b-69e78f343417`.
+- **SiteGen E3 Overflow Marketing Website** — app ID: `cf4c34c2-6342-4cb1-aae2-c1482e551b03`; space IDs: `d5a87a69-707c-4f09-b72a-066fc761a70a`.
+- **SiteGen Game Website** — app ID: `46ad306f-ba45-45b0-8a5d-9931e1bd1cad`; space IDs: `5709fc03-1e3b-4e4c-be5d-c08ab3edad81`.
+- **Skull &amp; Bones Xbox One** — app ID: `51b2260c-96d1-4d08-b11b-de5d062214a7`.
+- **Skull and Bones GoogleStream** — app ID: `bdc621ff-7a52-4ada-bdfc-6cbc3947e4bc`; space IDs: `655c83f0-ba4a-4a4e-9ccf-4df01c29d3db`.
+- **Skull and Bones LUNA (AmazonStreaming)** — app ID: `0691bc82-e673-48cb-9156-01a200e66cc1`; space IDs: `64dfc860-eb5c-4f68-935b-a01b76073c2c`.
+- **Skull and Bones NvidiaStreaming (NvidiaStreaming)** — app ID: `29b2c386-5bc3-4dbe-a6e1-b9c5a28fb4ca`; space IDs: `e9c58f4a-abb3-4b01-8229-f60df3ab63f6`.
+- **Sonkwo Marketing Website** — app ID: `b869d74b-bbaf-4c83-bc46-92a49a734b38`; space IDs: `7dc1cfd1-55d6-4ac7-a1f2-4c623f827c68`.
+- **South Park Phone Destroyer Marketing Website** — app ID: `42d9cccf-f8ae-42c0-8d82-ff73fab33708`; space IDs: `31378521-4e46-4c9d-b8e9-e6698cf15f62`.
+- **South Park The Fractured But Whole Website** — app ID: `fbbafad1-157b-420b-9f4e-d192b0258614`; space IDs: `c35d67bd-8ede-4f9b-925a-c04a47fa2b3e`.
+- **South Park The Fractured But Whole Xbox One** — app ID: `bb13500b-7da5-4ba9-95e9-f6130d914c4a`; space IDs: `c5cf8a5e-c00e-40f7-8a08-68f658e27c24`.
+- **South Park™: The Fractured but Whole™ NintendoSwitch™** — app ID: `58a0d28e-0205-4f06-a6c0-c18771f47876`; space IDs: `12c8fd52-0091-4eb3-b302-f9d816069aa1`.
+- **South Park™: The Fractured but Whole™ PC** — app ID: `a19e4be9-eb61-4d8f-95d1-02fd6156dac7`; space IDs: `47dbd88f-4658-4635-83cd-d695358da7fa`.
+- **South Park™: The Fractured but Whole™ PS4™** — app ID: `a3a2d5b7-a7dc-4277-ba9a-5cc4dbd25632`; space IDs: `daeb97d6-730d-48bf-a122-8d214a097a6d`.
+- **South Park™: The Stick of Truth ™ NintendoSwitch™** — app ID: `c56bdbec-9b04-4b6d-be3f-beb821d882e7`; space IDs: `952cc7ea-2eb7-4475-bcef-407ab5607009`.
+- **South Park™: The Stick of Truth™. PC** — app ID: `87fcfdf6-58cf-4193-8cde-6804970021fd`; space IDs: `d50698eb-19eb-438b-8a98-fa0a9538a0ad`.
+- **South Park™: The Stick of Truth™. PS4™** — app ID: `7812459e-3e54-47e1-b43e-dab310bbf779`; space IDs: `42e5373d-59b7-4fd4-96fc-9fc98d9efebd`.
+- **South Park™: The Stick of Truth™. Xbox One** — app ID: `295a29d2-07d8-4481-9267-7730c28e8520`; space IDs: `71bd2b21-bb08-4081-ae2b-3c5440ae0fa8`.
+- **Space Junkies™ PC** — app ID: `5f3ef71a-88a0-4845-8815-db9e2513956c`; space IDs: `e6752512-d123-4f29-943f-93fe9642077f`.
+- **Space Junkies™ PS4™** — app ID: `9fef98b8-9249-4a75-87e9-7e6fbae98be4`; space IDs: `801ba9c7-bdbc-467c-aa6c-5274a2baf1f9`.
+- **SpaceJunkie Website** — app ID: `dc16ac82-fa52-45d1-925d-4b80a204e34d`; space IDs: `055f8eec-6cde-4433-b738-fbc27b0888c2`.
+- **Splinter Cell Blacklist  (WiiU)** — app ID: `e3c28577-9e78-4fbb-9188-b0ac86fa082c`; space IDs: `e6d4b954-aa01-4580-acdc-73ad1229fa31`.
+- **Splinter Cell Chaos Theory Giveaway** — app ID: `a80b09c5-a5a1-436f-b799-f9474ffd486c`; space IDs: `c8e1b73f-9e0e-4e6e-b741-4aa6ec463859`.
+- **Sponsalia for Content Creators FrontOffice** — app ID: `af2d3b10-036c-4b29-82a4-3ca25f8e4c6a`; space IDs: `cbea566b-7e4b-48f9-be32-1539dd7c511c`.
+- **Sponsalia for Creators Management Backoffice (Server)** — app ID: `a06fa0a0-8fa0-4851-99f5-084aa5ab49b5`; space IDs: `581e4ca3-e207-44d4-995f-4f7320429ccb`.
+- **Sports Party NintendoSwitch™** — app ID: `258b8ea8-76c1-4ff1-a6bc-ca1199509652`; space IDs: `af1a2f00-f839-4894-99af-d3d45f25db03`.
+- **SRM Infra Test Tool** — app ID: `a4b4c2d7-5b89-43d2-ab10-82d62daa31bb`; space IDs: `a5818b04-0515-4d41-b159-7b57f1e4dbd8`.
+- **STAR TREK™: BRIDGE CREW PC** — app ID: `be72aab9-28ca-4ed2-8c67-452764578658`; space IDs: `e9900ed8-9f2d-45e2-8d85-7d01ff91d6e9`.
+- **STAR TREK™: BRIDGE CREW PS4™** — app ID: `12191c2b-ec5a-4a60-8b34-e9171eea3e68`; space IDs: `2087506a-dbd9-4890-8aee-17c3051602b8`.
+- **Star Wars Outlaws - Free Demo (GeForce Now) (NvidiaStreaming)** — app ID: `b9a1346a-86f1-48de-8df7-403563b6f014`; space IDs: `f68ddc0e-207b-4f3c-ac1b-fb7577aace1e`.
+- **Star Wars Outlaws - Free Demo (Nintendo Switch™ 2) (Ounce)** — app ID: `eb990755-fa23-4079-820d-25d42f3fa19c`.
+- **Star Wars Outlaws - Free Demo (PC)** — app ID: `3a443bb6-97a6-45b3-a025-f173c5981d16`; space IDs: `65193a4d-b032-4201-925a-f197072b9c73`.
+- **Starlink : Battle for Atlas Marketing Website** — app ID: `45de43f2-79e3-4887-98bd-f2d162e74492`; space IDs: `f7d5d993-f800-4eba-b270-ef0aa59fef21`.
+- **Starlink: Battle for Atlas NintendoSwitch™** — app ID: `5f983d0e-2fc6-4f93-8012-91f094830ee8`; space IDs: `7fd17051-9e0a-4a78-af68-6f2d396acf25`.
+- **Starlink: Battle for Atlas PC** — app ID: `31e7b1dd-5867-43ce-9fec-bd0062ebfc65`; space IDs: `8f4f104c-e189-495d-8364-824ed42ee980`.
+- **Starlink: Battle for Atlas PS4™** — app ID: `3e7a633d-b880-49fc-a1b8-d17b0966526a`; space IDs: `e53eab0d-dade-49c3-9d74-0011ca3fa1eb`.
+- **Starlink: Battle for Atlas Xbox One** — app ID: `8ede2e0f-f262-40bc-aa28-c65e4f6b81d2`; space IDs: `5d2824a5-0a76-4aa2-b68d-6fd707bb1121`.
+- **StarPlayer Marketing Website** — app ID: `7d2a315e-b450-4fdd-8226-2824eda9ceb0`; space IDs: `b7a10c2d-5566-4aab-acbf-26c965846d28`.
+- **Steep 2 Website** — app ID: `0ad3ba89-7f59-4acd-8f37-30c43de651c1`; space IDs: `8b97a550-590d-455c-a3c8-1fa678f0d685`.
+- **Steep Beta PC** — app ID: `fe2b011b-5030-44ea-8b88-966348925813`; space IDs: `2e962f4b-0135-41b3-b5d4-8b1e6d048ca0`.
+- **Steep Beta Xbox One** — app ID: `6e85b51d-8df0-4872-9cba-2e3c3095bace`; space IDs: `e5f9da8e-b379-4c2c-8c8b-f96ccb43e15b`.
+- **Steep PC** — app ID: `b65780e8-0875-4685-995a-6e952cc605a8`; space IDs: `a20f75db-9175-4df6-b1b3-ba42e291166c`.
+- **Steep PS4 BETA** — app ID: `eb943d03-caef-4ec1-a0b2-8fd5453dc49c`; space IDs: `ff5a568d-11c1-45e0-9e1c-978aa355d896`.
+- **Steep PS4™** — app ID: `0bc3cfb0-15a1-4340-915a-b7a76fb2d3e3`; space IDs: `fd950221-1f8d-46ec-9b71-f9d2fcceb967`.
+- **Steep PTS PC (PC)** — app ID: `afd343e3-a85a-450b-a6c0-ce0de8aea753`; space IDs: `f0a5d659-212c-4391-846b-99970ffd6a8c`.
+- **Steep PTS XONE (DURANGO)** — app ID: `ab57f2f3-863a-49ce-8e37-0bb60c15b0ab`; space IDs: `492a51f5-3f5d-4673-8fa6-8dc5944e8bb1`.
+- **Steep Website** — app ID: `a60ef5e2-1369-43ad-b906-8f8f6e739971`; space IDs: `da1faa7b-cb98-4dcc-ad49-4118d3f87805`.
+- **Steep Xbox One** — app ID: `2b55254c-cb0c-4fd8-ab3e-aa684057240a`; space IDs: `fbb6144d-09f9-412f-a2e5-721fdf975702`.
+- **Steep2 AmazonStreaming AmazonStreaming** — app ID: `d10d08c2-830d-4412-9134-d75fef865e96`; space IDs: `83d70d02-8f44-487a-9470-d7b1e56ab7a6`.
+- **Steep2 GeforceNow NvidiaStreaming** — app ID: `a1530bc7-9c9c-4691-b6c9-971600b3d5de`; space IDs: `33077165-e966-4fcf-acdd-e8ceff802d45`.
+- **Tempest PC** — app ID: `0093b28e-83f9-4bb9-adfb-9665db699839`; space IDs: `c7aef453-991e-426a-8b08-475f1a1bd8e7`.
+- **Tetris&#174; Ultimate PC** — app ID: `0111e85d-6620-472f-a41f-c7c4b06cb993`; space IDs: `42b82e29-f713-4c62-bead-7e337e58968a`.
+- **Tetris&#174; Ultimate PS4™** — app ID: `43a8cd6f-c535-4941-85d5-352e773fcbe9`; space IDs: `c9938756-76e5-4150-8eac-93502c8a5d25`.
+- **Tetris&#174; Ultimate Xbox One** — app ID: `bf930681-88f5-4717-9ea3-8abe6d9ef09e`; space IDs: `f2b901c7-d346-479d-8ddc-d636ccb21eed`.
+- **TGT Google Stream** — app ID: `e300e1dc-09d6-47ca-8a27-e7a01b697056`.
+- **TGT Marketing Website** — app ID: `fa75e75a-e2fe-456f-8725-1cbbc384b08f`; space IDs: `fb25b0da-9327-4400-9e24-365ce8db27cd`.
+- **The Club Website** — app ID: `51a1ce0d-a5fc-4ee2-9688-4830718df6a5`; space IDs: `3f4d8697-9856-45aa-95b9-95828a9c9949`.
+- **The Crew 2 Beta PC** — app ID: `16839715-aad6-40b8-8bc5-6024054902df`; space IDs: `47eaab97-d855-457c-b8e7-121474b43225`.
+- **The Crew 2 Beta Xbox One** — app ID: `b7c5c395-985f-4b4c-9392-8043edacc093`; space IDs: `49712416-34b9-427a-96ed-cda693b2ac41`.
+- **The Crew 2 Game Website** — app ID: `dda77324-f9d6-44ea-9ecb-30e57b286f6d`; space IDs: `99d80e18-42a9-4cf3-b79b-63e7edba4e62`.
+- **The Crew 2 GoogleStream** — app ID: `7841f699-3c42-4727-9be3-d911114c55d9`.
+- **The Crew 2 PC** — app ID: `41080f91-b0c8-4539-a5d9-965b14ef32bf`; space IDs: `90c0ddf3-64c2-40d1-ac53-85ebeccd96eb`.
+- **The Crew 2 PC PTS** — app ID: `098618ff-e4c6-409d-a3d5-4def782a92d8`; space IDs: `f852bab6-9e9f-4c53-9290-99c36c51452c`.
+- **The Crew 2 PS4 BETA** — app ID: `d38d347d-dc83-4a1c-b166-92722d910c95`; space IDs: `ae1bddca-9f97-4006-92a1-05c869bbc759`.
+- **The Crew 2 PS4™** — app ID: `f4a49008-83ee-46f8-812d-79b5c971dce6`; space IDs: `aa6eed85-6bb7-42df-964a-8b90aac21c08`.
+- **The Crew 2 Website** — app ID: `96935ac1-844a-4310-b49d-ec8ad86294e1`; space IDs: `b3d0799d-431e-4b80-9154-d462e0b09187`.
+- **The Crew 2 Xbox One** — app ID: `5b5701f4-2b11-4942-a309-91e4f0218306`; space IDs: `d66f816d-dc60-4730-8ea1-4aef4265133c`.
+- **The Crew Beta PC** — app ID: `40c26135-df4c-412a-ab7d-64051496e3e4`.
+- **The Crew Game Website** — app ID: `6ef70f11-4e39-4865-af01-1a1834a98dfc`; space IDs: `81e59b6b-f204-4e0c-90b1-18134afcfafa`.
+- **The Crew Motorfest PC** — app ID: `834a05c0-da46-4ed4-b9a9-a62e7e9ec869`; space IDs: `c39b748c-b1f6-46f3-a668-198c8e171273`.
+- **The Crew Motorfest PS5** — app ID: `1dbaf363-efe0-4c46-8298-2c2470baf4f5`; space IDs: `c96be76e-36a6-49d8-bbb7-54c77c1aff59`.
+- **The Crew Motorfest TTS PC** — app ID: `3379fe56-1378-45e6-82ec-cfaa581e072a`; space IDs: `a7727b61-e548-40c8-be42-62e7866485ee`.
+- **The Crew Motorfest Xbox Series X/S** — app ID: `209fa8c3-9182-40ef-a29c-3a987cc7e9bd`; space IDs: `d83cdf70-43b1-49bd-ac8e-42b66e78d743`.
+- **The Crew ORL AmazonStreaming RETAIL (AmazonStreaming)** — app ID: `ad33a082-c16d-4746-92e5-c632456eb180`; space IDs: `8085e0b5-b1b4-4456-bc0e-a4f496ceb209`.
+- **The Crew ORL Marketing Website (WebMarketing)** — app ID: `081f8634-0689-4ff6-ade7-b2229cf4456d`; space IDs: `6fcd14bc-7359-4bb3-ab96-5c8efec6881e`.
+- **The Crew ORL NvidiaStreaming RETAIL (NvidiaStreaming)** — app ID: `7f32dbf2-c999-465a-ad70-df5e45fe9ae5`; space IDs: `d03559eb-4ec5-40af-b60b-6fc606c45493`.
+- **The Crew ORL PS4 RETAIL (ORBIS)** — app ID: `bfd76e88-c4e6-4551-acc0-4145ef9156e0`; space IDs: `18b6ad37-d938-4814-9862-2c1403f02b78`.
+- **The Crew ORL XONE RETAIL (DURANGO)** — app ID: `664939eb-8c2b-440e-862d-30b5afe8b685`; space IDs: `902cc4a7-5fad-4501-a7fe-77ea99fc5559`.
+- **The Crew Website** — app ID: `9610663b-b038-4572-b3be-8ddab03ea844`; space IDs: `c5fa7e64-2954-43c5-b046-f67163bee30f`.
+- **The Crew™ PC** — app ID: `043a4bd9-9336-4cc3-b51c-1da703f89f87`.
+- **The Crew™ PS4™** — app ID: `103649f4-9ca6-49a7-a122-522f3099854b`.
+- **The Crew™ Xbox 360** — app ID: `74353d7b-8bfe-4729-9fee-c1ce6dadc0e9`.
+- **The Crew™ Xbox One** — app ID: `37493681-d621-467d-a217-5038761940d1`.
+- **The Division - BattleCat GFN RETAIL (NvidiaStreaming)** — app ID: `9379c28a-ce22-4ae7-9414-41c3feec3ef7`.
+- **The Division - BattleCat Luna RETAIL (AmazonStreaming)** — app ID: `0ea91cab-e60a-4cc5-9eaa-cb9ea7871e56`.
+- **The Division 2 Game Website** — app ID: `5c5d3b21-e1fc-4460-9213-87b4cd440d44`; space IDs: `5968d6a1-4490-418f-a32b-6d568ba09ee7`.
+- **The Division 2 GoogleStream** — app ID: `42e81559-1fbc-42cd-bd12-e42460f9aaeb`.
+- **The Division Mobile Marketing Website** — app ID: `ab65bed0-4939-4d62-a697-85fd1f447e41`; space IDs: `f43841b4-2ded-40d6-81ff-90bd83205463`.
+- **The Division Mobile WW Android** — app ID: `3bc28359-f917-4eb6-9a74-7acf77c03032`; space IDs: `b0604da2-4668-4f99-aa57-d4d3ec0f20d0`.
+- **The Division Mobile WW IOS (IOS)** — app ID: `9ef708f6-965e-4263-b427-789ac954a4b6`; space IDs: `cb809242-2963-49c9-b32b-001dd8132852`.
+- **The Settlers 2 History Edition PC** — app ID: `a7b94448-da5e-478f-bec1-e5d826be298b`; space IDs: `25978460-b34b-4caa-a869-b44e013c2bc8`.
+- **The Settlers 7** — app ID: `b676591b-6c2f-4efe-ba5f-aa529764ec42`; space IDs: `ff6ca2a6-078f-4ee7-abf1-2555ad5483f5`.
+- **The Settlers 7 History Edition PC** — app ID: `dc097464-fee0-43f3-8327-e369dc162ee4`; space IDs: `42605930-e223-4473-bd31-08227c62c8b3`.
+- **The Settlers Online Server Server** — app ID: `c2c73a52-b48d-4763-94bb-95c2f13e6597`; space IDs: `f9ae8d60-ae77-4e0a-a457-e534286bb448`.
+- **The Settlers Online Website** — app ID: `39164658-8187-4bf4-b46c-375f68356e3b`; space IDs: `6902c283-5317-4112-ba27-792e1f450b1e`.
+- **The Settlers: New Allies Marketing Website** — app ID: `17df3be0-6639-4b52-a8e4-d7ef0c1390b3`; space IDs: `94db7930-5c63-470e-9999-49909f3313eb`.
+- **The Settlers: New Allies PC** — app ID: `9346720e-8298-4722-a6cb-a24d456b774f`; space IDs: `97cda095-7c8e-4382-b745-8d742a0c5941`.
+- **The Settlers: New Allies Xbox One** — app ID: `99768f98-8676-45ee-9311-96adf5f3bc6a`; space IDs: `ac03080c-b4aa-4eaa-b5dd-f1d17d58d0e6`.
+- **Titanfall 2 PC** — app ID: `149bee3d-2edc-4050-a61c-40266b8dd5cc`; space IDs: `80bca571-50d6-4bb7-bc56-8dc47ed658eb`.
+- **Titanfall PC** — app ID: `18a155f7-c98a-43c1-8d47-1b8bc31ac921`; space IDs: `437bf7c8-6ed8-4c7b-99a8-defe37bb9f80`.
+- **Tom Clancy&#39;s Ghost Recon Breakpoint Marketing Website** — app ID: `0b19674b-d1c2-4e50-830d-ea7ee663f42c`; space IDs: `e3324b77-0ef3-4264-aead-9b716a63c9b6`.
+- **Tom Clancy&#39;s Ghost Recon Future Soldier** — app ID: `08332eaf-51d2-4431-9ade-e4a30510bc98`; space IDs: `56245106-4f64-4615-9d45-e7d6f61d0caf`.
+- **Tom Clancy&#39;s Ghost Recon Future Soldier** — app ID: `618d5c40-9c35-48fe-b39a-698cc501391d`; space IDs: `5dea230f-c047-4e78-bc4c-4f8b1ffb54d5`.
+- **Tom Clancy&#39;s Ghost Recon Future Soldier** — app ID: `e9c2dbc4-9ba8-48c1-9895-6052a8c77c7d`; space IDs: `97f982b6-4662-4142-9894-a51805837182`.
+- **Tom Clancy&#39;s Ghost Recon Wildlands Beta PC** — app ID: `c00e90af-1969-4c22-8136-04bb36c82871`; space IDs: `e166d507-c007-490e-87f0-a33820f452b1`.
+- **Tom Clancy&#39;s Ghost Recon Wildlands Marketing Website** — app ID: `1f602a1c-c1d1-415c-bf96-f775fc86266d`; space IDs: `5da4982e-6aa9-44dd-837b-feaa58e0d7ed`.
+- **Tom Clancy&#39;s Ghost Recon&#174; Breakpoint PC** — app ID: `dc0736e0-ec67-4802-bb3a-f853b3a34042`; space IDs: `e5af8b3f-a867-4ed4-8804-229b50c9bb1f`.
+- **Tom Clancy&#39;s Ghost Recon&#174; Breakpoint Xbox One** — app ID: `241e7eaa-899a-4aaf-a2ca-a251d508aec1`; space IDs: `11953a46-df5d-45ee-944e-f8c1b36a8424`.
+- **Tom Clancy&#39;s Ghost Recon&#174; Wildlands PC** — app ID: `d2408c33-775c-416b-b5d4-768bd23ccbad`; space IDs: `429a8e76-f469-4b2e-9d74-c1b35ee0ddad`.
+- **Tom Clancy&#39;s H.A.W.X. 2** — app ID: `96b59085-3462-42fb-8ccf-78785ef36afc`; space IDs: `77c9451b-bbd3-494c-b05c-96a22caa4a23`.
+- **Tom Clancy&#39;s H.A.W.X. 2 (PS3™) (PS3)** — app ID: `2f8a4b6f-33ff-44df-8fcf-ce009e3f883f`; space IDs: `fad31036-3d83-40b1-b7f5-c90075da1fb0`.
+- **Tom Clancy&#39;s H.A.W.X. 2 Xbox 360** — app ID: `8597cf69-7fb1-4ce6-8733-9ffb8dcc8618`; space IDs: `1194005f-b93f-438d-afbe-83e9e4718a68`.
+- **Tom Clancy&#39;s Rainbow Six Siege Beta PC** — app ID: `ecb7d1b0-93bd-48a4-9d6c-9c4a444101d5`.
+- **Tom Clancy&#39;s Rainbow Six Siege Beta PS4** — app ID: `459ba7cc-611f-4df0-8458-5d6f1eb7ddb9`.
+- **Tom Clancy&#39;s Rainbow Six Siege Marketing Website** — app ID: `39baebad-39e5-4552-8c25-2c9b919064e2`.
+- **Tom Clancy&#39;s Rainbow Six Siege PS4** — app ID: `fb4cc4c9-2063-461d-a1e8-84a7d36525fc`; space IDs: `05bfb3f7-6c21-4c42-be1f-97a33fb5cf66`.
+- **Tom Clancy&#39;s Rainbow Six Siege PS5** — app ID: `6e3c99c9-6c3f-43f4-b4f6-f1a3143f2764`; space IDs: `96c1d424-057e-4ff7-860b-6b9c9222bdbf`.
+- **Tom Clancy&#39;s Rainbow Six Siege Teamate Finder Website** — app ID: `66f9fac9-8831-443f-b0ac-f76ce100b545`.
+- **Tom Clancy&#39;s Rainbow Six Siege TTS PC** — app ID: `a427a342-56bb-437b-b835-fa695c75893b`; space IDs: `41aebcf5-56eb-4f1e-b154-9eb46718f465`.
+- **Tom Clancy&#39;s Rainbow Six Siege Website** — app ID: `685a3038-2b04-47ee-9c5a-6403381a46aa`; space IDs: `1612f6e5-4bdc-4804-afab-291eec73ec9a`.
+- **Tom Clancy’s Rainbow Six Siege Xbox One** — app ID: `4008612d-3baf-49e4-957a-33066726a7bc`; space IDs: `98a601e5-ca91-4440-b1c5-753f601a2c90`.
+- **Tom Clancy&#39;s Rainbow Six Siege Xbox One Beta** — app ID: `54543a4d-25cd-49a7-8f50-df9b144d20bb`.
+- **Tom Clancy&#39;s Rainbow Six Siege Xbox Series X/S** — app ID: `76f580d5-7f50-47cc-bbc1-152d000bfe59`; space IDs: `631d8095-c443-4e21-b301-4af1a0929c27`.
+- **Tom Clancy’s Rainbow Six&#174; Siege GoogleStream** — app ID: `e0aa997a-1626-4e5b-8215-b5f586b59fa2`.
+- **Tom Clancy’s Rainbow Six&#174; Siege PC** — app ID: `e3d5ea9e-50bd-43b7-88bf-39794f4e3d40`; space IDs: `5172a557-50b5-4665-b7db-e3f2e8c5041d`.
+- **Tom Clancy&#39;s Splinter Cell Blacklist PC** — app ID: `8990f1f0-174d-48b4-9d63-4bb7ec70abf1`; space IDs: `a1b16676-daa4-44f9-82bd-1c284017024c`.
+- **Tom Clancy&#39;s Splinter Cell Blacklist PS3** — app ID: `1eb82834-4990-46e6-bb54-5f4ebab14d84`; space IDs: `95d7a4af-cc75-4d6a-9da7-6c06b3956f7b`.
+- **Tom Clancy&#39;s Splinter Cell Blacklist Xbox 360** — app ID: `7ca0290e-9e49-4055-be0e-066852b97ddd`; space IDs: `41f55224-4682-4b58-991a-811958280fcc`.
+- **Tom Clancy&#39;s Splinter Cell Conviction** — app ID: `28b018fa-8f62-402d-bd35-15edfc3daa4c`; space IDs: `36809940-3718-488d-928e-ab4949669622`.
+- **Tom Clancy&#39;s Splinter Cell Conviction Xbox 360** — app ID: `4b6d203e-9d6a-4eb5-a7cf-db72fdf72863`; space IDs: `a5c23b78-5f58-4a58-b3d3-fe72dc1a02ab`.
+- **Tom Clancy&#39;s Splinter Cell Double Agent Marketing Website** — app ID: `58b26c64-ec50-40de-85ca-6e38722c6c00`; space IDs: `4abb0ce8-490f-4b55-b56b-b9043a6a290c`.
+- **Tom Clancy’s Strike Force Marketing Website** — app ID: `b38d8b3a-2ca8-44f1-bd2b-433aed4d5670`; space IDs: `ae4943a0-5c2a-456d-bd9a-95b9cf9b0823`.
+- **Tom Clancy&#39;s the Division - CIP Website** — app ID: `5b6f68c1-357c-48da-bf11-a145f1b540a1`; space IDs: `03af00a2-3cb7-4cda-bee2-a967bd1fd632`.
+- **Tom Clancy&#39;s The Division Beta PC** — app ID: `17d7ba55-2314-4681-b7db-05652c283439`; space IDs: `a1e7474e-6917-4f5b-9edd-f2bc689bf580`.
+- **Tom Clancy&#39;s The Division Beta PS4** — app ID: `8c75e8bd-7f36-4836-9b93-d7676e225c29`; space IDs: `59c68c16-1381-43ea-8d92-caf4044f86eb`.
+- **Tom Clancy&#39;s The Division Beta Xbox One** — app ID: `2c22a170-efd1-4f3d-9f06-300db932be9f`; space IDs: `468c876c-e238-41a5-9a53-f7c3b0611047`.
+- **Tom Clancy&#39;s The Division Demo PC** — app ID: `21ae7a6c-38ca-413c-8445-2fd0bd2c80e9`; space IDs: `d08f262c-3e5b-4362-acdb-d8abb294b637`.
+- **Tom Clancy&#39;s the Division Marketing Website** — app ID: `2f469df4-0b3b-466e-8188-7600e3a8f24f`; space IDs: `12a1f725-2d2d-480f-99ff-dc05469dcf5b`.
+- **Tom Clancy&#39;s The Division PTS PS4** — app ID: `35b83a57-aedc-43de-8824-51a65ec6828b`; space IDs: `c3cbf67a-bbf4-44f9-b717-6b448bfb0be7`.
+- **Tom Clancy&#39;s The Division PTS Xbox One** — app ID: `d3d1ce84-fc77-4193-bc0a-2f7a6116650b`; space IDs: `369da61a-bffe-445c-97ae-fb73b9bd092d`.
+- **Tom Clancy&#39;s The Division Website** — app ID: `6986e1e4-17c0-485d-b586-b478ffca85c6`; space IDs: `d4ce3a2b-d5de-4c32-ad6c-ef4bf92455cc`.
+- **Tom Clancy&#39;s The Division: Heartland GoogleStream** — app ID: `d4fb4a68-67d7-4487-9151-4954a0be8321`; space IDs: `e9312686-4b0d-440e-9a2f-d541d7124aff`.
+- **Tom Clancy&#39;s The Division: Heartland Marketing Website** — app ID: `f46fa8ea-3667-4e44-a648-b8ddaff70824`; space IDs: `b11e4384-29fe-4455-859c-5f988b07df7e`.
+- **Tom Clancy&#39;s The Division: Heartland PC** — app ID: `5d3ba424-2e5a-4342-b77e-dab9d13e2528`; space IDs: `0d764159-0534-4daa-b70e-284eab1e455a`.
+- **Tom Clancy&#39;s The Division: Heartland PS4** — app ID: `65febbc1-2bc6-4787-b9f1-9cabccc6e3e3`; space IDs: `deab3e35-f513-4f0b-819a-38d9bc9e58f1`.
+- **Tom Clancy&#39;s The Division: Heartland Xbox One** — app ID: `2ea0a11d-8ed3-4f5d-813a-07ab74df7451`; space IDs: `4a9ddf10-1973-4922-a0ee-441dcc3fb144`.
+- **Tom Clancy&#39;s The Division&#174;2 PC** — app ID: `6c6b8cd7-d901-4cd5-8279-07ba92088f06`; space IDs: `60859c37-949d-49e2-8fc8-6d8dc40f1a9e`.
+- **Tom Clancy&#39;s The Division&#174;2 PS4™** — app ID: `6f220906-8a24-4b6a-a356-db5498501572`; space IDs: `8aecdffb-6372-48b6-a684-8085a288069f`.
+- **Tom Clancy&#39;s The Division&#174;2 Xbox One** — app ID: `7d9bbf16-d76d-43e1-9e82-1e64b4dd5543`; space IDs: `902e9524-f2bb-4039-8dc5-a36f7d261987`.
+- **Tom Clancy&#39;s The Division™ PC** — app ID: `87843b9b-516d-4a58-824b-f658d1361ad1`; space IDs: `6edd234a-abff-4e90-9aab-b9b9c6e49ff7`.
+- **Tom Clancy&#39;s The Division™ PS4™** — app ID: `9cbf6a6a-9013-4153-b6ba-344067f2c7e8`; space IDs: `15ced123-7ff5-404b-95c0-71da00399ea4`.
+- **Tom Clancy&#39;s The Division™ Xbox One** — app ID: `17eebf0b-ad09-43fb-aa81-3441e934ef80`; space IDs: `e4ab9701-038d-4959-9c6c-fb3101799031`.
+- **Toy Soldiers 3 PC** — app ID: `ed27d523-d39f-47df-93f5-8bf9e515b928`; space IDs: `c7fa68d6-574c-4e52-aa83-7b82513f701a`.
+- **Toy Soldiers 3 PS4** — app ID: `277d74ac-e330-4083-885b-c0fb21bdbf38`; space IDs: `0ad259ec-8df0-4938-b33e-90fb3f6ea948`.
+- **Toy Soldiers 3 Xbox One** — app ID: `02213532-95cb-460f-9f04-d92cadf4394f`; space IDs: `4ea6a47c-31fd-42e3-8183-426c7b7e48f3`.
+- **Trackmania Marketing Website** — app ID: `68eb79cf-8e6c-4861-bdb7-c3f5ee2780bc`; space IDs: `9ea3bc69-a378-47cd-a102-df5e36bd9eb2`.
+- **TRACKMANIA NEXT AmazonStreaming (AmazonStreaming)** — app ID: `41958b32-a08c-4313-a6c0-f49d4fb5a91e`; space IDs: `441da7bd-35a9-418d-993c-c3ac1257fb4c`.
+- **TRACKMANIA NEXT NvidiaStreaming (NvidiaStreaming)** — app ID: `c5a49b3a-95b6-4737-ab1d-e4245f4f4943`; space IDs: `49487880-66ac-438d-8ca5-7098ebe07a7a`.
+- **Trackmania PC** — app ID: `86263886-327a-4328-ac69-527f0d20a237`; space IDs: `5d20614c-234d-4cc8-934d-11ff07c2de69`.
+- **Trackmania PS4** — app ID: `6aa2ec4c-1724-48ca-89e1-d16bbf261d38`; space IDs: `01b82879-4484-4162-a1c4-8c4dfe046849`.
+- **Trackmania PS5** — app ID: `ce852712-30aa-47b1-8b98-43cdffa4ddf4`; space IDs: `5b48f356-cfe6-46e8-80bd-0a4d423e1bef`.
+- **Trackmania Turbo Marketing Website** — app ID: `b65b0f3e-9941-475c-862d-c445df0bdc48`; space IDs: `a6b64fc2-e26b-47a4-a0f7-92c570709096`.
+- **Trackmania Turbo PC** — app ID: `243b7c00-85dc-4283-81fb-c1deb5430315`; space IDs: `1d1273d9-2120-4e55-8d98-66e08781258e`.
+- **Trackmania Turbo PS4** — app ID: `27408a15-0db8-4442-ade6-165eeb5c2395`; space IDs: `c647cc53-085b-4445-9015-a90c528b41ed`.
+- **Trackmania Turbo Website** — app ID: `0b853953-7bfe-49b8-8a3d-9c00745fc3a9`; space IDs: `064e9291-07be-49dc-9e7c-b334f28f19b2`.
+- **Trackmania Turbo Xbox One** — app ID: `1847aba3-4a5d-48cb-b3f8-8fa8224f17e3`; space IDs: `95313c31-8732-492e-a13a-a54a1e2b89ea`.
+- **Trackmania Xbox One** — app ID: `418273dd-b410-429a-9b3f-ccd1f79d9561`; space IDs: `c23e482c-e41f-4440-810a-5f1bbc3d4eca`.
+- **Trackmania Xbox Series X/S** — app ID: `e089abe7-5631-4eed-842c-c1b15e014c91`; space IDs: `5a3d1a13-88f3-4c31-8c0b-173fe5ae7589`.
+- **Transference Demo PS4** — app ID: `41842384-9597-4632-ac45-31349d818882`; space IDs: `5c7b90de-692d-474b-ac76-bc96be197ce2`.
+- **Transference PC** — app ID: `3c3fc24b-1e32-40de-894d-3bba5eab4e90`; space IDs: `075d64ff-855b-41b8-9cb0-b3e9e79f9ba6`.
+- **Transference PS4™** — app ID: `373c0789-83a9-4c21-9924-cffe69f9b230`; space IDs: `4e3dcd76-24ca-4c05-87e6-aa8d6ada928d`.
+- **Transference Xbox One** — app ID: `6d84b2be-38bc-4366-b1d8-3c5cb2019a20`; space IDs: `b3f4e016-bb32-46f1-84e7-140215d59999`.
+- **Transversal Redeem Service Internal Website** — app ID: `a784932a-2abb-47f2-8513-e7b0e87f9753`; space IDs: `62d6f903-9dc0-44dd-90e9-5095ebaa87dd`.
+- **Transversal Redemption Service Website** — app ID: `304f030c-ed8c-41b6-bce6-cf02cd10123b`; space IDs: `3d75d404-c9b0-4bba-85da-4425c9f78ba4`.
+- **Trials Evolution 2 Web** — app ID: `80a5b408-a9fd-47f6-aa6d-d39d841f0f0e`; space IDs: `d360c976-ff57-4cac-8bcc-8ab199ef0b38`.
+- **Trials Evolution Gold Edition PC** — app ID: `7dc0a2f0-4920-408d-8f32-cd5398d96d71`; space IDs: `f45430a3-d973-4994-bff7-baeedee22e9e`.
+- **Trials Frontier Android** — app ID: `1c91448e-c62e-45ec-b97b-898dc967f2c1`; space IDs: `691fa409-0d40-492e-89de-2e6e9cbf2f4c`.
+- **Trials Frontier iOS** — app ID: `4b8b5f28-3561-4195-9dc8-c450aca960ae`; space IDs: `891b9dd0-a81b-4be6-86fb-91b5b24e82eb`.
+- **Trials Fusion™ PC** — app ID: `a0088fe4-690d-4b89-ab37-deac32da24ab`; space IDs: `009083ff-8454-40c3-96ed-7a3641fbf2a6`.
+- **Trials Fusion™ PS4™** — app ID: `ae0cba8f-f7e0-420d-ac72-7ce00e4b640a`; space IDs: `39aa5b19-9358-4e25-b1fe-23001c34f05d`.
+- **Trials Fusion™ Xbox 360** — app ID: `756e47ab-646b-499b-b804-20f11d1f5ebe`; space IDs: `dbda049d-16ea-485a-8020-631ec1562f2f`.
+- **Trials Fusion™ Xbox One** — app ID: `089d29b5-f73c-44fd-8b05-9c48ea182a22`; space IDs: `4c82a8a6-c498-44bd-bf4e-93ac4cd588ae`.
+- **Trials of the Blood Dragon PC** — app ID: `eb8c4978-59ba-485f-9a70-80d2e9e6cde6`; space IDs: `54a1d001-f874-4af8-a88b-055f0c47ae45`.
+- **Trials of the Blood Dragon PS4™** — app ID: `2b6afa75-509f-4826-be70-a1d94a7d4480`; space IDs: `1b25ad08-adbd-469e-8feb-38772f36140e`.
+- **Trials of the Blood Dragon Xbox One** — app ID: `64275bbd-925a-436e-92fa-a68e054aae81`; space IDs: `6efa18a9-ce07-4042-bda1-65d4fc2557e0`.
+- **Trials Rising Demo PC** — app ID: `70ba6f29-a782-40b7-a3c2-ba67d63eaf68`; space IDs: `331cfb56-e7bb-4eb6-94ba-c3c892dd6c1e`.
+- **Trials Rising Demo PS4** — app ID: `c3170ab0-0de4-4193-b4ca-f97e042346ee`; space IDs: `736faac3-1aa7-42dc-8a48-775d43abcf7d`.
+- **Trials Rising Demo Xbox One** — app ID: `a92f5848-cf8c-4aa7-9017-cb547e35ea16`; space IDs: `47c7fc45-9e81-4e22-b8b1-fa054996a604`.
+- **Trials Rising Early Access PC** — app ID: `6dfa7362-0896-4149-81af-7c3926490aad`; space IDs: `f9816005-38d9-40c0-95ba-dcc6da2e8610`.
+- **Trials Rising GoogleStream** — app ID: `1999bba8-77e1-44e0-b508-0307ec877b84`.
+- **Trials Rising NintendoSwitch** — app ID: `013ff4dc-0833-414f-9c5b-65b3c41f8c2b`; space IDs: `71b7867f-8c57-44cc-950f-e87255f495a2`.
+- **Trials Rising NintendoSwitch Demo** — app ID: `fd003bcf-8a36-46f9-bb67-448ae0d41e02`; space IDs: `92b6776a-113f-4e8a-83cf-3a34d0405389`.
+- **Trials Rising PC** — app ID: `c7f9dc39-3e26-4abf-a71a-446bf1c7a0d7`; space IDs: `b48719d1-6098-450f-aa22-7886ed925f2e`.
+- **Trials Rising PS4** — app ID: `4d39ccb3-eb4a-4c49-827d-a16251112be5`; space IDs: `2e7fc929-5415-4946-a1f8-09398adbaa05`.
+- **Trials Rising Website** — app ID: `2103293d-0790-4326-b79c-854152d57521`; space IDs: `71d36551-3c3e-4820-adf2-bde05df2cfa1`.
+- **Trials Rising Xbox One** — app ID: `662dfb35-0481-4b3c-8a58-bede769ea00e`; space IDs: `23b91301-cc03-4999-b50c-779726556f8b`.
+- **Trials&#174; Rising NintendoSwitch™** — app ID: `7179faa5-5af8-4b7b-b296-05ac374a3a00`; space IDs: `2755e6e0-c1e5-4e5e-abf7-393ebd66b8ca`.
+- **Trials&#174; Rising PC** — app ID: `ebda12a9-470b-44fb-b137-cb1f66726940`; space IDs: `362c7c19-4792-4876-9cf9-2bc13f5e3746`.
+- **Trials&#174; Rising PS4™** — app ID: `618e63b4-d383-4791-aedd-941947552d8a`; space IDs: `e54a0bb6-28df-4ef3-96b3-2930a0a518b3`.
+- **Trials&#174; Rising Xbox One** — app ID: `6dc401d8-b9b6-4320-b253-4fd35178ca51`; space IDs: `a7b95c13-801b-47ef-85fd-d04b56b159f1`.
+- **Trivial Pursuit GoogleStream** — app ID: `c2699b56-3f06-473f-9bca-37df12a42d42`.
+- **Trivial Pursuit Live! PS4™** — app ID: `7a8f9e67-4276-4392-b026-083badb88c2f`; space IDs: `1a4907b1-afc5-4b37-a11b-344b1dd211af`.
+- **Trivial Pursuit Live! Xbox One** — app ID: `503a4b49-12c9-47b9-b26d-6a1a7e38c08c`; space IDs: `41203fce-a8f9-4562-8924-77896c19ecba`.
+- **Trivial Pursuit NintendoSwitch** — app ID: `660010cd-f9d1-4a45-860e-74a020e67c0b`; space IDs: `17f49d80-dcef-4820-b114-4f382fd469c4`.
+- **Trivial Pursuit PS4** — app ID: `17780998-c732-430d-85be-b409bf586e66`; space IDs: `4000a04d-38c0-4e19-be24-1c750324e532`.
+- **Trivial Pursuit TV Show NintendoSwitch** — app ID: `83d75223-c4e1-4573-aff5-9487f25dee1a`; space IDs: `cd7bc2bc-034e-4342-b236-34023571894f`.
+- **Trivial Pursuit Xbox One** — app ID: `36a9b22b-a7d6-40f2-a410-79035d3074d2`; space IDs: `6b4153e6-f4c1-4712-84ee-ca0eb925f210`.
+- **Twitch Drops Marketing Website** — app ID: `12f7f27b-e4ef-4a29-9fe3-a9712d0db247`; space IDs: `ffec67aa-5ff9-4e38-aa46-49a0df00fdb0`.
+- **Twitch Marketing Website** — app ID: `4b4ea9a1-c604-4827-8a66-69a2fdd27ed3`; space IDs: `c751ca72-932e-475d-8a87-9feb967d59e4`.
+- **Ubi 30 days - Holiday Reboot Website** — app ID: `b171f12d-7ea6-4104-9e91-592b55eb0a85`; space IDs: `dc0ecb0c-19d9-457d-87b2-4753d9981330`.
+- **UbiConnect App Account Management (Tool)** — app ID: `767be552-ee59-4ce6-9ef2-fa883d585e49`; space IDs: `48ce195a-34e8-46ae-b954-0106b8fdb322`.
+- **UbiConnect App Preferences (WebMarketing)** — app ID: `cda5bffc-f0c0-405b-b7f6-53c5b7ad31b6`; space IDs: `e4106ca2-c546-4fce-b04f-9a84c35065bf`.
+- **UbiConnect Deeplink (WebMarketing)** — app ID: `9694ec1e-350a-4850-b1a4-ce5059bef05d`; space IDs: `7e8070f7-8f76-4122-8ffc-63b361c3ab9e`.
+- **Ubiconnect Graphql API Component (Server)** — app ID: `7838df2e-291d-4d10-b4c2-d3a9f9630046`; space IDs: `27bf7966-23d0-4272-942d-db932d11712c`.
+- **Ubiconnect Marketplace Web (WebMarketing)** — app ID: `80a4a0e8-8797-440f-8f4c-eaba87d0fdda`; space IDs: `1f9ed5f1-15b3-4be2-8cf0-e2d31bda1de3`.
+- **UbiServices Portal 2FA Test PC** — app ID: `5a340ae3-1b18-4182-b446-74ef6ea5e3fa`; space IDs: `cc04fd23-40d7-4474-96ba-19536e9bd000`.
+- **UbiServices Portal API Explorer Tool** — app ID: `c7c727e9-c210-472d-8340-eacd1e14f19f`; space IDs: `2af93624-e118-4373-85dc-90acf26609dc`.
+- **Ubisoft Account Management** — app ID: `afb4b43c-f1f7-41b7-bcef-a635d8c83822`; space IDs: `15c3db50-f590-4ddf-98ee-69904dfbc546`.
+- **Ubisoft Account Management Website** — app ID: `c5393f10-7ac7-4b4f-90fa-21f8f3451a04`; space IDs: `724d2c3f-5506-4962-a460-ca7f8740af35`.
+- **Ubisoft Account Server** — app ID: `879a43ef-e03b-445a-96b2-9b117c775a4c`; space IDs: `795ee488-3cd4-4dec-a9e5-7075c912f241`.
+- **Ubisoft Art Gallery** — app ID: `374c57a0-98b3-416c-b6a3-216bd5d24fe1`; space IDs: `918c05ea-4557-44ad-856e-325c6a7faa9a`.
+- **Ubisoft Beta Manager Website** — app ID: `1332826a-a43d-4019-87ec-07afa53483b7`; space IDs: `d1035aa9-be98-4295-8184-39a53d3aae10`.
+- **Ubisoft China Website** — app ID: `2dae23ad-27f4-448a-877e-38a4b1b62276`; space IDs: `6d9d5274-ce63-453b-9bd9-abf2998dc96e`.
+- **Ubisoft Client Equinox** — app ID: `9e077495-5bf0-4163-90ae-dd5347110816`; space IDs: `24b5f600-36ba-4c1d-8c39-6e1658fb0083`.
+- **Ubisoft Client Steam** — app ID: `bc9ea544-8372-4456-8063-ec8c17651b54`; space IDs: `9ab4a673-6a27-4d98-a838-0501b673500c`.
+- **Ubisoft Connect - AuthLoginPage** — app ID: `a650b2c4-5873-43f9-a3da-0eedcc9df75c`; space IDs: `a415176f-fa52-4f0c-833a-a4fb5bcf1b80`.
+- **Ubisoft Connect - GoogleStream** — app ID: `c38eab32-7d02-4f9d-9e6c-90f020f3177d`; space IDs: `c3dafa85-623f-4df1-b8d9-18b57af125c2`.
+- **Ubisoft Connect - Oculus Quest Link App WebGame** — app ID: `94639cdd-6c7b-4a37-a0e5-78a2804f0d1d`; space IDs: `5e5ccf60-e225-4d0a-bddc-74f2b0596cd3`.
+- **Ubisoft Connect App Android** — app ID: `b868d3d0-4c7d-4c26-bd16-8cc90b754b28`; space IDs: `f9d409de-b73b-4960-b000-75c1beea0c89`.
+- **Ubisoft Connect Application for Android** — app ID: `46f0b36b-b947-4d9c-b9dc-9a34b52ab59a`; space IDs: `029e8254-57fe-4d2a-8a40-bb321f0f660d`.
+- **Ubisoft Connect Auth Android** — app ID: `c065801e-f7af-4ed7-84b7-d5e08a3b8808`.
+- **Ubisoft Connect Auth iOS** — app ID: `45d80707-deeb-40d6-b5b5-9be96631e90e`.
+- **Ubisoft Connect Client** — app ID: `f68a4bb5-608a-4ff2-8123-be8ef797e0a6`; space IDs: `e17be87d-2996-4f3b-97c4-19bb2dae2933`.
+- **Ubisoft Connect Client China** — app ID: `4656eeed-10f5-416d-998d-f2f7d7eb21ae`; space IDs: `7c764ff0-fe22-4f81-8783-07d97540539f`.
+- **Ubisoft Connect Client Password Reset Prompt** — app ID: `d5fa0769-5139-4671-8f83-3479176edafd`; space IDs: `ff7b90cf-8162-49ab-8a99-38d8651c7984`.
+- **Ubisoft Connect Console** — app ID: `2c2d31af-4ee4-4049-85dc-00dc74aef88f`; space IDs: `8f9fe635-253f-4550-9205-bc797b22ae38`.
+- **Ubisoft Connect Game Launcher** — app ID: `83564d31-7cd7-4bc0-a763-6524e78d1a7f`; space IDs: `abda351c-f251-4a70-8fb1-32bd42089262`.
+- **Ubisoft Connect GoogleStream** — app ID: `0a9cfdc1-ec47-40ca-ae1b-123014813e38`.
+- **Ubisoft Connect iOS** — app ID: `5e814037-2687-4164-9cd2-cc1b28652a9a`; space IDs: `2dcd9f31-e576-44c1-8ccf-d81b2dad2e7a`.
+- **Ubisoft Connect iPhone** — app ID: `de726b45-417f-476f-a3ba-d0c032a9ef2e`.
+- **Ubisoft Connect NintendoSwitch** — app ID: `cf50ccdd-0435-474e-8724-8e7252b0ccc7`.
+- **Ubisoft Connect PC** — app ID: `94145723-2736-4afe-9862-3de89184ee32`; space IDs: `fbce0e09-986e-44b5-a9d4-2d9cc22ae5ce`.
+- **Ubisoft Connect PS4** — app ID: `1dad8b87-bd58-4dee-88e9-295c931ec148`.
+- **Ubisoft Connect Test Game Site - 2FA + SSO** — app ID: `ab92eb31-e4b7-4146-89d3-a7346e29ef98`; space IDs: `f2979fb6-a353-45df-bb61-6a31495ef1f0`.
+- **Ubisoft Connect Website** — app ID: `314d4fef-e568-454a-ae06-43e3bece12a6`.
+- **Ubisoft Connect Website** — app ID: `412802ed-8163-4642-a931-8299f209fecb`; space IDs: `c2b9d743-be37-4c73-98af-2fefa90c57a6`.
+- **Ubisoft Connect Xbox One** — app ID: `79ab7c02-65e4-40a5-81c9-3580642eb911`.
+- **Ubisoft Discussions Website** — app ID: `ac31453b-ad3e-40ab-9083-983e688d65dc`; space IDs: `171081fb-734e-421b-a47a-d23cff4675dc`.
+- **Ubisoft Forums** — app ID: `6ad16abe-8f32-406b-991b-450febe95823`; space IDs: `2ec8a114-d04f-4631-bb66-9ea6b206455b`.
+- **Ubisoft Forward Marketing Website** — app ID: `62318042-851c-4266-bf84-9c0ac5bedda7`; space IDs: `2f1830b8-49e0-4f67-88f1-b68ea5bc7c32`.
+- **Ubisoft Game Launcher AmazonStreaming** — app ID: `1f3b8ce8-f38f-4f39-89ca-a39885bf60cb`; space IDs: `86d2dd47-e68c-48e0-ac97-e4e1937ca428`.
+- **Ubisoft Game Launcher Android** — app ID: `b6fd1777-1768-4c35-89bc-5c0ef8e780bf`; space IDs: `7f25c6d2-678f-477e-843c-e178bb69a9a0`.
+- **Ubisoft Game Launcher Client** — app ID: `20adeb9c-6dad-404e-af1e-b12b4594e86e`; space IDs: `0a706b37-4b88-4437-b8f4-4ed2458c9518`.
+- **Ubisoft Game Launcher iOS** — app ID: `6228f992-e472-4623-a168-486f07f27bb6`; space IDs: `2878aee3-3d0a-43a8-9b5f-bec8a1ec1cc3`.
+- **Ubisoft Game Launcher PS4** — app ID: `fb28ccda-ffe7-478f-8676-b048090e6082`; space IDs: `7908ca11-685e-4112-853c-282abbcf54e4`.
+- **Ubisoft Game Launcher PS5** — app ID: `3d8f1c42-b6dd-4492-affc-0ab5ff3130ac`; space IDs: `c5a8f8c4-58fc-4c9d-bec4-6eb0798844ff`.
+- **Ubisoft Game Launcher Xbox One** — app ID: `83aa7f68-481e-4ff9-bba3-54acd35786d0`; space IDs: `fd222e81-91df-41dd-b5d4-f472dafda64d`.
+- **Ubisoft Game Launcher Xbox Series X/S** — app ID: `21edfd16-0e32-49ab-b6db-3d10566996f0`; space IDs: `2899613b-27ff-49d3-b03d-e2a144bdbea8`.
+- **Ubisoft Game Website** — app ID: `6ae27fc3-25bd-4894-81a2-a16e57a541f5`.
+- **Ubisoft Help Website** — app ID: `4454d3f7-473c-4812-a6b5-6bc483494561`.
+- **Ubisoft Lounge Website** — app ID: `ba19d23f-4b03-40d7-9d8e-afc90d8cabb1`; space IDs: `e0573998-8593-442c-adf5-aa531ecaf991`.
+- **Ubisoft Marketing Website** — app ID: `e06033f4-28a4-43fb-8313-6c2d882bc4a6`; space IDs: `3633730c-bda1-4bc2-a107-b5f08ae44a39`.
+- **Ubisoft Mini Website** — app ID: `bd8c4d25-dceb-4852-950d-2dbae618b0d2`; space IDs: `4defd6be-e119-49dc-b6b4-302d1f86e491`.
+- **Ubisoft Nano Game Website** — app ID: `b2f1dcc3-b629-4fdd-b8c3-a8d580dab056`; space IDs: `e9559c31-41de-49a3-8016-4e7103f8bbe6`.
+- **Ubisoft Nano PWA Marketing Website** — app ID: `aa16804d-d5ad-4359-ac31-4a60466618ff`; space IDs: `9300c8fd-6490-4b2f-b085-cfe9b34e8580`.
+- **Ubisoft Next Library Marketing Website** — app ID: `ff30fd80-31d6-4739-a62a-15358f8835c7`; space IDs: `c7609a66-ba84-4651-a18e-b12110fa4c66`.
+- **Ubisoft Next Remote Play Marketing Website** — app ID: `b39c53fc-90e1-4284-87d6-f68a93f08768`.
+- **Ubisoft Next Wrap Up Project** — app ID: `65c7e518-e5e6-4321-af80-aff69c20b938`; space IDs: `18d5f7fc-169f-4325-935d-6b5a9f6bd259`.
+- **Ubisoft Overlay Steam** — app ID: `d1c666c8-51bb-42c8-8b76-1e224f451176`; space IDs: `f1dd9676-792b-461f-9cdb-7e106f169cfe`.
+- **Ubisoft Quartz - Front End** — app ID: `dbe611e1-90d1-48d4-9e58-aa37992174f2`; space IDs: `42288762-72b5-4c2b-b287-8e9f553449ce`.
+- **Ubisoft Services Website** — app ID: `8d2da584-359a-4400-810c-e30aa36831f1`; space IDs: `57787bb0-df0a-4b60-9e34-29ca6ecaa2b2`.
+- **Ubisoft Store Server** — app ID: `46ba0542-5e79-4865-8797-c846fd281ad7`; space IDs: `0844c8b3-83c9-4c77-8621-17cdd9b93dec`.
+- **Ubisoft Store Standalone Website (WebMarketing)** — app ID: `82b650c0-6cb3-40c0-9f41-25a53b62b206`; space IDs: `d357f54b-52f7-4d0e-9c5c-6c76c4c186cd`.
+- **Ubisoft Store Website** — app ID: `31a10c6e-ec37-4e94-bf54-dabe749152e0`; space IDs: `9b1d034f-c11c-45a7-bfa6-733886a8987f`.
+- **Ubisoft Store Website** — app ID: `880650b9-35a5-4480-8f32-6a328eaa3aad`; space IDs: `3010fe4f-99f9-4cdb-a982-db92274cac01`.
+- **Ubisoft Support Portal Website** — app ID: `19ba479c-b658-4b7e-8ffd-88f2c85b79e6`; space IDs: `5fed728d-eaf9-4a5d-9ce3-ed433822e6e1`.
+- **Ubisoft Support Website** — app ID: `4391c956-8943-48eb-8859-07b0778f47b9`; space IDs: `9e41a829-9d60-4d5b-9bbc-6658ed9e6219`.
+- **Ubisoft Website** — app ID: `f35adcb5-1911-440c-b1c9-48fdc1701c68`; space IDs: `ed8600fa-a5d9-48a2-8ab7-d9f41c0c2029`.
+- **Ubisoft+ Website** — app ID: `7737fe06-42dd-48d4-a772-9d3cb9f3e30a`; space IDs: `a8859b15-ce20-45e1-8772-493bf335cb07`.
+- **Ubitus Account Linking Site Marketing Website** — app ID: `6d3ac1d6-d93b-4894-b74c-ca76ebf97c61`; space IDs: `6ca3a863-f7d6-4d8d-8e70-5ccde77e568b`.
+- **Ubitus Launcher - AC Dynasty NintendoSwitch** — app ID: `9a9f057a-17b8-48ef-9605-4b4b3c0a0d64`; space IDs: `c42a4a8f-828d-4266-aff0-659583b30fee`.
+- **UNO GoogleStream** — app ID: `8e83bb85-de50-432b-9857-3e443519b90b`.
+- **Uno Luna (AmazonStreaming)** — app ID: `51203ea1-f6f2-4501-8b6b-5867729182b5`; space IDs: `4d02a7f9-b388-4da3-a475-31eb652e8b75`.
+- **UNO Marketing Website** — app ID: `0d2c5f7d-5ce4-4fbb-a20b-477f2fce9ba6`; space IDs: `4fe896af-c489-467d-bccc-21a2e0b54964`.
+- **UNO NintendoSwitch™** — app ID: `132db904-7a0f-4fe2-866d-45b6b487dba8`; space IDs: `10e38d0e-bdbb-4192-a3f4-a2e418dc830a`.
+- **UNO PC** — app ID: `9c1dda73-c659-48be-8aa4-86e7f6392540`; space IDs: `560554cc-10a7-462e-b87f-8aa3515cc344`.
+- **UNO PS4™** — app ID: `e3a9b077-0804-4b09-886a-3915c1996384`; space IDs: `29b2cb27-9541-45be-ac69-2b3aedde69f4`.
+- **Uno PS5 (PS5)** — app ID: `7d72a6f9-fc9c-4933-b547-2c5ed9e34f43`; space IDs: `c946690b-de19-41b6-bd0d-967926d20b58`.
+- **Uno Scarlett (XboxScarlett)** — app ID: `b6a0739d-f315-45c5-89ce-c719769bcfc6`; space IDs: `999565fa-fce9-4ecc-8bc5-00cecebf97ca`.
+- **UNO Xbox One** — app ID: `3e37f297-708b-426f-8691-83a0443608cf`; space IDs: `b7bac69e-e613-469e-95d1-01e485a7a82a`.
+- **Uplay Next Admin Portal (Tool)** — app ID: `3168428b-77ba-4381-b85f-a499e8e92290`; space IDs: `901073ad-4c54-4361-975e-987c3fdeff0b`.
+- **Uplay Next Auth New Android (WebMarketing)** — app ID: `8a7cd23e-0efc-497f-8d61-5a9447029efe`; space IDs: `a363f646-e9c6-4a41-8626-baa0fbab2ac2`.
+- **Uplay Next Auth New IOS (WebMarketing)** — app ID: `f09a4a23-5cff-47f8-a792-0cd2c5d9c391`; space IDs: `bfc4d467-9e5e-4a20-8ba1-11396a97ff63`.
+- **Uplay Next Auth PC CN (PCChina)** — app ID: `60901029-3294-43b7-b733-278678261599`; space IDs: `510ec084-4679-4d60-b910-899b3fdf91c1`.
+- **Uplay Next Shell Web (WebMarketing)** — app ID: `99f58b32-1fe6-4efc-942f-143ce779fac2`; space IDs: `45910dd2-7d8e-4da1-81e1-8be4ac9c628a`.
+- **Uplay Redemption Instructions Website** — app ID: `a297a492-7e6a-4833-9e59-ec902e10ed29`; space IDs: `4b5cbd07-539a-4881-9734-4bf8259dca1c`.
+- **Users Server** — app ID: `1c9dcfa5-1864-4f5b-a476-b357da89f811`; space IDs: `eb4bfc23-25cb-46ad-a44c-bb38e33caa30`.
+- **Valiant Hearts WW1 GoogleStream** — app ID: `b8502aa3-1577-4297-a99a-15562354a074`.
+- **Valiant Hearts: Coming Home (Nintendo Switch™) (NX)** — app ID: `b3f355a0-74f7-43fc-b6be-473d4094662b`; space IDs: `a1b6d2b0-aa36-40ac-ace2-9b1c712870cf`.
+- **Valiant Hearts: Coming Home (PC)** — app ID: `9bacff1a-1cb6-4a58-98c4-970e38783aa6`; space IDs: `b08114f4-7a24-4c76-995a-050a39113960`.
+- **Valiant Hearts: Coming Home (Xbox One) (DURANGO)** — app ID: `ed9851a6-d37e-47f7-90f0-24226733d434`; space IDs: `8b68403a-deb8-448d-87f5-8d0c7212ceb8`.
+- **Valiant Hearts: The Great War Marketing Website** — app ID: `40e87b42-b75a-42b4-a648-835d89244bef`; space IDs: `ef3e7bb8-6348-4e99-9c09-273573bf1454`.
+- **Valiant Hearts: The Great War NintendoSwitch** — app ID: `20e69b08-0be7-4a8f-affd-b8b090379d01`; space IDs: `853bf63b-eac1-4b38-9f5f-c44766879ff2`.
+- **Valiant Hearts: The Great War PC** — app ID: `ad76028f-1646-4016-abee-828f8fee6dba`; space IDs: `f2ebc6e9-ed10-4e66-89a4-691491e92c5f`.
+- **Valiant Hearts: The Great War PS3** — app ID: `ca0abb69-80a3-4367-913e-a83bf20982f6`; space IDs: `f71617d6-51b9-4654-aa7d-b1410bf9a662`.
+- **Valiant Hearts: The Great War PS4™** — app ID: `486c45ff-84e4-44e1-987e-67cbb7259554`; space IDs: `e30e2643-f773-4099-9998-b7a029fb647d`.
+- **Valiant Hearts: The Great War Xbox 360** — app ID: `1f4f9068-a9f0-443d-b92d-2195943877b8`; space IDs: `f1dcb35c-1223-4dff-b094-ddbf3ee2b58f`.
+- **Valiant Hearts: The Great War Xbox One** — app ID: `57290b90-8eb1-44ea-afb5-ad9206aabb52`; space IDs: `c94787ba-b71b-481a-a4b3-a2d99622fa56`.
+- **Watch Dogs 2 GoogleStream** — app ID: `b06f5e8f-9769-4ebb-b975-936cda850e6d`.
+- **Watch Dogs 2 Marketing Website** — app ID: `b0b1d826-4315-4dde-83b9-1b10aa71df20`; space IDs: `714ada35-97b6-42b7-bd60-ceff8d2ba2ba`.
+- **Watch Dogs Android** — app ID: `c6de8e9b-9b75-4e8a-b9dd-325e8c5a721e`; space IDs: `87987649-94f6-4641-a3db-68629a86703a`.
+- **Watch Dogs Beta Xbox One** — app ID: `a6144f97-162b-44c0-868d-5189f5737fe9`; space IDs: `9277e37d-20c5-4be2-9f57-e6863713aa65`.
+- **Watch Dogs Game Website** — app ID: `9e158a06-8901-4b82-963f-b1c0b7352c02`; space IDs: `42653634-ecd8-4e42-830d-dc57eeaabfd2`.
+- **Watch Dogs GoogleStream** — app ID: `50e41d3e-d67c-40cf-89ec-7a5539cdbe41`.
+- **Watch Dogs iOS** — app ID: `0179db0a-7c69-4cf1-9473-9463a376f620`; space IDs: `759e2089-9726-4519-ac61-e221146e1fff`.
+- **Watch Dogs: Legion GoogleStream** — app ID: `fab10015-30a7-4cdf-97a1-34eace436465`.
+- **Watch Dogs: Legion PC** — app ID: `ade80bc2-0462-42bc-837a-851386dc5a9e`; space IDs: `375124ab-c707-42b3-a229-826184e33d2a`.
+- **Watch Dogs: Legion PS4** — app ID: `7765de0b-2ef1-4cff-88b3-bb63b1a039cf`; space IDs: `9d317d5f-b4c2-45f2-94ed-5c02ec9d9b42`.
+- **Watch Dogs: Legion PS5** — app ID: `d2223541-dfb1-4d3a-9355-94bf69261a1c`; space IDs: `f7dc251f-f04d-4c4a-bf3d-fd1c1fe6f581`.
+- **Watch Dogs: Legion Website** — app ID: `4df0acff-db55-457e-b4e3-5f80c84e6193`; space IDs: `b427e9e6-3986-4be1-9a73-17fb399520f6`.
+- **Watch Dogs: Legion Xbox One** — app ID: `e3ebc0ef-19af-4704-8f6c-254d19129a02`; space IDs: `01598589-2b18-4a77-916a-0da1a201362a`.
+- **Watch Dogs: Legion Xbox Series X/S** — app ID: `f68d727b-beb9-485b-aa9f-7e9f67ad9905`; space IDs: `a992b765-e5ea-4f58-9eaa-4bcc8686ddc8`.
+- **WATCH\_DOGS&#174; 2 PC** — app ID: `35c5c607-2717-47d9-9323-7df47c6e1c4d`; space IDs: `8c8d9b22-498c-45e6-80da-7cd22787c9b3`.
+- **WATCH\_DOGS&#174; 2 PS4™** — app ID: `34cc40bb-4eed-4ac7-870d-e68b80f750ec`; space IDs: `056e3e25-67c3-401e-8986-125e633cd27b`.
+- **WATCH\_DOGS&#174; 2 Xbox One** — app ID: `24cfa8b9-ca51-4e14-b3e9-2b0e28e84c25`; space IDs: `cc5c447b-3a33-496c-80ab-62cdffa09b27`.
+- **WATCH\_DOGS™ PC** — app ID: `9c4a1757-422b-458f-b4d2-5e623c911ba6`; space IDs: `c8237ba1-f3a7-4a93-acb6-a23044c4f0cf`.
+- **WATCH\_DOGS™ PS3** — app ID: `594ee06a-24b7-4a9b-b409-b747cd45a141`; space IDs: `c3a2a2c0-8365-4942-862b-f9d27a97c00d`.
+- **WATCH\_DOGS™ PS4™** — app ID: `31839fdc-b7e0-41c6-8db3-2f423da2d2fd`; space IDs: `c4a524c4-7615-447f-ac6f-520e4a1a9b3d`.
+- **WATCH\_DOGS™ WiiU** — app ID: `965563fc-83e3-4e43-a667-fefd643d94f5`; space IDs: `ec53936b-dbbf-48fe-9b64-d3067ab1720a`.
+- **WATCH\_DOGS™ Xbox 360** — app ID: `b9fa73da-f1b6-4d2b-831a-0f35b26b1665`; space IDs: `61a74fbc-013d-42c8-8c05-00eb587937a9`.
+- **WATCH\_DOGS™ Xbox One** — app ID: `8b1168aa-b2ae-4ba3-a3ab-e1a198dcce49`; space IDs: `477d420d-a22b-4b3e-9a2e-0741e3c9c937`.
+- **Werewolves Within PC** — app ID: `6e992cdf-27e2-4cda-a6c8-ab9464130e03`; space IDs: `a0786bde-08d5-41b4-92d2-bd44814b0aab`.
+- **Werewolves Within PS4™** — app ID: `c148c23d-570a-466e-bee0-b0a02be4167c`; space IDs: `1aa90990-e850-419e-80ae-8abcf4190a94`.
+- **Wheel of Fortune NintendoSwitch** — app ID: `2f65f87f-6130-4915-91b6-a7f4b8e27417`; space IDs: `6bb0e8a1-9152-4df9-a98a-feccee0fea06`.
+- **Wheel of Fortune&#174; PS4™** — app ID: `e8a65b58-cad2-4f72-8cd4-6bbedfcf1aeb`; space IDs: `01e7bacf-8a40-4411-8ed1-a05c286ee3b1`.
+- **Wheel of Fortune&#174; Xbox One** — app ID: `5a3e3ffd-29fb-4f28-9483-b747f04ffd32`; space IDs: `26647a48-0d20-47cd-88f2-f35a32e274ba`.
+- **WRC 6 PC** — app ID: `f5d4c5d0-c361-42b2-9b37-e80043de205b`; space IDs: `367b66bf-1b53-4ad8-b591-a5931132bde3`.
+- **XDefiant PC** — app ID: `4bc245f2-b998-4574-9574-6ab93ec9e44c`.
+- **XDefiant PS5** — app ID: `f7c5cbfd-afdd-46f6-80fa-4855424ff928`.
+- **XDefiant Website** — app ID: `6163b790-460b-4c98-bb42-1eb68259f100`; space IDs: `8adf546a-1134-450a-b5f5-04441eace71c`.
+- **XDefiant Xbox Series X/S** — app ID: `99843ca4-b165-4781-8936-93de3b2e9629`.
+- **Your Shape Center Website** — app ID: `2baae811-2a52-45c4-8871-c5c7b06e567d`; space IDs: `5a7aa600-a485-481d-80c9-2c6766dc4b89`.
+- **ZOMBI PC** — app ID: `9b671a15-40ce-4d80-8899-90f5c0d8480e`; space IDs: `eb593d45-4aba-46cf-90e9-2c5cd00bc278`.
+- **ZombiU PS4** — app ID: `880141ca-9d60-4de0-a2fa-fb2f6fbc6bb9`; space IDs: `5abbe0c5-c17b-47b3-9733-9e13626f5b08`.
+- **ZombiU Wii U** — app ID: `7c062cea-7740-4b59-8f02-7d9f35a77c25`; space IDs: `cdc3d036-c1c8-4f6b-ae72-83650bc6f1d4`.
+- **ZombiU Xbox One** — app ID: `d7a799b0-a332-4ceb-83a1-e616f5e33532`; space IDs: `76a46638-7254-4808-b12d-4bfdde05c823`.
+- **Ztorm Marketing Website** — app ID: `5d3526a8-c55b-4a4e-9b33-2096a7e98525`; space IDs: `cd42e208-90b6-4bff-a476-e6daf91fce5b`.
